@@ -1,0 +1,14 @@
+{
+	"9ee702ed-5605-4868-90dd-da6da46df299": {
+		"ID_": "9ee702ed-5605-4868-90dd-da6da46df299",
+		"CommonName": "CHAR_Global_Hero_Payday_Hoxton_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_PAYDAY_HOXTON_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_Outfits_payday_hoxton.jpg",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_PAYDAY_HOXTON_NAME",
+		"Category": "",
+		"ImageTransparent": "",
+		"TokenID": "TOKEN_OUTFIT_HERO_PAYDAY_HOXTON"
+	}
+}

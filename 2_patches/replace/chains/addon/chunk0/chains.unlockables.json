@@ -1,0 +1,25 @@
+{
+	"TOKEN_OUTFIT_HERO_PAYDAY_CHAINS": {
+		"Id": "TOKEN_OUTFIT_HERO_PAYDAY_CHAINS",
+		"Guid": "ce693260-6463-4b4f-8535-57a52120a6a0",
+		"Type": "disguise",
+		"Subtype": "themed",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 2,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "e949ee07-7be6-486f-a413-7bbd59d3b884",
+			"OrderIndex": 21
+		},
+		"Rarity": "common"
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"a1aac4f0-f792-4622-afaa-bed930eadb4a": {
+		"ID_": "a1aac4f0-f792-4622-afaa-bed930eadb4a",
+		"CommonName": "CHAR_Global_Hero_Payday_Wolf_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_PAYDAY_WOLF_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_Outfits_payday_wolf.jpg",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_PAYDAY_WOLF_NAME",
+		"Category": "",
+		"ImageTransparent": "",
+		"TokenID": "TOKEN_OUTFIT_HERO_PAYDAY_WOLF"
+	}
+}

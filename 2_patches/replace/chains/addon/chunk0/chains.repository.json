@@ -1,0 +1,14 @@
+{
+	"e949ee07-7be6-486f-a413-7bbd59d3b884": {
+		"ID_": "e949ee07-7be6-486f-a413-7bbd59d3b884",
+		"CommonName": "CHAR_Global_Hero_Payday_Chains_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_PAYDAY_CHAINS_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_Outfits_payday_chains.jpg",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_PAYDAY_CHAINS_NAME",
+		"Category": "",
+		"ImageTransparent": "",
+		"TokenID": "TOKEN_OUTFIT_HERO_PAYDAY_CHAINS"
+	}
+}

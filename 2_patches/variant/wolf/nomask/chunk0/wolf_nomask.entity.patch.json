@@ -1,0 +1,1 @@
+{"tempHash":"00184C68994908FA","tbluHash":"00E9ADA3C0123184","patch":[{"RemoveEntityByID":"feed938b3fb3c3cb"},{"SubEntityOperation":["1cd8cbfcc76d214f",{"PatchArrayPropertyValue":["m_aBodyParts",[{"RemoveItemByValue":"feed938b3fb3c3cb"}]]}]}],"patchVersion":6}

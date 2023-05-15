@@ -1,0 +1,25 @@
+{
+	"TOKEN_OUTFIT_HERO_PAYDAY_HOXTON": {
+		"Id": "TOKEN_OUTFIT_HERO_PAYDAY_HOXTON",
+		"Guid": "c674429e-7cc5-487b-a401-0d27eb2903d5",
+		"Type": "disguise",
+		"Subtype": "themed",
+		"ImageId": "",
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 2,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"IsConsumable": false,
+			"RepositoryId": "9ee702ed-5605-4868-90dd-da6da46df299",
+			"OrderIndex": 21
+		},
+		"Rarity": "common"
+	}
+}

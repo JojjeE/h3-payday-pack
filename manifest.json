@@ -1,9 +1,3079 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"version": "0.1.0",
-	"id": "YourPreferredAlias.AnIDForTheMod",
-	"name": "Incredible Mod",
-	"description": "A truly amazing mod",
-	"authors": ["Your Preferred Alias"],
-	"frameworkVersion": "2.25.1"
+	"id": "Jojje.ThePaydayPack",
+	"name": "The Payday Pack",
+	"description": "Cosplay with your choice of the \"Main Five\" suits and masks from Payday 2. Install them for Peacock or replace a casual suit of your choice.",
+	"authors": ["Jojje"],
+	"frameworkVersion": "2.25.0",
+	"version": "1.1.0",
+	"updateCheck": "https://github.dioden.nu/updateChecks/paydaypack.json",
+	"contentFolders": ["1_content/base"],
+	"dependencies": ["0088CA6403FFE4E0","00692A773C2E6DDB","00498BDC07570E97"],
+	"options": [
+		{
+			"group": "Chains",
+			"name": "Do not install",
+			"type": "select",
+			"enabledByDefault": true,
+			"tooltip": "Do not install Chains.",
+			"image": "chains.jpg"
+		},
+		{
+			"group": "Chains",
+			"name": "Peacock Addon",
+			"type": "select",
+			"tooltip": "Install Chains to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+			"contentFolders": [
+				"1_content/chains",
+				"2_patches/replace/chains/addon"
+			],
+			"blobsFolders": [
+				"blobs/chains/addon"
+			],
+			"localisedLines": {
+				"00D002B073C00A9E": "UI_TOKEN_OUTFIT_HERO_PAYDAY_CHAINS_DESC",
+				"00B79014A35C9A18": "UI_TOKEN_OUTFIT_HERO_PAYDAY_CHAINS_NAME"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_CHAINS_DESC": "FBI Files: We regard this one as the Enforcer in the gang. He tends to bring the biggest gun and a lot of ammo to feed it. Breaking down his movement, style and technique, it is obvious that \"Chains\" is ex-military. It is likely he was special forces, and, based on overheard conversation, possibly even a former Navy SEAL.",
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_CHAINS_NAME": "Chains"
+				},
+				"french": {
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_CHAINS_DESC": "Dossiers du FBI: Nous le considérons comme l'homme de main du gang. Il a tendance à apporter la plus grosse arme et beaucoup de munitions pour l'alimenter. En analysant ses mouvements, son style et ses techniques, il est évident que \"Chains\" est un ancien militaire. Il est probable qu'il ait fait partie des forces spéciales et, d'après les conversations entendues, qu'il soit même un ancien Navy SEAL.",
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_CHAINS_NAME": "Chains"
+				},
+				"german": {
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_CHAINS_DESC": "FBI-Akten: Wir betrachten ihn als den Vollstrecker der Bande. Er neigt dazu, die größte Waffe mitzubringen und eine Menge Munition dafür zu besorgen. Wenn man seine Bewegungen, seinen Stil und seine Technik analysiert, ist es offensichtlich, dass \"Chains\" ein Ex-Militär ist. Es ist wahrscheinlich, dass er bei den Special Forces war, und, basierend auf belauschten Gesprächen, möglicherweise sogar ein ehemaliger Navy SEAL.",
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_CHAINS_NAME": "Chains"
+				},
+				"spanish": {
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_CHAINS_DESC": "Archivos del FBI: Consideramos a éste como el Enforcer de la banda. Suele llevar el arma más grande y mucha munición para alimentarla. Analizando sus movimientos, estilo y técnica, es obvio que \"Chains\" es un ex-militar. Es probable que formara parte de las fuerzas especiales y, por lo que se oye en las conversaciones, es posible que incluso fuera un Navy SEAL.",
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_CHAINS_NAME": "Chains"
+				},
+				"italian": {
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_CHAINS_DESC": "File dell'FBI: Lo consideriamo l'esecutore della banda. Tende a portare con sé la pistola più grande e molte munizioni per alimentarla. Analizzando i suoi movimenti, il suo stile e la sua tecnica, è ovvio che \"Chains\" è un ex militare. È probabile che sia stato un militare delle forze speciali e, in base alle conversazioni ascoltate, forse anche un ex Navy SEAL.",
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_CHAINS_NAME": "Chains"
+				},
+				"russian": {
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_CHAINS_DESC": "Досье ФБР: Мы считаем этого человека \"силовиком\" в банде. Он имеет обыкновение брать с собой самый большой пистолет и много патронов к нему. Разбирая его движения, стиль и технику, очевидно, что \"Чейнс\" - бывший военный. Вполне вероятно, что он служил в спецназе и, судя по подслушанным разговорам, возможно, даже бывший \"морской котик\".",
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_CHAINS_NAME": "Чейнс"
+				}
+			}
+		},
+		{
+			"group": "Chains",
+			"name": "Casual Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"1_content/chains",
+				"2_patches/replace/chains/bangkok"
+			],
+			"blobsFolders": [
+				"blobs/chains/bangkok"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"2741280242": "FBI Files: We regard this one as the Enforcer in the gang. He tends to bring the biggest gun and a lot of ammo to feed it. Breaking down his movement, style and technique, it is obvious that \"Chains\" is ex-military. It is likely he was special forces, and, based on overheard conversation, possibly even a former Navy SEAL.",
+						"4086875141": "Chains"
+					},
+					"french": {
+						"2741280242": "Dossiers du FBI: Nous le considérons comme l'homme de main du gang. Il a tendance à apporter la plus grosse arme et beaucoup de munitions pour l'alimenter. En analysant ses mouvements, son style et ses techniques, il est évident que \"Chains\" est un ancien militaire. Il est probable qu'il ait fait partie des forces spéciales et, d'après les conversations entendues, qu'il soit même un ancien Navy SEAL.",
+						"4086875141": "Chains"
+					},
+					"italian": {
+						"2741280242": "File dell'FBI: Lo consideriamo l'esecutore della banda. Tende a portare con sé la pistola più grande e molte munizioni per alimentarla. Analizzando i suoi movimenti, il suo stile e la sua tecnica, è ovvio che \"Chains\" è un ex militare. È probabile che sia stato un militare delle forze speciali e, in base alle conversazioni ascoltate, forse anche un ex Navy SEAL.",
+						"4086875141": "Chains"
+					},
+					"german": {
+						"2741280242": "FBI-Akten: Wir betrachten ihn als den Vollstrecker der Bande. Er neigt dazu, die größte Waffe mitzubringen und eine Menge Munition dafür zu besorgen. Wenn man seine Bewegungen, seinen Stil und seine Technik analysiert, ist es offensichtlich, dass \"Chains\" ein Ex-Militär ist. Es ist wahrscheinlich, dass er bei den Special Forces war, und, basierend auf belauschten Gesprächen, möglicherweise sogar ein ehemaliger Navy SEAL.",
+						"4086875141": "Chains"
+					},
+					"spanish": {
+						"2741280242": "Archivos del FBI: Consideramos a éste como el Enforcer de la banda. Suele llevar el arma más grande y mucha munición para alimentarla. Analizando sus movimientos, estilo y técnica, es obvio que \"Chains\" es un ex-militar. Es probable que formara parte de las fuerzas especiales y, por lo que se oye en las conversaciones, es posible que incluso fuera un Navy SEAL.",
+						"4086875141": "Chains"
+					},
+					"russian": {
+						"2741280242": "Досье ФБР: Мы считаем этого человека \"силовиком\" в банде. Он имеет обыкновение брать с собой самый большой пистолет и много патронов к нему. Разбирая его движения, стиль и технику, очевидно, что \"Чейнс\" - бывший военный. Вполне вероятно, что он служил в спецназе и, судя по подслушанным разговорам, возможно, даже бывший \"морской котик\".",
+						"4086875141": "Чейнс"
+					}
+				}
+			}
+		},
+		{
+			"group": "Chains",
+			"name": "Italian Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"1_content/chains",
+				"2_patches/replace/chains/sapienza"
+			],
+			"blobsFolders": [
+				"blobs/chains/sapienza"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"3346035357": "FBI Files: We regard this one as the Enforcer in the gang. He tends to bring the biggest gun and a lot of ammo to feed it. Breaking down his movement, style and technique, it is obvious that \"Chains\" is ex-military. It is likely he was special forces, and, based on overheard conversation, possibly even a former Navy SEAL.",
+						"3648979387": "Chains"
+					},
+					"french": {
+						"3346035357": "Dossiers du FBI: Nous le considérons comme l'homme de main du gang. Il a tendance à apporter la plus grosse arme et beaucoup de munitions pour l'alimenter. En analysant ses mouvements, son style et ses techniques, il est évident que \"Chains\" est un ancien militaire. Il est probable qu'il ait fait partie des forces spéciales et, d'après les conversations entendues, qu'il soit même un ancien Navy SEAL.",
+						"3648979387": "Chains"
+					},
+					"italian": {
+						"3346035357": "File dell'FBI: Lo consideriamo l'esecutore della banda. Tende a portare con sé la pistola più grande e molte munizioni per alimentarla. Analizzando i suoi movimenti, il suo stile e la sua tecnica, è ovvio che \"Chains\" è un ex militare. È probabile che sia stato un militare delle forze speciali e, in base alle conversazioni ascoltate, forse anche un ex Navy SEAL.",
+						"3648979387": "Chains"
+					},
+					"german": {
+						"3346035357": "FBI-Akten: Wir betrachten ihn als den Vollstrecker der Bande. Er neigt dazu, die größte Waffe mitzubringen und eine Menge Munition dafür zu besorgen. Wenn man seine Bewegungen, seinen Stil und seine Technik analysiert, ist es offensichtlich, dass \"Chains\" ein Ex-Militär ist. Es ist wahrscheinlich, dass er bei den Special Forces war, und, basierend auf belauschten Gesprächen, möglicherweise sogar ein ehemaliger Navy SEAL.",
+						"3648979387": "Chains"
+					},
+					"spanish": {
+						"3346035357": "Archivos del FBI: Consideramos a éste como el Enforcer de la banda. Suele llevar el arma más grande y mucha munición para alimentarla. Analizando sus movimientos, estilo y técnica, es obvio que \"Chains\" es un ex-militar. Es probable que formara parte de las fuerzas especiales y, por lo que se oye en las conversaciones, es posible que incluso fuera un Navy SEAL.",
+						"3648979387": "Chains"
+					},
+					"russian": {
+						"3346035357": "Досье ФБР: Мы считаем этого человека \"силовиком\" в банде. Он имеет обыкновение брать с собой самый большой пистолет и много патронов к нему. Разбирая его движения, стиль и технику, очевидно, что \"Чейнс\" - бывший военный. Вполне вероятно, что он служил в спецназе и, судя по подслушанным разговорам, возможно, даже бывший \"морской котик\".",
+						"3648979387": "Чейнс"
+					}
+				}
+			}
+		},
+		{
+			"group": "Chains",
+			"name": "Florida Fit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"1_content/chains",
+				"2_patches/replace/chains/miami"
+			],
+			"blobsFolders": [
+				"blobs/chains/miami"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"1774659088": "Chains",
+						"3175901226": "FBI Files: We regard this one as the Enforcer in the gang. He tends to bring the biggest gun and a lot of ammo to feed it. Breaking down his movement, style and technique, it is obvious that \"Chains\" is ex-military. It is likely he was special forces, and, based on overheard conversation, possibly even a former Navy SEAL."
+					},
+					"french": {
+						"1774659088": "Chains",
+						"3175901226": "Dossiers du FBI: Nous le considérons comme l'homme de main du gang. Il a tendance à apporter la plus grosse arme et beaucoup de munitions pour l'alimenter. En analysant ses mouvements, son style et ses techniques, il est évident que \"Chains\" est un ancien militaire. Il est probable qu'il ait fait partie des forces spéciales et, d'après les conversations entendues, qu'il soit même un ancien Navy SEAL."
+					},
+					"italian": {
+						"1774659088": "Chains",
+						"3175901226": "File dell'FBI: Lo consideriamo l'esecutore della banda. Tende a portare con sé la pistola più grande e molte munizioni per alimentarla. Analizzando i suoi movimenti, il suo stile e la sua tecnica, è ovvio che \"Chains\" è un ex militare. È probabile che sia stato un militare delle forze speciali e, in base alle conversazioni ascoltate, forse anche un ex Navy SEAL."
+					},
+					"german": {
+						"1774659088": "Chains",
+						"3175901226": "FBI-Akten: Wir betrachten ihn als den Vollstrecker der Bande. Er neigt dazu, die größte Waffe mitzubringen und eine Menge Munition dafür zu besorgen. Wenn man seine Bewegungen, seinen Stil und seine Technik analysiert, ist es offensichtlich, dass \"Chains\" ein Ex-Militär ist. Es ist wahrscheinlich, dass er bei den Special Forces war, und, basierend auf belauschten Gesprächen, möglicherweise sogar ein ehemaliger Navy SEAL."
+					},
+					"spanish": {
+						"1774659088": "Chains",
+						"3175901226": "Archivos del FBI: Consideramos a éste como el Enforcer de la banda. Suele llevar el arma más grande y mucha munición para alimentarla. Analizando sus movimientos, estilo y técnica, es obvio que \"Chains\" es un ex-militar. Es probable que formara parte de las fuerzas especiales y, por lo que se oye en las conversaciones, es posible que incluso fuera un Navy SEAL."
+					},
+					"russian": {
+						"1774659088": "Чейнс",
+						"3175901226": "Досье ФБР: Мы считаем этого человека \"силовиком\" в банде. Он имеет обыкновение брать с собой самый большой пистолет и много патронов к нему. Разбирая его движения, стиль и технику, очевидно, что \"Чейнс\" - бывший военный. Вполне вероятно, что он служил в спецназе и, судя по подслушанным разговорам, возможно, даже бывший \"морской котик\"."
+					}
+				}
+			}
+		},
+		{
+			"group": "Chains",
+			"name": "Casual Tourist with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"1_content/chains",
+				"2_patches/replace/chains/sanfortuna"
+			],
+			"blobsFolders": [
+				"blobs/chains/sanfortuna"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2978719530": "Chains",
+						"3533044117": "FBI Files: We regard this one as the Enforcer in the gang. He tends to bring the biggest gun and a lot of ammo to feed it. Breaking down his movement, style and technique, it is obvious that \"Chains\" is ex-military. It is likely he was special forces, and, based on overheard conversation, possibly even a former Navy SEAL."
+					},
+					"french": {
+						"2978719530": "Chains",
+						"3533044117": "Dossiers du FBI: Nous le considérons comme l'homme de main du gang. Il a tendance à apporter la plus grosse arme et beaucoup de munitions pour l'alimenter. En analysant ses mouvements, son style et ses techniques, il est évident que \"Chains\" est un ancien militaire. Il est probable qu'il ait fait partie des forces spéciales et, d'après les conversations entendues, qu'il soit même un ancien Navy SEAL."
+					},
+					"italian": {
+						"2978719530": "Chains",
+						"3533044117": "File dell'FBI: Lo consideriamo l'esecutore della banda. Tende a portare con sé la pistola più grande e molte munizioni per alimentarla. Analizzando i suoi movimenti, il suo stile e la sua tecnica, è ovvio che \"Chains\" è un ex militare. È probabile che sia stato un militare delle forze speciali e, in base alle conversazioni ascoltate, forse anche un ex Navy SEAL."
+					},
+					"german": {
+						"2978719530": "Chains",
+						"3533044117": "FBI-Akten: Wir betrachten ihn als den Vollstrecker der Bande. Er neigt dazu, die größte Waffe mitzubringen und eine Menge Munition dafür zu besorgen. Wenn man seine Bewegungen, seinen Stil und seine Technik analysiert, ist es offensichtlich, dass \"Chains\" ein Ex-Militär ist. Es ist wahrscheinlich, dass er bei den Special Forces war, und, basierend auf belauschten Gesprächen, möglicherweise sogar ein ehemaliger Navy SEAL."
+					},
+					"spanish": {
+						"2978719530": "Chains",
+						"3533044117": "Archivos del FBI: Consideramos a éste como el Enforcer de la banda. Suele llevar el arma más grande y mucha munición para alimentarla. Analizando sus movimientos, estilo y técnica, es obvio que \"Chains\" es un ex-militar. Es probable que formara parte de las fuerzas especiales y, por lo que se oye en las conversaciones, es posible que incluso fuera un Navy SEAL."
+					},
+					"russian": {
+						"2978719530": "Чейнс",
+						"3533044117": "Досье ФБР: Мы считаем этого человека \"силовиком\" в банде. Он имеет обыкновение брать с собой самый большой пистолет и много патронов к нему. Разбирая его движения, стиль и технику, очевидно, что \"Чейнс\" - бывший военный. Вполне вероятно, что он служил в спецназе и, судя по подслушанным разговорам, возможно, даже бывший \"морской котик\"."
+					}
+				}
+			}
+		},
+		{
+			"group": "Chains",
+			"name": "Summer Suave Suit",
+			"type": "select",
+			"contentFolders": [
+				"1_content/chains",
+				"2_patches/replace/chains/summersuave"
+			],
+			"blobsFolders": [
+				"blobs/chains/summersuave"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"134957393": "Chains",
+						"2101382595": "FBI Files: We regard this one as the Enforcer in the gang. He tends to bring the biggest gun and a lot of ammo to feed it. Breaking down his movement, style and technique, it is obvious that \"Chains\" is ex-military. It is likely he was special forces, and, based on overheard conversation, possibly even a former Navy SEAL."
+					},
+					"french": {
+						"134957393": "Chains",
+						"2101382595": "Dossiers du FBI: Nous le considérons comme l'homme de main du gang. Il a tendance à apporter la plus grosse arme et beaucoup de munitions pour l'alimenter. En analysant ses mouvements, son style et ses techniques, il est évident que \"Chains\" est un ancien militaire. Il est probable qu'il ait fait partie des forces spéciales et, d'après les conversations entendues, qu'il soit même un ancien Navy SEAL."
+					},
+					"italian": {
+						"134957393": "Chains",
+						"2101382595": "File dell'FBI: Lo consideriamo l'esecutore della banda. Tende a portare con sé la pistola più grande e molte munizioni per alimentarla. Analizzando i suoi movimenti, il suo stile e la sua tecnica, è ovvio che \"Chains\" è un ex militare. È probabile che sia stato un militare delle forze speciali e, in base alle conversazioni ascoltate, forse anche un ex Navy SEAL."
+					},
+					"german": {
+						"134957393": "Chains",
+						"2101382595": "FBI-Akten: Wir betrachten ihn als den Vollstrecker der Bande. Er neigt dazu, die größte Waffe mitzubringen und eine Menge Munition dafür zu besorgen. Wenn man seine Bewegungen, seinen Stil und seine Technik analysiert, ist es offensichtlich, dass \"Chains\" ein Ex-Militär ist. Es ist wahrscheinlich, dass er bei den Special Forces war, und, basierend auf belauschten Gesprächen, möglicherweise sogar ein ehemaliger Navy SEAL."
+					},
+					"spanish": {
+						"134957393": "Chains",
+						"2101382595": "Archivos del FBI: Consideramos a éste como el Enforcer de la banda. Suele llevar el arma más grande y mucha munición para alimentarla. Analizando sus movimientos, estilo y técnica, es obvio que \"Chains\" es un ex-militar. Es probable que formara parte de las fuerzas especiales y, por lo que se oye en las conversaciones, es posible que incluso fuera un Navy SEAL."
+					},
+					"russian": {
+						"134957393": "Чейнс",
+						"2101382595": "Досье ФБР: Мы считаем этого человека \"силовиком\" в банде. Он имеет обыкновение брать с собой самый большой пистолет и много патронов к нему. Разбирая его движения, стиль и технику, очевидно, что \"Чейнс\" - бывший военный. Вполне вероятно, что он служил в спецназе и, судя по подслушанным разговорам, возможно, даже бывший \"морской котик\"."
+					}
+				}
+			}
+		},
+		{
+			"group": "Chains",
+			"name": "Summer Sightseeing Suit",
+			"type": "select",
+			"contentFolders": [
+				"1_content/chains",
+				"2_patches/replace/chains/summersightseeing"
+			],
+			"blobsFolders": [
+				"blobs/chains/summersightseeing"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2627471231": "FBI Files: We regard this one as the Enforcer in the gang. He tends to bring the biggest gun and a lot of ammo to feed it. Breaking down his movement, style and technique, it is obvious that \"Chains\" is ex-military. It is likely he was special forces, and, based on overheard conversation, possibly even a former Navy SEAL.",
+						"2814457931": "Chains"
+					},
+					"french": {
+						"2627471231": "Dossiers du FBI: Nous le considérons comme l'homme de main du gang. Il a tendance à apporter la plus grosse arme et beaucoup de munitions pour l'alimenter. En analysant ses mouvements, son style et ses techniques, il est évident que \"Chains\" est un ancien militaire. Il est probable qu'il ait fait partie des forces spéciales et, d'après les conversations entendues, qu'il soit même un ancien Navy SEAL.",
+						"2814457931": "Chains"
+					},
+					"italian": {
+						"2627471231": "File dell'FBI: Lo consideriamo l'esecutore della banda. Tende a portare con sé la pistola più grande e molte munizioni per alimentarla. Analizzando i suoi movimenti, il suo stile e la sua tecnica, è ovvio che \"Chains\" è un ex militare. È probabile che sia stato un militare delle forze speciali e, in base alle conversazioni ascoltate, forse anche un ex Navy SEAL.",
+						"2814457931": "Chains"
+					},
+					"german": {
+						"2627471231": "FBI-Akten: Wir betrachten ihn als den Vollstrecker der Bande. Er neigt dazu, die größte Waffe mitzubringen und eine Menge Munition dafür zu besorgen. Wenn man seine Bewegungen, seinen Stil und seine Technik analysiert, ist es offensichtlich, dass \"Chains\" ein Ex-Militär ist. Es ist wahrscheinlich, dass er bei den Special Forces war, und, basierend auf belauschten Gesprächen, möglicherweise sogar ein ehemaliger Navy SEAL.",
+						"2814457931": "Chains"
+					},
+					"spanish": {
+						"2627471231": "Archivos del FBI: Consideramos a éste como el Enforcer de la banda. Suele llevar el arma más grande y mucha munición para alimentarla. Analizando sus movimientos, estilo y técnica, es obvio que \"Chains\" es un ex-militar. Es probable que formara parte de las fuerzas especiales y, por lo que se oye en las conversaciones, es posible que incluso fuera un Navy SEAL.",
+						"2814457931": "Chains"
+					},
+					"russian": {
+						"2627471231": "Досье ФБР: Мы считаем этого человека \"силовиком\" в банде. Он имеет обыкновение брать с собой самый большой пистолет и много патронов к нему. Разбирая его движения, стиль и технику, очевидно, что \"Чейнс\" - бывший военный. Вполне вероятно, что он служил в спецназе и, судя по подслушанным разговорам, возможно, даже бывший \"морской котик\".",
+						"2814457931": "Чейнс"
+					}
+				}
+			}
+		},
+		{
+			"group": "Chains",
+			"name": "Casual Undercover",
+			"type": "select",
+			"contentFolders": [
+				"1_content/chains",
+				"2_patches/replace/chains/casualundercover"
+			],
+			"blobsFolders": [
+				"blobs/chains/casualundercover"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2052724919": "Chains",
+						"3635577953": "FBI Files: We regard this one as the Enforcer in the gang. He tends to bring the biggest gun and a lot of ammo to feed it. Breaking down his movement, style and technique, it is obvious that \"Chains\" is ex-military. It is likely he was special forces, and, based on overheard conversation, possibly even a former Navy SEAL."
+					},
+					"french": {
+						"2052724919": "Chains",
+						"3635577953": "Dossiers du FBI: Nous le considérons comme l'homme de main du gang. Il a tendance à apporter la plus grosse arme et beaucoup de munitions pour l'alimenter. En analysant ses mouvements, son style et ses techniques, il est évident que \"Chains\" est un ancien militaire. Il est probable qu'il ait fait partie des forces spéciales et, d'après les conversations entendues, qu'il soit même un ancien Navy SEAL."
+					},
+					"italian": {
+						"2052724919": "Chains",
+						"3635577953": "File dell'FBI: Lo consideriamo l'esecutore della banda. Tende a portare con sé la pistola più grande e molte munizioni per alimentarla. Analizzando i suoi movimenti, il suo stile e la sua tecnica, è ovvio che \"Chains\" è un ex militare. È probabile che sia stato un militare delle forze speciali e, in base alle conversazioni ascoltate, forse anche un ex Navy SEAL."
+					},
+					"german": {
+						"2052724919": "Chains",
+						"3635577953": "FBI-Akten: Wir betrachten ihn als den Vollstrecker der Bande. Er neigt dazu, die größte Waffe mitzubringen und eine Menge Munition dafür zu besorgen. Wenn man seine Bewegungen, seinen Stil und seine Technik analysiert, ist es offensichtlich, dass \"Chains\" ein Ex-Militär ist. Es ist wahrscheinlich, dass er bei den Special Forces war, und, basierend auf belauschten Gesprächen, möglicherweise sogar ein ehemaliger Navy SEAL."
+					},
+					"spanish": {
+						"2052724919": "Chains",
+						"3635577953": "Archivos del FBI: Consideramos a éste como el Enforcer de la banda. Suele llevar el arma más grande y mucha munición para alimentarla. Analizando sus movimientos, estilo y técnica, es obvio que \"Chains\" es un ex-militar. Es probable que formara parte de las fuerzas especiales y, por lo que se oye en las conversaciones, es posible que incluso fuera un Navy SEAL."
+					},
+					"russian": {
+						"2052724919": "Чейнс",
+						"3635577953": "Досье ФБР: Мы считаем этого человека \"силовиком\" в банде. Он имеет обыкновение брать с собой самый большой пистолет и много патронов к нему. Разбирая его движения, стиль и технику, очевидно, что \"Чейнс\" - бывший военный. Вполне вероятно, что он служил в спецназе и, судя по подслушанным разговорам, возможно, даже бывший \"морской котик\"."
+					}
+				}
+			}
+		},
+		{
+			"group": "Chains",
+			"name": "Midnight Black Suit",
+			"type": "select",
+			"contentFolders": [
+				"1_content/chains",
+				"2_patches/replace/chains/midnightblack"
+			],
+			"blobsFolders": [
+				"blobs/chains/midnightblack"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"972885031": "FBI Files: We regard this one as the Enforcer in the gang. He tends to bring the biggest gun and a lot of ammo to feed it. Breaking down his movement, style and technique, it is obvious that \"Chains\" is ex-military. It is likely he was special forces, and, based on overheard conversation, possibly even a former Navy SEAL.",
+						"2762453674": "Chains"
+					},
+					"french": {
+						"972885031": "Dossiers du FBI: Nous le considérons comme l'homme de main du gang. Il a tendance à apporter la plus grosse arme et beaucoup de munitions pour l'alimenter. En analysant ses mouvements, son style et ses techniques, il est évident que \"Chains\" est un ancien militaire. Il est probable qu'il ait fait partie des forces spéciales et, d'après les conversations entendues, qu'il soit même un ancien Navy SEAL.",
+						"2762453674": "Chains"
+					},
+					"italian": {
+						"972885031": "File dell'FBI: Lo consideriamo l'esecutore della banda. Tende a portare con sé la pistola più grande e molte munizioni per alimentarla. Analizzando i suoi movimenti, il suo stile e la sua tecnica, è ovvio che \"Chains\" è un ex militare. È probabile che sia stato un militare delle forze speciali e, in base alle conversazioni ascoltate, forse anche un ex Navy SEAL.",
+						"2762453674": "Chains"
+					},
+					"german": {
+						"972885031": "FBI-Akten: Wir betrachten ihn als den Vollstrecker der Bande. Er neigt dazu, die größte Waffe mitzubringen und eine Menge Munition dafür zu besorgen. Wenn man seine Bewegungen, seinen Stil und seine Technik analysiert, ist es offensichtlich, dass \"Chains\" ein Ex-Militär ist. Es ist wahrscheinlich, dass er bei den Special Forces war, und, basierend auf belauschten Gesprächen, möglicherweise sogar ein ehemaliger Navy SEAL.",
+						"2762453674": "Chains"
+					},
+					"spanish": {
+						"972885031": "Archivos del FBI: Consideramos a éste como el Enforcer de la banda. Suele llevar el arma más grande y mucha munición para alimentarla. Analizando sus movimientos, estilo y técnica, es obvio que \"Chains\" es un ex-militar. Es probable que formara parte de las fuerzas especiales y, por lo que se oye en las conversaciones, es posible que incluso fuera un Navy SEAL.",
+						"2762453674": "Chains"
+					},
+					"russian": {
+						"972885031": "Досье ФБР: Мы считаем этого человека \"силовиком\" в банде. Он имеет обыкновение брать с собой самый большой пистолет и много патронов к нему. Разбирая его движения, стиль и технику, очевидно, что \"Чейнс\" - бывший военный. Вполне вероятно, что он служил в спецназе и, судя по подслушанным разговорам, возможно, даже бывший \"морской котик\".",
+						"2762453674": "Чейнс"
+					}
+				}
+			}
+		},
+		{
+			"group": "Chains",
+			"name": "Summer Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"1_content/chains",
+				"2_patches/replace/chains/marrakesh"
+			],
+			"blobsFolders": [
+				"blobs/chains/marrakesh"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"1490534793": "Chains",
+						"4241939803": "FBI Files: We regard this one as the Enforcer in the gang. He tends to bring the biggest gun and a lot of ammo to feed it. Breaking down his movement, style and technique, it is obvious that \"Chains\" is ex-military. It is likely he was special forces, and, based on overheard conversation, possibly even a former Navy SEAL."
+					},
+					"french": {
+						"1490534793": "Chains",
+						"4241939803": "Dossiers du FBI: Nous le considérons comme l'homme de main du gang. Il a tendance à apporter la plus grosse arme et beaucoup de munitions pour l'alimenter. En analysant ses mouvements, son style et ses techniques, il est évident que \"Chains\" est un ancien militaire. Il est probable qu'il ait fait partie des forces spéciales et, d'après les conversations entendues, qu'il soit même un ancien Navy SEAL."
+					},
+					"italian": {
+						"1490534793": "Chains",
+						"4241939803": "File dell'FBI: Lo consideriamo l'esecutore della banda. Tende a portare con sé la pistola più grande e molte munizioni per alimentarla. Analizzando i suoi movimenti, il suo stile e la sua tecnica, è ovvio che \"Chains\" è un ex militare. È probabile che sia stato un militare delle forze speciali e, in base alle conversazioni ascoltate, forse anche un ex Navy SEAL."
+					},
+					"german": {
+						"1490534793": "Chains",
+						"4241939803": "FBI-Akten: Wir betrachten ihn als den Vollstrecker der Bande. Er neigt dazu, die größte Waffe mitzubringen und eine Menge Munition dafür zu besorgen. Wenn man seine Bewegungen, seinen Stil und seine Technik analysiert, ist es offensichtlich, dass \"Chains\" ein Ex-Militär ist. Es ist wahrscheinlich, dass er bei den Special Forces war, und, basierend auf belauschten Gesprächen, möglicherweise sogar ein ehemaliger Navy SEAL."
+					},
+					"spanish": {
+						"1490534793": "Chains",
+						"4241939803": "Archivos del FBI: Consideramos a éste como el Enforcer de la banda. Suele llevar el arma más grande y mucha munición para alimentarla. Analizando sus movimientos, estilo y técnica, es obvio que \"Chains\" es un ex-militar. Es probable que formara parte de las fuerzas especiales y, por lo que se oye en las conversaciones, es posible que incluso fuera un Navy SEAL."
+					},
+					"russian": {
+						"1490534793": "Чейнс",
+						"4241939803": "Досье ФБР: Мы считаем этого человека \"силовиком\" в банде. Он имеет обыкновение брать с собой самый большой пистолет и много патронов к нему. Разбирая его движения, стиль и технику, очевидно, что \"Чейнс\" - бывший военный. Вполне вероятно, что он служил в спецназе и, судя по подслушанным разговорам, возможно, даже бывший \"морской котик\"."
+					}
+				}
+			}
+		},
+		{
+			"group": "Chains",
+			"name": "Tropical Suit",
+			"type": "select",
+			"contentFolders": [
+				"1_content/chains",
+				"2_patches/replace/chains/tropicalsuit"
+			],
+			"blobsFolders": [
+				"blobs/chains/tropicalsuit"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2053833950": "FBI Files: We regard this one as the Enforcer in the gang. He tends to bring the biggest gun and a lot of ammo to feed it. Breaking down his movement, style and technique, it is obvious that \"Chains\" is ex-military. It is likely he was special forces, and, based on overheard conversation, possibly even a former Navy SEAL.",
+						"2347383834": "Chains"
+					},
+					"french": {
+						"2053833950": "Dossiers du FBI: Nous le considérons comme l'homme de main du gang. Il a tendance à apporter la plus grosse arme et beaucoup de munitions pour l'alimenter. En analysant ses mouvements, son style et ses techniques, il est évident que \"Chains\" est un ancien militaire. Il est probable qu'il ait fait partie des forces spéciales et, d'après les conversations entendues, qu'il soit même un ancien Navy SEAL.",
+						"2347383834": "Chains"
+					},
+					"italian": {
+						"2053833950": "File dell'FBI: Lo consideriamo l'esecutore della banda. Tende a portare con sé la pistola più grande e molte munizioni per alimentarla. Analizzando i suoi movimenti, il suo stile e la sua tecnica, è ovvio che \"Chains\" è un ex militare. È probabile che sia stato un militare delle forze speciali e, in base alle conversazioni ascoltate, forse anche un ex Navy SEAL.",
+						"2347383834": "Chains"
+					},
+					"german": {
+						"2053833950": "FBI-Akten: Wir betrachten ihn als den Vollstrecker der Bande. Er neigt dazu, die größte Waffe mitzubringen und eine Menge Munition dafür zu besorgen. Wenn man seine Bewegungen, seinen Stil und seine Technik analysiert, ist es offensichtlich, dass \"Chains\" ein Ex-Militär ist. Es ist wahrscheinlich, dass er bei den Special Forces war, und, basierend auf belauschten Gesprächen, möglicherweise sogar ein ehemaliger Navy SEAL.",
+						"2347383834": "Chains"
+					},
+					"spanish": {
+						"2053833950": "Archivos del FBI: Consideramos a éste como el Enforcer de la banda. Suele llevar el arma más grande y mucha munición para alimentarla. Analizando sus movimientos, estilo y técnica, es obvio que \"Chains\" es un ex-militar. Es probable que formara parte de las fuerzas especiales y, por lo que se oye en las conversaciones, es posible que incluso fuera un Navy SEAL.",
+						"2347383834": "Chains"
+					},
+					"russian": {
+						"2053833950": "Досье ФБР: Мы считаем этого человека \"силовиком\" в банде. Он имеет обыкновение брать с собой самый большой пистолет и много патронов к нему. Разбирая его движения, стиль и технику, очевидно, что \"Чейнс\" - бывший военный. Вполне вероятно, что он служил в спецназе и, судя по подслушанным разговорам, возможно, даже бывший \"морской котик\".",
+						"2347383834": "Чейнс"
+					}
+				}
+			}
+		},
+		{
+			"group": "Chains",
+			"name": "Smart Casual Suit",
+			"type": "select",
+			"contentFolders": [
+				"1_content/chains",
+				"2_patches/replace/chains/smartcasual"
+			],
+			"blobsFolders": [
+				"blobs/chains/smartcasual"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"252086724": "Chains",
+						"678625422": "FBI Files: We regard this one as the Enforcer in the gang. He tends to bring the biggest gun and a lot of ammo to feed it. Breaking down his movement, style and technique, it is obvious that \"Chains\" is ex-military. It is likely he was special forces, and, based on overheard conversation, possibly even a former Navy SEAL."
+					},
+					"french": {
+						"252086724": "Chains",
+						"678625422": "Dossiers du FBI: Nous le considérons comme l'homme de main du gang. Il a tendance à apporter la plus grosse arme et beaucoup de munitions pour l'alimenter. En analysant ses mouvements, son style et ses techniques, il est évident que \"Chains\" est un ancien militaire. Il est probable qu'il ait fait partie des forces spéciales et, d'après les conversations entendues, qu'il soit même un ancien Navy SEAL."
+					},
+					"italian": {
+						"252086724": "Chains",
+						"678625422": "File dell'FBI: Lo consideriamo l'esecutore della banda. Tende a portare con sé la pistola più grande e molte munizioni per alimentarla. Analizzando i suoi movimenti, il suo stile e la sua tecnica, è ovvio che \"Chains\" è un ex militare. È probabile che sia stato un militare delle forze speciali e, in base alle conversazioni ascoltate, forse anche un ex Navy SEAL."
+					},
+					"german": {
+						"252086724": "Chains",
+						"678625422": "FBI-Akten: Wir betrachten ihn als den Vollstrecker der Bande. Er neigt dazu, die größte Waffe mitzubringen und eine Menge Munition dafür zu besorgen. Wenn man seine Bewegungen, seinen Stil und seine Technik analysiert, ist es offensichtlich, dass \"Chains\" ein Ex-Militär ist. Es ist wahrscheinlich, dass er bei den Special Forces war, und, basierend auf belauschten Gesprächen, möglicherweise sogar ein ehemaliger Navy SEAL."
+					},
+					"spanish": {
+						"252086724": "Chains",
+						"678625422": "Archivos del FBI: Consideramos a éste como el Enforcer de la banda. Suele llevar el arma más grande y mucha munición para alimentarla. Analizando sus movimientos, estilo y técnica, es obvio que \"Chains\" es un ex-militar. Es probable que formara parte de las fuerzas especiales y, por lo que se oye en las conversaciones, es posible que incluso fuera un Navy SEAL."
+					},
+					"russian": {
+						"252086724": "Чейнс",
+						"678625422": "Досье ФБР: Мы считаем этого человека \"силовиком\" в банде. Он имеет обыкновение брать с собой самый большой пистолет и много патронов к нему. Разбирая его движения, стиль и технику, очевидно, что \"Чейнс\" - бывший военный. Вполне вероятно, что он служил в спецназе и, судя по подслушанным разговорам, возможно, даже бывший \"морской котик\"."
+					}
+				}
+			}
+		},
+		{
+			"group": "Chains",
+			"name": "The Raver",
+			"type": "select",
+			"contentFolders": [
+				"1_content/chains",
+				"2_patches/replace/chains/raver"
+			],
+			"blobsFolders": [
+				"blobs/chains/raver"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"3362995256": "Chains",
+						"4079878924": "FBI Files: We regard this one as the Enforcer in the gang. He tends to bring the biggest gun and a lot of ammo to feed it. Breaking down his movement, style and technique, it is obvious that \"Chains\" is ex-military. It is likely he was special forces, and, based on overheard conversation, possibly even a former Navy SEAL."
+					},
+					"french": {
+						"3362995256": "Chains",
+						"4079878924": "Dossiers du FBI: Nous le considérons comme l'homme de main du gang. Il a tendance à apporter la plus grosse arme et beaucoup de munitions pour l'alimenter. En analysant ses mouvements, son style et ses techniques, il est évident que \"Chains\" est un ancien militaire. Il est probable qu'il ait fait partie des forces spéciales et, d'après les conversations entendues, qu'il soit même un ancien Navy SEAL."
+					},
+					"italian": {
+						"3362995256": "Chains",
+						"4079878924": "File dell'FBI: Lo consideriamo l'esecutore della banda. Tende a portare con sé la pistola più grande e molte munizioni per alimentarla. Analizzando i suoi movimenti, il suo stile e la sua tecnica, è ovvio che \"Chains\" è un ex militare. È probabile che sia stato un militare delle forze speciali e, in base alle conversazioni ascoltate, forse anche un ex Navy SEAL."
+					},
+					"german": {
+						"3362995256": "Chains",
+						"4079878924": "FBI-Akten: Wir betrachten ihn als den Vollstrecker der Bande. Er neigt dazu, die größte Waffe mitzubringen und eine Menge Munition dafür zu besorgen. Wenn man seine Bewegungen, seinen Stil und seine Technik analysiert, ist es offensichtlich, dass \"Chains\" ein Ex-Militär ist. Es ist wahrscheinlich, dass er bei den Special Forces war, und, basierend auf belauschten Gesprächen, möglicherweise sogar ein ehemaliger Navy SEAL."
+					},
+					"spanish": {
+						"3362995256": "Chains",
+						"4079878924": "Archivos del FBI: Consideramos a éste como el Enforcer de la banda. Suele llevar el arma más grande y mucha munición para alimentarla. Analizando sus movimientos, estilo y técnica, es obvio que \"Chains\" es un ex-militar. Es probable que formara parte de las fuerzas especiales y, por lo que se oye en las conversaciones, es posible que incluso fuera un Navy SEAL."
+					},
+					"russian": {
+						"3362995256": "Чейнс",
+						"4079878924": "Досье ФБР: Мы считаем этого человека \"силовиком\" в банде. Он имеет обыкновение брать с собой самый большой пистолет и много патронов к нему. Разбирая его движения, стиль и технику, очевидно, что \"Чейнс\" - бывший военный. Вполне вероятно, что он служил в спецназе и, судя по подслушанным разговорам, возможно, даже бывший \"морской котик\"."
+					}
+				}
+			}
+		},
+		{
+			"group": "Chains",
+			"name": "Lucky Ducky",
+			"type": "select",
+			"contentFolders": [
+				"1_content/chains",
+				"2_patches/replace/chains/luckyducky"
+			],
+			"blobsFolders": [
+				"blobs/chains/luckyducky"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2760943898": "Chains",
+						"2681050670": "FBI Files: We regard this one as the Enforcer in the gang. He tends to bring the biggest gun and a lot of ammo to feed it. Breaking down his movement, style and technique, it is obvious that \"Chains\" is ex-military. It is likely he was special forces, and, based on overheard conversation, possibly even a former Navy SEAL."
+					},
+					"french": {
+						"2760943898": "Chains",
+						"2681050670": "Dossiers du FBI: Nous le considérons comme l'homme de main du gang. Il a tendance à apporter la plus grosse arme et beaucoup de munitions pour l'alimenter. En analysant ses mouvements, son style et ses techniques, il est évident que \"Chains\" est un ancien militaire. Il est probable qu'il ait fait partie des forces spéciales et, d'après les conversations entendues, qu'il soit même un ancien Navy SEAL."
+					},
+					"italian": {
+						"2760943898": "Chains",
+						"2681050670": "File dell'FBI: Lo consideriamo l'esecutore della banda. Tende a portare con sé la pistola più grande e molte munizioni per alimentarla. Analizzando i suoi movimenti, il suo stile e la sua tecnica, è ovvio che \"Chains\" è un ex militare. È probabile che sia stato un militare delle forze speciali e, in base alle conversazioni ascoltate, forse anche un ex Navy SEAL."
+					},
+					"german": {
+						"2760943898": "Chains",
+						"2681050670": "FBI-Akten: Wir betrachten ihn als den Vollstrecker der Bande. Er neigt dazu, die größte Waffe mitzubringen und eine Menge Munition dafür zu besorgen. Wenn man seine Bewegungen, seinen Stil und seine Technik analysiert, ist es offensichtlich, dass \"Chains\" ein Ex-Militär ist. Es ist wahrscheinlich, dass er bei den Special Forces war, und, basierend auf belauschten Gesprächen, möglicherweise sogar ein ehemaliger Navy SEAL."
+					},
+					"spanish": {
+						"2760943898": "Chains",
+						"2681050670": "Archivos del FBI: Consideramos a éste como el Enforcer de la banda. Suele llevar el arma más grande y mucha munición para alimentarla. Analizando sus movimientos, estilo y técnica, es obvio que \"Chains\" es un ex-militar. Es probable que formara parte de las fuerzas especiales y, por lo que se oye en las conversaciones, es posible que incluso fuera un Navy SEAL."
+					},
+					"russian": {
+						"2760943898": "Чейнс",
+						"2681050670": "Досье ФБР: Мы считаем этого человека \"силовиком\" в банде. Он имеет обыкновение брать с собой самый большой пистолет и много патронов к нему. Разбирая его движения, стиль и технику, очевидно, что \"Чейнс\" - бывший военный. Вполне вероятно, что он служил в спецназе и, судя по подслушанным разговорам, возможно, даже бывший \"морской котик\"."
+					}
+				}
+			}
+		},
+		{
+			"group": "Dallas",
+			"name": "Do not install",
+			"type": "select",
+			"enabledByDefault": true,
+			"tooltip": "Do not install Dallas.",
+			"image": "dallas.jpg"
+		},
+		{
+			"group": "Dallas",
+			"name": "Peacock Addon",
+			"type": "select",
+			"tooltip": "Install Dallas to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+			"contentFolders": [
+				"1_content/dallas",
+				"2_patches/replace/dallas/addon"
+			],
+			"blobsFolders": [
+				"blobs/dallas/addon"
+			],
+			"localisedLines": {
+				"002E90FCF23E17D4": "UI_TOKEN_OUTFIT_HERO_PAYDAY_DALLAS_DESC",
+				"0016D91C520D1EFE": "UI_TOKEN_OUTFIT_HERO_PAYDAY_DALLAS_NAME"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_DALLAS_DESC": "FBI Files: If this one isn't actually the leader, he's definitely the trusted lieutenant. Dallas is one of the original four that emerged in 2011. He appears to be the Mastermind of the gang, and his calm demeanor under fire suggests both great experience and cunning intelligence.",
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_DALLAS_NAME": "Dallas"
+				},
+				"french": {
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_DALLAS_DESC": "Dossiers du FBI: Si celui-ci n'est pas vraiment le chef, il est certainement le lieutenant de confiance. Dallas est l'un des quatre premiers à avoir émergé en 2011. Il semble être le cerveau du gang, et son comportement calme sous le feu de l'ennemi suggère à la fois une grande expérience et une intelligence rusée.",
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_DALLAS_NAME": "Dallas"
+				},
+				"german": {
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_DALLAS_DESC": "FBI-Akten: Wenn er nicht gerade der Anführer ist, ist er auf jeden Fall der vertrauenswürdige Leutnant. Dallas ist einer der vier, die 2011 aufgetaucht sind. Er scheint das Superhirn der Bande zu sein, und sein ruhiges Verhalten unter Beschuss lässt sowohl auf große Erfahrung als auch auf gerissene Intelligenz schließen.",
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_DALLAS_NAME": "Dallas"
+				},
+				"spanish": {
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_DALLAS_DESC": "Archivos del FBI: Si este no es realmente el líder, definitivamente es el lugarteniente de confianza. Dallas es uno de los cuatro originales que surgieron en 2011. Parece ser el cerebro de la banda, y su comportamiento tranquilo bajo el fuego sugiere tanto una gran experiencia como una astuta inteligencia.",
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_DALLAS_NAME": "Dallas"
+				},
+				"italian": {
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_DALLAS_DESC": "File dell'FBI: Se non è il capo, è sicuramente il luogotenente fidato. Dallas è uno dei quattro originari emersi nel 2011. Sembra essere la mente della banda e il suo contegno calmo sotto il fuoco suggerisce sia una grande esperienza che un'astuta intelligenza.",
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_DALLAS_NAME": "Dallas"
+				},
+				"russian": {
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_DALLAS_DESC": "Досье ФБР: Если этот человек и не лидер, то уж точно доверенный лейтенант. Даллас - один из первоначальной четверки, появившейся в 2011 году. Он, похоже, главный в банде, а его спокойное поведение под огнем говорит как о большом опыте, так и о хитром уме.",
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_DALLAS_NAME": "Даллас"
+				}
+			}
+		},
+		{
+			"group": "Dallas",
+			"name": "Casual Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"1_content/dallas",
+				"2_patches/replace/dallas/bangkok"
+			],
+			"blobsFolders": [
+				"blobs/dallas/bangkok"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"2741280242": "FBI Files: If this one isn't actually the leader, he's definitely the trusted lieutenant. Dallas is one of the original four that emerged in 2011. He appears to be the Mastermind of the gang, and his calm demeanor under fire suggests both great experience and cunning intelligence.",
+						"4086875141": "Dallas"
+					},
+					"french": {
+						"2741280242": "Dossiers du FBI: Si celui-ci n'est pas vraiment le chef, il est certainement le lieutenant de confiance. Dallas est l'un des quatre premiers à avoir émergé en 2011. Il semble être le cerveau du gang, et son comportement calme sous le feu de l'ennemi suggère à la fois une grande expérience et une intelligence rusée.",
+						"4086875141": "Dallas"
+					},
+					"italian": {
+						"2741280242": "File dell'FBI: Se non è il capo, è sicuramente il luogotenente fidato. Dallas è uno dei quattro originari emersi nel 2011. Sembra essere la mente della banda e il suo contegno calmo sotto il fuoco suggerisce sia una grande esperienza che un'astuta intelligenza.",
+						"4086875141": "Dallas"
+					},
+					"german": {
+						"2741280242": "FBI-Akten: Wenn er nicht gerade der Anführer ist, ist er auf jeden Fall der vertrauenswürdige Leutnant. Dallas ist einer der vier, die 2011 aufgetaucht sind. Er scheint das Superhirn der Bande zu sein, und sein ruhiges Verhalten unter Beschuss lässt sowohl auf große Erfahrung als auch auf gerissene Intelligenz schließen.",
+						"4086875141": "Dallas"
+					},
+					"spanish": {
+						"2741280242": "Archivos del FBI: Si este no es realmente el líder, definitivamente es el lugarteniente de confianza. Dallas es uno de los cuatro originales que surgieron en 2011. Parece ser el cerebro de la banda, y su comportamiento tranquilo bajo el fuego sugiere tanto una gran experiencia como una astuta inteligencia.",
+						"4086875141": "Dallas"
+					},
+					"russian": {
+						"2741280242": "Досье ФБР: Если этот человек и не лидер, то уж точно доверенный лейтенант. Даллас - один из первоначальной четверки, появившейся в 2011 году. Он, похоже, главный в банде, а его спокойное поведение под огнем говорит как о большом опыте, так и о хитром уме.",
+						"4086875141": "Даллас"
+					}
+				}
+			}
+		},
+		{
+			"group": "Dallas",
+			"name": "Italian Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"1_content/dallas",
+				"2_patches/replace/dallas/sapienza"
+			],
+			"blobsFolders": [
+				"blobs/dallas/sapienza"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"3346035357": "FBI Files: If this one isn't actually the leader, he's definitely the trusted lieutenant. Dallas is one of the original four that emerged in 2011. He appears to be the Mastermind of the gang, and his calm demeanor under fire suggests both great experience and cunning intelligence.",
+						"3648979387": "Dallas"
+					},
+					"french": {
+						"3346035357": "Dossiers du FBI: Si celui-ci n'est pas vraiment le chef, il est certainement le lieutenant de confiance. Dallas est l'un des quatre premiers à avoir émergé en 2011. Il semble être le cerveau du gang, et son comportement calme sous le feu de l'ennemi suggère à la fois une grande expérience et une intelligence rusée.",
+						"3648979387": "Dallas"
+					},
+					"italian": {
+						"3346035357": "File dell'FBI: Se non è il capo, è sicuramente il luogotenente fidato. Dallas è uno dei quattro originari emersi nel 2011. Sembra essere la mente della banda e il suo contegno calmo sotto il fuoco suggerisce sia una grande esperienza che un'astuta intelligenza.",
+						"3648979387": "Dallas"
+					},
+					"german": {
+						"3346035357": "FBI-Akten: Wenn er nicht gerade der Anführer ist, ist er auf jeden Fall der vertrauenswürdige Leutnant. Dallas ist einer der vier, die 2011 aufgetaucht sind. Er scheint das Superhirn der Bande zu sein, und sein ruhiges Verhalten unter Beschuss lässt sowohl auf große Erfahrung als auch auf gerissene Intelligenz schließen.",
+						"3648979387": "Dallas"
+					},
+					"spanish": {
+						"3346035357": "Archivos del FBI: Si este no es realmente el líder, definitivamente es el lugarteniente de confianza. Dallas es uno de los cuatro originales que surgieron en 2011. Parece ser el cerebro de la banda, y su comportamiento tranquilo bajo el fuego sugiere tanto una gran experiencia como una astuta inteligencia.",
+						"3648979387": "Dallas"
+					},
+					"russian": {
+						"3346035357": "Досье ФБР: Если этот человек и не лидер, то уж точно доверенный лейтенант. Даллас - один из первоначальной четверки, появившейся в 2011 году. Он, похоже, главный в банде, а его спокойное поведение под огнем говорит как о большом опыте, так и о хитром уме.",
+						"3648979387": "Даллас"
+					}
+				}
+			}
+		},
+		{
+			"group": "Dallas",
+			"name": "Florida Fit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"1_content/dallas",
+				"2_patches/replace/dallas/miami"
+			],
+			"blobsFolders": [
+				"blobs/dallas/miami"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"1774659088": "Dallas",
+						"3175901226": "FBI Files: If this one isn't actually the leader, he's definitely the trusted lieutenant. Dallas is one of the original four that emerged in 2011. He appears to be the Mastermind of the gang, and his calm demeanor under fire suggests both great experience and cunning intelligence."
+					},
+					"french": {
+						"1774659088": "Dallas",
+						"3175901226": "Dossiers du FBI: Si celui-ci n'est pas vraiment le chef, il est certainement le lieutenant de confiance. Dallas est l'un des quatre premiers à avoir émergé en 2011. Il semble être le cerveau du gang, et son comportement calme sous le feu de l'ennemi suggère à la fois une grande expérience et une intelligence rusée."
+					},
+					"italian": {
+						"1774659088": "Dallas",
+						"3175901226": "File dell'FBI: Se non è il capo, è sicuramente il luogotenente fidato. Dallas è uno dei quattro originari emersi nel 2011. Sembra essere la mente della banda e il suo contegno calmo sotto il fuoco suggerisce sia una grande esperienza che un'astuta intelligenza."
+					},
+					"german": {
+						"1774659088": "Dallas",
+						"3175901226": "FBI-Akten: Wenn er nicht gerade der Anführer ist, ist er auf jeden Fall der vertrauenswürdige Leutnant. Dallas ist einer der vier, die 2011 aufgetaucht sind. Er scheint das Superhirn der Bande zu sein, und sein ruhiges Verhalten unter Beschuss lässt sowohl auf große Erfahrung als auch auf gerissene Intelligenz schließen."
+					},
+					"spanish": {
+						"1774659088": "Dallas",
+						"3175901226": "Archivos del FBI: Si este no es realmente el líder, definitivamente es el lugarteniente de confianza. Dallas es uno de los cuatro originales que surgieron en 2011. Parece ser el cerebro de la banda, y su comportamiento tranquilo bajo el fuego sugiere tanto una gran experiencia como una astuta inteligencia."
+					},
+					"russian": {
+						"1774659088": "Даллас",
+						"3175901226": "Досье ФБР: Если этот человек и не лидер, то уж точно доверенный лейтенант. Даллас - один из первоначальной четверки, появившейся в 2011 году. Он, похоже, главный в банде, а его спокойное поведение под огнем говорит как о большом опыте, так и о хитром уме."
+					}
+				}
+			}
+		},
+		{
+			"group": "Dallas",
+			"name": "Casual Tourist with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"1_content/dallas",
+				"2_patches/replace/dallas/sanfortuna"
+			],
+			"blobsFolders": [
+				"blobs/dallas/sanfortuna"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2978719530": "Dallas",
+						"3533044117": "FBI Files: If this one isn't actually the leader, he's definitely the trusted lieutenant. Dallas is one of the original four that emerged in 2011. He appears to be the Mastermind of the gang, and his calm demeanor under fire suggests both great experience and cunning intelligence."
+					},
+					"french": {
+						"2978719530": "Dallas",
+						"3533044117": "Dossiers du FBI: Si celui-ci n'est pas vraiment le chef, il est certainement le lieutenant de confiance. Dallas est l'un des quatre premiers à avoir émergé en 2011. Il semble être le cerveau du gang, et son comportement calme sous le feu de l'ennemi suggère à la fois une grande expérience et une intelligence rusée."
+					},
+					"italian": {
+						"2978719530": "Dallas",
+						"3533044117": "File dell'FBI: Se non è il capo, è sicuramente il luogotenente fidato. Dallas è uno dei quattro originari emersi nel 2011. Sembra essere la mente della banda e il suo contegno calmo sotto il fuoco suggerisce sia una grande esperienza che un'astuta intelligenza."
+					},
+					"german": {
+						"2978719530": "Dallas",
+						"3533044117": "FBI-Akten: Wenn er nicht gerade der Anführer ist, ist er auf jeden Fall der vertrauenswürdige Leutnant. Dallas ist einer der vier, die 2011 aufgetaucht sind. Er scheint das Superhirn der Bande zu sein, und sein ruhiges Verhalten unter Beschuss lässt sowohl auf große Erfahrung als auch auf gerissene Intelligenz schließen."
+					},
+					"spanish": {
+						"2978719530": "Dallas",
+						"3533044117": "Archivos del FBI: Si este no es realmente el líder, definitivamente es el lugarteniente de confianza. Dallas es uno de los cuatro originales que surgieron en 2011. Parece ser el cerebro de la banda, y su comportamiento tranquilo bajo el fuego sugiere tanto una gran experiencia como una astuta inteligencia."
+					},
+					"russian": {
+						"2978719530": "Даллас",
+						"3533044117": "Досье ФБР: Если этот человек и не лидер, то уж точно доверенный лейтенант. Даллас - один из первоначальной четверки, появившейся в 2011 году. Он, похоже, главный в банде, а его спокойное поведение под огнем говорит как о большом опыте, так и о хитром уме."
+					}
+				}
+			}
+		},
+		{
+			"group": "Dallas",
+			"name": "Summer Suave Suit",
+			"type": "select",
+			"contentFolders": [
+				"1_content/dallas",
+				"2_patches/replace/dallas/summersuave"
+			],
+			"blobsFolders": [
+				"blobs/dallas/summersuave"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"134957393": "Dallas",
+						"2101382595": "FBI Files: If this one isn't actually the leader, he's definitely the trusted lieutenant. Dallas is one of the original four that emerged in 2011. He appears to be the Mastermind of the gang, and his calm demeanor under fire suggests both great experience and cunning intelligence."
+					},
+					"french": {
+						"134957393": "Dallas",
+						"2101382595": "Dossiers du FBI: Si celui-ci n'est pas vraiment le chef, il est certainement le lieutenant de confiance. Dallas est l'un des quatre premiers à avoir émergé en 2011. Il semble être le cerveau du gang, et son comportement calme sous le feu de l'ennemi suggère à la fois une grande expérience et une intelligence rusée."
+					},
+					"italian": {
+						"134957393": "Dallas",
+						"2101382595": "File dell'FBI: Se non è il capo, è sicuramente il luogotenente fidato. Dallas è uno dei quattro originari emersi nel 2011. Sembra essere la mente della banda e il suo contegno calmo sotto il fuoco suggerisce sia una grande esperienza che un'astuta intelligenza."
+					},
+					"german": {
+						"134957393": "Dallas",
+						"2101382595": "FBI-Akten: Wenn er nicht gerade der Anführer ist, ist er auf jeden Fall der vertrauenswürdige Leutnant. Dallas ist einer der vier, die 2011 aufgetaucht sind. Er scheint das Superhirn der Bande zu sein, und sein ruhiges Verhalten unter Beschuss lässt sowohl auf große Erfahrung als auch auf gerissene Intelligenz schließen."
+					},
+					"spanish": {
+						"134957393": "Dallas",
+						"2101382595": "Archivos del FBI: Si este no es realmente el líder, definitivamente es el lugarteniente de confianza. Dallas es uno de los cuatro originales que surgieron en 2011. Parece ser el cerebro de la banda, y su comportamiento tranquilo bajo el fuego sugiere tanto una gran experiencia como una astuta inteligencia."
+					},
+					"russian": {
+						"134957393": "Даллас",
+						"2101382595": "Досье ФБР: Если этот человек и не лидер, то уж точно доверенный лейтенант. Даллас - один из первоначальной четверки, появившейся в 2011 году. Он, похоже, главный в банде, а его спокойное поведение под огнем говорит как о большом опыте, так и о хитром уме."
+					}
+				}
+			}
+		},
+		{
+			"group": "Dallas",
+			"name": "Summer Sightseeing Suit",
+			"type": "select",
+			"contentFolders": [
+				"1_content/dallas",
+				"2_patches/replace/dallas/summersightseeing"
+			],
+			"blobsFolders": [
+				"blobs/dallas/summersightseeing"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2627471231": "FBI Files: If this one isn't actually the leader, he's definitely the trusted lieutenant. Dallas is one of the original four that emerged in 2011. He appears to be the Mastermind of the gang, and his calm demeanor under fire suggests both great experience and cunning intelligence.",
+						"2814457931": "Dallas"
+					},
+					"french": {
+						"2627471231": "Dossiers du FBI: Si celui-ci n'est pas vraiment le chef, il est certainement le lieutenant de confiance. Dallas est l'un des quatre premiers à avoir émergé en 2011. Il semble être le cerveau du gang, et son comportement calme sous le feu de l'ennemi suggère à la fois une grande expérience et une intelligence rusée.",
+						"2814457931": "Dallas"
+					},
+					"italian": {
+						"2627471231": "File dell'FBI: Se non è il capo, è sicuramente il luogotenente fidato. Dallas è uno dei quattro originari emersi nel 2011. Sembra essere la mente della banda e il suo contegno calmo sotto il fuoco suggerisce sia una grande esperienza che un'astuta intelligenza.",
+						"2814457931": "Dallas"
+					},
+					"german": {
+						"2627471231": "FBI-Akten: Wenn er nicht gerade der Anführer ist, ist er auf jeden Fall der vertrauenswürdige Leutnant. Dallas ist einer der vier, die 2011 aufgetaucht sind. Er scheint das Superhirn der Bande zu sein, und sein ruhiges Verhalten unter Beschuss lässt sowohl auf große Erfahrung als auch auf gerissene Intelligenz schließen.",
+						"2814457931": "Dallas"
+					},
+					"spanish": {
+						"2627471231": "Archivos del FBI: Si este no es realmente el líder, definitivamente es el lugarteniente de confianza. Dallas es uno de los cuatro originales que surgieron en 2011. Parece ser el cerebro de la banda, y su comportamiento tranquilo bajo el fuego sugiere tanto una gran experiencia como una astuta inteligencia.",
+						"2814457931": "Dallas"
+					},
+					"russian": {
+						"2627471231": "Досье ФБР: Если этот человек и не лидер, то уж точно доверенный лейтенант. Даллас - один из первоначальной четверки, появившейся в 2011 году. Он, похоже, главный в банде, а его спокойное поведение под огнем говорит как о большом опыте, так и о хитром уме.",
+						"2814457931": "Даллас"
+					}
+				}
+			}
+		},
+		{
+			"group": "Dallas",
+			"name": "Casual Undercover",
+			"type": "select",
+			"contentFolders": [
+				"1_content/dallas",
+				"2_patches/replace/dallas/casualundercover"
+			],
+			"blobsFolders": [
+				"blobs/dallas/casualundercover"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2052724919": "Dallas",
+						"3635577953": "FBI Files: If this one isn't actually the leader, he's definitely the trusted lieutenant. Dallas is one of the original four that emerged in 2011. He appears to be the Mastermind of the gang, and his calm demeanor under fire suggests both great experience and cunning intelligence."
+					},
+					"french": {
+						"2052724919": "Dallas",
+						"3635577953": "Dossiers du FBI: Si celui-ci n'est pas vraiment le chef, il est certainement le lieutenant de confiance. Dallas est l'un des quatre premiers à avoir émergé en 2011. Il semble être le cerveau du gang, et son comportement calme sous le feu de l'ennemi suggère à la fois une grande expérience et une intelligence rusée."
+					},
+					"italian": {
+						"2052724919": "Dallas",
+						"3635577953": "File dell'FBI: Se non è il capo, è sicuramente il luogotenente fidato. Dallas è uno dei quattro originari emersi nel 2011. Sembra essere la mente della banda e il suo contegno calmo sotto il fuoco suggerisce sia una grande esperienza che un'astuta intelligenza."
+					},
+					"german": {
+						"2052724919": "Dallas",
+						"3635577953": "FBI-Akten: Wenn er nicht gerade der Anführer ist, ist er auf jeden Fall der vertrauenswürdige Leutnant. Dallas ist einer der vier, die 2011 aufgetaucht sind. Er scheint das Superhirn der Bande zu sein, und sein ruhiges Verhalten unter Beschuss lässt sowohl auf große Erfahrung als auch auf gerissene Intelligenz schließen."
+					},
+					"spanish": {
+						"2052724919": "Dallas",
+						"3635577953": "Archivos del FBI: Si este no es realmente el líder, definitivamente es el lugarteniente de confianza. Dallas es uno de los cuatro originales que surgieron en 2011. Parece ser el cerebro de la banda, y su comportamiento tranquilo bajo el fuego sugiere tanto una gran experiencia como una astuta inteligencia."
+					},
+					"russian": {
+						"2052724919": "Даллас",
+						"3635577953": "Досье ФБР: Если этот человек и не лидер, то уж точно доверенный лейтенант. Даллас - один из первоначальной четверки, появившейся в 2011 году. Он, похоже, главный в банде, а его спокойное поведение под огнем говорит как о большом опыте, так и о хитром уме."
+					}
+				}
+			}
+		},
+		{
+			"group": "Dallas",
+			"name": "Midnight Black Suit",
+			"type": "select",
+			"contentFolders": [
+				"1_content/dallas",
+				"2_patches/replace/dallas/midnightblack"
+			],
+			"blobsFolders": [
+				"blobs/dallas/midnightblack"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"972885031": "FBI Files: If this one isn't actually the leader, he's definitely the trusted lieutenant. Dallas is one of the original four that emerged in 2011. He appears to be the Mastermind of the gang, and his calm demeanor under fire suggests both great experience and cunning intelligence.",
+						"2762453674": "Dallas"
+					},
+					"french": {
+						"972885031": "Dossiers du FBI: Si celui-ci n'est pas vraiment le chef, il est certainement le lieutenant de confiance. Dallas est l'un des quatre premiers à avoir émergé en 2011. Il semble être le cerveau du gang, et son comportement calme sous le feu de l'ennemi suggère à la fois une grande expérience et une intelligence rusée.",
+						"2762453674": "Dallas"
+					},
+					"italian": {
+						"972885031": "File dell'FBI: Se non è il capo, è sicuramente il luogotenente fidato. Dallas è uno dei quattro originari emersi nel 2011. Sembra essere la mente della banda e il suo contegno calmo sotto il fuoco suggerisce sia una grande esperienza che un'astuta intelligenza.",
+						"2762453674": "Dallas"
+					},
+					"german": {
+						"972885031": "FBI-Akten: Wenn er nicht gerade der Anführer ist, ist er auf jeden Fall der vertrauenswürdige Leutnant. Dallas ist einer der vier, die 2011 aufgetaucht sind. Er scheint das Superhirn der Bande zu sein, und sein ruhiges Verhalten unter Beschuss lässt sowohl auf große Erfahrung als auch auf gerissene Intelligenz schließen.",
+						"2762453674": "Dallas"
+					},
+					"spanish": {
+						"972885031": "Archivos del FBI: Si este no es realmente el líder, definitivamente es el lugarteniente de confianza. Dallas es uno de los cuatro originales que surgieron en 2011. Parece ser el cerebro de la banda, y su comportamiento tranquilo bajo el fuego sugiere tanto una gran experiencia como una astuta inteligencia.",
+						"2762453674": "Dallas"
+					},
+					"russian": {
+						"972885031": "Досье ФБР: Если этот человек и не лидер, то уж точно доверенный лейтенант. Даллас - один из первоначальной четверки, появившейся в 2011 году. Он, похоже, главный в банде, а его спокойное поведение под огнем говорит как о большом опыте, так и о хитром уме.",
+						"2762453674": "Даллас"
+					}
+				}
+			}
+		},
+		{
+			"group": "Dallas",
+			"name": "Summer Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"1_content/dallas",
+				"2_patches/replace/dallas/marrakesh"
+			],
+			"blobsFolders": [
+				"blobs/dallas/marrakesh"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"1490534793": "Dallas",
+						"4241939803": "FBI Files: If this one isn't actually the leader, he's definitely the trusted lieutenant. Dallas is one of the original four that emerged in 2011. He appears to be the Mastermind of the gang, and his calm demeanor under fire suggests both great experience and cunning intelligence."
+					},
+					"french": {
+						"1490534793": "Dallas",
+						"4241939803": "Dossiers du FBI: Si celui-ci n'est pas vraiment le chef, il est certainement le lieutenant de confiance. Dallas est l'un des quatre premiers à avoir émergé en 2011. Il semble être le cerveau du gang, et son comportement calme sous le feu de l'ennemi suggère à la fois une grande expérience et une intelligence rusée."
+					},
+					"italian": {
+						"1490534793": "Dallas",
+						"4241939803": "File dell'FBI: Se non è il capo, è sicuramente il luogotenente fidato. Dallas è uno dei quattro originari emersi nel 2011. Sembra essere la mente della banda e il suo contegno calmo sotto il fuoco suggerisce sia una grande esperienza che un'astuta intelligenza."
+					},
+					"german": {
+						"1490534793": "Dallas",
+						"4241939803": "FBI-Akten: Wenn er nicht gerade der Anführer ist, ist er auf jeden Fall der vertrauenswürdige Leutnant. Dallas ist einer der vier, die 2011 aufgetaucht sind. Er scheint das Superhirn der Bande zu sein, und sein ruhiges Verhalten unter Beschuss lässt sowohl auf große Erfahrung als auch auf gerissene Intelligenz schließen."
+					},
+					"spanish": {
+						"1490534793": "Dallas",
+						"4241939803": "Archivos del FBI: Si este no es realmente el líder, definitivamente es el lugarteniente de confianza. Dallas es uno de los cuatro originales que surgieron en 2011. Parece ser el cerebro de la banda, y su comportamiento tranquilo bajo el fuego sugiere tanto una gran experiencia como una astuta inteligencia."
+					},
+					"russian": {
+						"1490534793": "Даллас",
+						"4241939803": "Досье ФБР: Если этот человек и не лидер, то уж точно доверенный лейтенант. Даллас - один из первоначальной четверки, появившейся в 2011 году. Он, похоже, главный в банде, а его спокойное поведение под огнем говорит как о большом опыте, так и о хитром уме."
+					}
+				}
+			}
+		},
+		{
+			"group": "Dallas",
+			"name": "Tropical Suit",
+			"type": "select",
+			"contentFolders": [
+				"1_content/dallas",
+				"2_patches/replace/dallas/tropicalsuit"
+			],
+			"blobsFolders": [
+				"blobs/dallas/tropicalsuit"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2053833950": "FBI Files: If this one isn't actually the leader, he's definitely the trusted lieutenant. Dallas is one of the original four that emerged in 2011. He appears to be the Mastermind of the gang, and his calm demeanor under fire suggests both great experience and cunning intelligence.",
+						"2347383834": "Dallas"
+					},
+					"french": {
+						"2053833950": "Dossiers du FBI: Si celui-ci n'est pas vraiment le chef, il est certainement le lieutenant de confiance. Dallas est l'un des quatre premiers à avoir émergé en 2011. Il semble être le cerveau du gang, et son comportement calme sous le feu de l'ennemi suggère à la fois une grande expérience et une intelligence rusée.",
+						"2347383834": "Dallas"
+					},
+					"italian": {
+						"2053833950": "File dell'FBI: Se non è il capo, è sicuramente il luogotenente fidato. Dallas è uno dei quattro originari emersi nel 2011. Sembra essere la mente della banda e il suo contegno calmo sotto il fuoco suggerisce sia una grande esperienza che un'astuta intelligenza.",
+						"2347383834": "Dallas"
+					},
+					"german": {
+						"2053833950": "FBI-Akten: Wenn er nicht gerade der Anführer ist, ist er auf jeden Fall der vertrauenswürdige Leutnant. Dallas ist einer der vier, die 2011 aufgetaucht sind. Er scheint das Superhirn der Bande zu sein, und sein ruhiges Verhalten unter Beschuss lässt sowohl auf große Erfahrung als auch auf gerissene Intelligenz schließen.",
+						"2347383834": "Dallas"
+					},
+					"spanish": {
+						"2053833950": "Archivos del FBI: Si este no es realmente el líder, definitivamente es el lugarteniente de confianza. Dallas es uno de los cuatro originales que surgieron en 2011. Parece ser el cerebro de la banda, y su comportamiento tranquilo bajo el fuego sugiere tanto una gran experiencia como una astuta inteligencia.",
+						"2347383834": "Dallas"
+					},
+					"russian": {
+						"2053833950": "Досье ФБР: Если этот человек и не лидер, то уж точно доверенный лейтенант. Даллас - один из первоначальной четверки, появившейся в 2011 году. Он, похоже, главный в банде, а его спокойное поведение под огнем говорит как о большом опыте, так и о хитром уме.",
+						"2347383834": "Даллас"
+					}
+				}
+			}
+		},
+		{
+			"group": "Dallas",
+			"name": "Smart Casual Suit",
+			"type": "select",
+			"contentFolders": [
+				"1_content/dallas",
+				"2_patches/replace/dallas/smartcasual"
+			],
+			"blobsFolders": [
+				"blobs/dallas/smartcasual"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"252086724": "Dallas",
+						"678625422": "FBI Files: If this one isn't actually the leader, he's definitely the trusted lieutenant. Dallas is one of the original four that emerged in 2011. He appears to be the Mastermind of the gang, and his calm demeanor under fire suggests both great experience and cunning intelligence."
+					},
+					"french": {
+						"252086724": "Dallas",
+						"678625422": "Dossiers du FBI: Si celui-ci n'est pas vraiment le chef, il est certainement le lieutenant de confiance. Dallas est l'un des quatre premiers à avoir émergé en 2011. Il semble être le cerveau du gang, et son comportement calme sous le feu de l'ennemi suggère à la fois une grande expérience et une intelligence rusée."
+					},
+					"italian": {
+						"252086724": "Dallas",
+						"678625422": "File dell'FBI: Se non è il capo, è sicuramente il luogotenente fidato. Dallas è uno dei quattro originari emersi nel 2011. Sembra essere la mente della banda e il suo contegno calmo sotto il fuoco suggerisce sia una grande esperienza che un'astuta intelligenza."
+					},
+					"german": {
+						"252086724": "Dallas",
+						"678625422": "FBI-Akten: Wenn er nicht gerade der Anführer ist, ist er auf jeden Fall der vertrauenswürdige Leutnant. Dallas ist einer der vier, die 2011 aufgetaucht sind. Er scheint das Superhirn der Bande zu sein, und sein ruhiges Verhalten unter Beschuss lässt sowohl auf große Erfahrung als auch auf gerissene Intelligenz schließen."
+					},
+					"spanish": {
+						"252086724": "Dallas",
+						"678625422": "Archivos del FBI: Si este no es realmente el líder, definitivamente es el lugarteniente de confianza. Dallas es uno de los cuatro originales que surgieron en 2011. Parece ser el cerebro de la banda, y su comportamiento tranquilo bajo el fuego sugiere tanto una gran experiencia como una astuta inteligencia."
+					},
+					"russian": {
+						"252086724": "Даллас",
+						"678625422": "Досье ФБР: Если этот человек и не лидер, то уж точно доверенный лейтенант. Даллас - один из первоначальной четверки, появившейся в 2011 году. Он, похоже, главный в банде, а его спокойное поведение под огнем говорит как о большом опыте, так и о хитром уме."
+					}
+				}
+			}
+		},
+		{
+			"group": "Dallas",
+			"name": "The Raver",
+			"type": "select",
+			"contentFolders": [
+				"1_content/dallas",
+				"2_patches/replace/dallas/raver"
+			],
+			"blobsFolders": [
+				"blobs/dallas/raver"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"3362995256": "Dallas",
+						"4079878924": "FBI Files: If this one isn't actually the leader, he's definitely the trusted lieutenant. Dallas is one of the original four that emerged in 2011. He appears to be the Mastermind of the gang, and his calm demeanor under fire suggests both great experience and cunning intelligence."
+					},
+					"french": {
+						"3362995256": "Dallas",
+						"4079878924": "Dossiers du FBI: Si celui-ci n'est pas vraiment le chef, il est certainement le lieutenant de confiance. Dallas est l'un des quatre premiers à avoir émergé en 2011. Il semble être le cerveau du gang, et son comportement calme sous le feu de l'ennemi suggère à la fois une grande expérience et une intelligence rusée."
+					},
+					"italian": {
+						"3362995256": "Dallas",
+						"4079878924": "File dell'FBI: Se non è il capo, è sicuramente il luogotenente fidato. Dallas è uno dei quattro originari emersi nel 2011. Sembra essere la mente della banda e il suo contegno calmo sotto il fuoco suggerisce sia una grande esperienza che un'astuta intelligenza."
+					},
+					"german": {
+						"3362995256": "Dallas",
+						"4079878924": "FBI-Akten: Wenn er nicht gerade der Anführer ist, ist er auf jeden Fall der vertrauenswürdige Leutnant. Dallas ist einer der vier, die 2011 aufgetaucht sind. Er scheint das Superhirn der Bande zu sein, und sein ruhiges Verhalten unter Beschuss lässt sowohl auf große Erfahrung als auch auf gerissene Intelligenz schließen."
+					},
+					"spanish": {
+						"3362995256": "Dallas",
+						"4079878924": "Archivos del FBI: Si este no es realmente el líder, definitivamente es el lugarteniente de confianza. Dallas es uno de los cuatro originales que surgieron en 2011. Parece ser el cerebro de la banda, y su comportamiento tranquilo bajo el fuego sugiere tanto una gran experiencia como una astuta inteligencia."
+					},
+					"russian": {
+						"3362995256": "Даллас",
+						"4079878924": "Досье ФБР: Если этот человек и не лидер, то уж точно доверенный лейтенант. Даллас - один из первоначальной четверки, появившейся в 2011 году. Он, похоже, главный в банде, а его спокойное поведение под огнем говорит как о большом опыте, так и о хитром уме."
+					}
+				}
+			}
+		},
+		{
+			"group": "Dallas",
+			"name": "Lucky Ducky",
+			"type": "select",
+			"contentFolders": [
+				"1_content/dallas",
+				"2_patches/replace/dallas/luckyducky"
+			],
+			"blobsFolders": [
+				"blobs/dallas/luckyducky"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2760943898": "Dallas",
+						"2681050670": "FBI Files: If this one isn't actually the leader, he's definitely the trusted lieutenant. Dallas is one of the original four that emerged in 2011. He appears to be the Mastermind of the gang, and his calm demeanor under fire suggests both great experience and cunning intelligence."
+					},
+					"french": {
+						"2760943898": "Dallas",
+						"2681050670": "Dossiers du FBI: Si celui-ci n'est pas vraiment le chef, il est certainement le lieutenant de confiance. Dallas est l'un des quatre premiers à avoir émergé en 2011. Il semble être le cerveau du gang, et son comportement calme sous le feu de l'ennemi suggère à la fois une grande expérience et une intelligence rusée."
+					},
+					"italian": {
+						"2760943898": "Dallas",
+						"2681050670": "File dell'FBI: Se non è il capo, è sicuramente il luogotenente fidato. Dallas è uno dei quattro originari emersi nel 2011. Sembra essere la mente della banda e il suo contegno calmo sotto il fuoco suggerisce sia una grande esperienza che un'astuta intelligenza."
+					},
+					"german": {
+						"2760943898": "Dallas",
+						"2681050670": "FBI-Akten: Wenn er nicht gerade der Anführer ist, ist er auf jeden Fall der vertrauenswürdige Leutnant. Dallas ist einer der vier, die 2011 aufgetaucht sind. Er scheint das Superhirn der Bande zu sein, und sein ruhiges Verhalten unter Beschuss lässt sowohl auf große Erfahrung als auch auf gerissene Intelligenz schließen."
+					},
+					"spanish": {
+						"2760943898": "Dallas",
+						"2681050670": "Archivos del FBI: Si este no es realmente el líder, definitivamente es el lugarteniente de confianza. Dallas es uno de los cuatro originales que surgieron en 2011. Parece ser el cerebro de la banda, y su comportamiento tranquilo bajo el fuego sugiere tanto una gran experiencia como una astuta inteligencia."
+					},
+					"russian": {
+						"2760943898": "Даллас",
+						"2681050670": "Досье ФБР: Если этот человек и не лидер, то уж точно доверенный лейтенант. Даллас - один из первоначальной четверки, появившейся в 2011 году. Он, похоже, главный в банде, а его спокойное поведение под огнем говорит как о большом опыте, так и о хитром уме."
+					}
+				}
+			}
+		},
+		{
+			"group": "Houston",
+			"name": "Do not install",
+			"type": "select",
+			"enabledByDefault": true,
+			"tooltip": "Do not install Houston.",
+			"image": "houston.jpg"
+		},
+		{
+			"group": "Houston",
+			"name": "Peacock Addon",
+			"type": "select",
+			"tooltip": "Install Houston to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+			"contentFolders": [
+				"1_content/houston",
+				"2_patches/replace/houston/addon"
+			],
+			"blobsFolders": [
+				"blobs/houston/addon"
+			],
+			"localisedLines": {
+				"00833CDBA06B51C2": "UI_TOKEN_OUTFIT_HERO_PAYDAY_HOUSTON_DESC",
+				"00449C23DBD0C2AA": "UI_TOKEN_OUTFIT_HERO_PAYDAY_HOUSTON_NAME"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_HOUSTON_DESC": "FBI Files: We believe that this gang member was using the alias of \"Hoxton\" until the break-out of James Hoxworth. Since then, according to security footage, he has adopted the alias \"Houston\". He was present at the break-out of \"Hoxton\" and that, and subsequently acquired security footage, seems to hint at a level of animosity between the two men.",
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_HOUSTON_NAME": "Houston"
+				},
+				"french": {
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_HOUSTON_DESC": "Dossiers du FBI: Nous pensons que ce membre de gang utilisait le pseudonyme \"Hoxton\" jusqu'à l'évasion de James Hoxworth. Depuis, d'après les images de sécurité, il a pris le pseudonyme de \"Houston\". Il était présent lors de l'évasion de \"Hoxton\" et cela, ainsi que les images de sécurité obtenues par la suite, semblent indiquer un certain degré d'animosité entre les deux hommes.",
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_HOUSTON_NAME": "Houston"
+				},
+				"german": {
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_HOUSTON_DESC": "FBI-Akten: Wir glauben, dass dieses Bandenmitglied bis zum Ausbruch von James Hoxworth den Decknamen \"Hoxton\" verwendet hat. Seitdem hat er laut Sicherheitsvideos den Decknamen \"Houston\" angenommen. Er war beim Ausbruch von \"Hoxton\" anwesend, und diese Tatsache sowie die später erworbenen Sicherheitsaufnahmen scheinen auf eine gewisse Feindseligkeit zwischen den beiden Männern hinzudeuten.",
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_HOUSTON_NAME": "Houston"
+				},
+				"spanish": {
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_HOUSTON_DESC": "Archivos del FBI: Creemos que este miembro de la banda usaba el alias de \"Hoxton\" hasta la fuga de James Hoxworth. Desde entonces, según las grabaciones de seguridad, ha adoptado el alias de \"Houston\". Estuvo presente en la fuga de \"Hoxton\" y eso, y las imágenes de seguridad adquiridas posteriormente, parecen indicar un nivel de animosidad entre los dos hombres.",
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_HOUSTON_NAME": "Houston"
+				},
+				"italian": {
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_HOUSTON_DESC": "File dell'FBI: Riteniamo che questo membro della banda usasse l'alias \"Hoxton\" fino all'evasione di James Hoxworth. Da allora, secondo i filmati di sicurezza, ha adottato l'alias \"Houston\". Era presente all'evasione di \"Hoxton\" e questo, insieme ai filmati di sicurezza acquisiti successivamente, sembra suggerire un livello di astio tra i due uomini.",
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_HOUSTON_NAME": "Houston"
+				},
+				"russian": {
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_HOUSTON_DESC": "Документы ФБР: Мы полагаем, что этот член банды использовал псевдоним \"Хокстон\" до побега Джеймса Хоксворта. С тех пор, согласно записям камер наблюдения, он взял псевдоним \"Хьюстон\". Он присутствовал при побеге Хокстона, и это, а также полученные впоследствии записи с камер наблюдения, намекают на враждебность между этими двумя людьми.",
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_HOUSTON_NAME": "Хьюстон"
+				}
+			}
+		},
+		{
+			"group": "Houston",
+			"name": "Casual Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"1_content/houston",
+				"2_patches/replace/houston/bangkok"
+			],
+			"blobsFolders": [
+				"blobs/houston/bangkok"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"2741280242": "FBI Files: We believe that this gang member was using the alias of \"Hoxton\" until the break-out of James Hoxworth. Since then, according to security footage, he has adopted the alias \"Houston\". He was present at the break-out of \"Hoxton\" and that, and subsequently acquired security footage, seems to hint at a level of animosity between the two men.",
+						"4086875141": "Houston"
+					},
+					"french": {
+						"2741280242": "Dossiers du FBI: Nous pensons que ce membre de gang utilisait le pseudonyme \"Hoxton\" jusqu'à l'évasion de James Hoxworth. Depuis, d'après les images de sécurité, il a pris le pseudonyme de \"Houston\". Il était présent lors de l'évasion de \"Hoxton\" et cela, ainsi que les images de sécurité obtenues par la suite, semblent indiquer un certain degré d'animosité entre les deux hommes.",
+						"4086875141": "Houston"
+					},
+					"italian": {
+						"2741280242": "File dell'FBI: Riteniamo che questo membro della banda usasse l'alias \"Hoxton\" fino all'evasione di James Hoxworth. Da allora, secondo i filmati di sicurezza, ha adottato l'alias \"Houston\". Era presente all'evasione di \"Hoxton\" e questo, insieme ai filmati di sicurezza acquisiti successivamente, sembra suggerire un livello di astio tra i due uomini.",
+						"4086875141": "Houston"
+					},
+					"german": {
+						"2741280242": "FBI-Akten: Wir glauben, dass dieses Bandenmitglied bis zum Ausbruch von James Hoxworth den Decknamen \"Hoxton\" verwendet hat. Seitdem hat er laut Sicherheitsvideos den Decknamen \"Houston\" angenommen. Er war beim Ausbruch von \"Hoxton\" anwesend, und diese Tatsache sowie die später erworbenen Sicherheitsaufnahmen scheinen auf eine gewisse Feindseligkeit zwischen den beiden Männern hinzudeuten.",
+						"4086875141": "Houston"
+					},
+					"spanish": {
+						"2741280242": "Archivos del FBI: Creemos que este miembro de la banda usaba el alias de \"Hoxton\" hasta la fuga de James Hoxworth. Desde entonces, según las grabaciones de seguridad, ha adoptado el alias de \"Houston\". Estuvo presente en la fuga de \"Hoxton\" y eso, y las imágenes de seguridad adquiridas posteriormente, parecen indicar un nivel de animosidad entre los dos hombres.",
+						"4086875141": "Houston"
+					},
+					"russian": {
+						"2741280242": "Документы ФБР: Мы полагаем, что этот член банды использовал псевдоним \"Хокстон\" до побега Джеймса Хоксворта. С тех пор, согласно записям камер наблюдения, он взял псевдоним \"Хьюстон\". Он присутствовал при побеге Хокстона, и это, а также полученные впоследствии записи с камер наблюдения, намекают на враждебность между этими двумя людьми.",
+						"4086875141": "Хьюстон"
+					}
+				}
+			}
+		},
+		{
+			"group": "Houston",
+			"name": "Italian Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"1_content/houston",
+				"2_patches/replace/houston/sapienza"
+			],
+			"blobsFolders": [
+				"blobs/houston/sapienza"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"3346035357": "FBI Files: We believe that this gang member was using the alias of \"Hoxton\" until the break-out of James Hoxworth. Since then, according to security footage, he has adopted the alias \"Houston\". He was present at the break-out of \"Hoxton\" and that, and subsequently acquired security footage, seems to hint at a level of animosity between the two men.",
+						"3648979387": "Houston"
+					},
+					"french": {
+						"3346035357": "Dossiers du FBI: Nous pensons que ce membre de gang utilisait le pseudonyme \"Hoxton\" jusqu'à l'évasion de James Hoxworth. Depuis, d'après les images de sécurité, il a pris le pseudonyme de \"Houston\". Il était présent lors de l'évasion de \"Hoxton\" et cela, ainsi que les images de sécurité obtenues par la suite, semblent indiquer un certain degré d'animosité entre les deux hommes.",
+						"3648979387": "Houston"
+					},
+					"italian": {
+						"3346035357": "File dell'FBI: Riteniamo che questo membro della banda usasse l'alias \"Hoxton\" fino all'evasione di James Hoxworth. Da allora, secondo i filmati di sicurezza, ha adottato l'alias \"Houston\". Era presente all'evasione di \"Hoxton\" e questo, insieme ai filmati di sicurezza acquisiti successivamente, sembra suggerire un livello di astio tra i due uomini.",
+						"3648979387": "Houston"
+					},
+					"german": {
+						"3346035357": "FBI-Akten: Wir glauben, dass dieses Bandenmitglied bis zum Ausbruch von James Hoxworth den Decknamen \"Hoxton\" verwendet hat. Seitdem hat er laut Sicherheitsvideos den Decknamen \"Houston\" angenommen. Er war beim Ausbruch von \"Hoxton\" anwesend, und diese Tatsache sowie die später erworbenen Sicherheitsaufnahmen scheinen auf eine gewisse Feindseligkeit zwischen den beiden Männern hinzudeuten.",
+						"3648979387": "Houston"
+					},
+					"spanish": {
+						"3346035357": "Archivos del FBI: Creemos que este miembro de la banda usaba el alias de \"Hoxton\" hasta la fuga de James Hoxworth. Desde entonces, según las grabaciones de seguridad, ha adoptado el alias de \"Houston\". Estuvo presente en la fuga de \"Hoxton\" y eso, y las imágenes de seguridad adquiridas posteriormente, parecen indicar un nivel de animosidad entre los dos hombres.",
+						"3648979387": "Houston"
+					},
+					"russian": {
+						"3346035357": "Документы ФБР: Мы полагаем, что этот член банды использовал псевдоним \"Хокстон\" до побега Джеймса Хоксворта. С тех пор, согласно записям камер наблюдения, он взял псевдоним \"Хьюстон\". Он присутствовал при побеге Хокстона, и это, а также полученные впоследствии записи с камер наблюдения, намекают на враждебность между этими двумя людьми.",
+						"3648979387": "Хьюстон"
+					}
+				}
+			}
+		},
+		{
+			"group": "Houston",
+			"name": "Florida Fit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"1_content/houston",
+				"2_patches/replace/houston/miami"
+			],
+			"blobsFolders": [
+				"blobs/houston/miami"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"1774659088": "Houston",
+						"3175901226": "FBI Files: We believe that this gang member was using the alias of \"Hoxton\" until the break-out of James Hoxworth. Since then, according to security footage, he has adopted the alias \"Houston\". He was present at the break-out of \"Hoxton\" and that, and subsequently acquired security footage, seems to hint at a level of animosity between the two men."
+					},
+					"french": {
+						"1774659088": "Houston",
+						"3175901226": "Dossiers du FBI: Nous pensons que ce membre de gang utilisait le pseudonyme \"Hoxton\" jusqu'à l'évasion de James Hoxworth. Depuis, d'après les images de sécurité, il a pris le pseudonyme de \"Houston\". Il était présent lors de l'évasion de \"Hoxton\" et cela, ainsi que les images de sécurité obtenues par la suite, semblent indiquer un certain degré d'animosité entre les deux hommes."
+					},
+					"italian": {
+						"1774659088": "Houston",
+						"3175901226": "File dell'FBI: Riteniamo che questo membro della banda usasse l'alias \"Hoxton\" fino all'evasione di James Hoxworth. Da allora, secondo i filmati di sicurezza, ha adottato l'alias \"Houston\". Era presente all'evasione di \"Hoxton\" e questo, insieme ai filmati di sicurezza acquisiti successivamente, sembra suggerire un livello di astio tra i due uomini."
+					},
+					"german": {
+						"1774659088": "Houston",
+						"3175901226": "FBI-Akten: Wir glauben, dass dieses Bandenmitglied bis zum Ausbruch von James Hoxworth den Decknamen \"Hoxton\" verwendet hat. Seitdem hat er laut Sicherheitsvideos den Decknamen \"Houston\" angenommen. Er war beim Ausbruch von \"Hoxton\" anwesend, und diese Tatsache sowie die später erworbenen Sicherheitsaufnahmen scheinen auf eine gewisse Feindseligkeit zwischen den beiden Männern hinzudeuten."
+					},
+					"spanish": {
+						"1774659088": "Houston",
+						"3175901226": "Archivos del FBI: Creemos que este miembro de la banda usaba el alias de \"Hoxton\" hasta la fuga de James Hoxworth. Desde entonces, según las grabaciones de seguridad, ha adoptado el alias de \"Houston\". Estuvo presente en la fuga de \"Hoxton\" y eso, y las imágenes de seguridad adquiridas posteriormente, parecen indicar un nivel de animosidad entre los dos hombres."
+					},
+					"russian": {
+						"1774659088": "Хьюстон",
+						"3175901226": "Документы ФБР: Мы полагаем, что этот член банды использовал псевдоним \"Хокстон\" до побега Джеймса Хоксворта. С тех пор, согласно записям камер наблюдения, он взял псевдоним \"Хьюстон\". Он присутствовал при побеге Хокстона, и это, а также полученные впоследствии записи с камер наблюдения, намекают на враждебность между этими двумя людьми."
+					}
+				}
+			}
+		},
+		{
+			"group": "Houston",
+			"name": "Casual Tourist with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"1_content/houston",
+				"2_patches/replace/houston/sanfortuna"
+			],
+			"blobsFolders": [
+				"blobs/houston/sanfortuna"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2978719530": "Houston",
+						"3533044117": "FBI Files: We believe that this gang member was using the alias of \"Hoxton\" until the break-out of James Hoxworth. Since then, according to security footage, he has adopted the alias \"Houston\". He was present at the break-out of \"Hoxton\" and that, and subsequently acquired security footage, seems to hint at a level of animosity between the two men."
+					},
+					"french": {
+						"2978719530": "Houston",
+						"3533044117": "Dossiers du FBI: Nous pensons que ce membre de gang utilisait le pseudonyme \"Hoxton\" jusqu'à l'évasion de James Hoxworth. Depuis, d'après les images de sécurité, il a pris le pseudonyme de \"Houston\". Il était présent lors de l'évasion de \"Hoxton\" et cela, ainsi que les images de sécurité obtenues par la suite, semblent indiquer un certain degré d'animosité entre les deux hommes."
+					},
+					"italian": {
+						"2978719530": "Houston",
+						"3533044117": "File dell'FBI: Riteniamo che questo membro della banda usasse l'alias \"Hoxton\" fino all'evasione di James Hoxworth. Da allora, secondo i filmati di sicurezza, ha adottato l'alias \"Houston\". Era presente all'evasione di \"Hoxton\" e questo, insieme ai filmati di sicurezza acquisiti successivamente, sembra suggerire un livello di astio tra i due uomini."
+					},
+					"german": {
+						"2978719530": "Houston",
+						"3533044117": "FBI-Akten: Wir glauben, dass dieses Bandenmitglied bis zum Ausbruch von James Hoxworth den Decknamen \"Hoxton\" verwendet hat. Seitdem hat er laut Sicherheitsvideos den Decknamen \"Houston\" angenommen. Er war beim Ausbruch von \"Hoxton\" anwesend, und diese Tatsache sowie die später erworbenen Sicherheitsaufnahmen scheinen auf eine gewisse Feindseligkeit zwischen den beiden Männern hinzudeuten."
+					},
+					"spanish": {
+						"2978719530": "Houston",
+						"3533044117": "Archivos del FBI: Creemos que este miembro de la banda usaba el alias de \"Hoxton\" hasta la fuga de James Hoxworth. Desde entonces, según las grabaciones de seguridad, ha adoptado el alias de \"Houston\". Estuvo presente en la fuga de \"Hoxton\" y eso, y las imágenes de seguridad adquiridas posteriormente, parecen indicar un nivel de animosidad entre los dos hombres."
+					},
+					"russian": {
+						"2978719530": "Хьюстон",
+						"3533044117": "Документы ФБР: Мы полагаем, что этот член банды использовал псевдоним \"Хокстон\" до побега Джеймса Хоксворта. С тех пор, согласно записям камер наблюдения, он взял псевдоним \"Хьюстон\". Он присутствовал при побеге Хокстона, и это, а также полученные впоследствии записи с камер наблюдения, намекают на враждебность между этими двумя людьми."
+					}
+				}
+			}
+		},
+		{
+			"group": "Houston",
+			"name": "Summer Suave Suit",
+			"type": "select",
+			"contentFolders": [
+				"1_content/houston",
+				"2_patches/replace/houston/summersuave"
+			],
+			"blobsFolders": [
+				"blobs/houston/summersuave"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"134957393": "Houston",
+						"2101382595": "FBI Files: We believe that this gang member was using the alias of \"Hoxton\" until the break-out of James Hoxworth. Since then, according to security footage, he has adopted the alias \"Houston\". He was present at the break-out of \"Hoxton\" and that, and subsequently acquired security footage, seems to hint at a level of animosity between the two men."
+					},
+					"french": {
+						"134957393": "Houston",
+						"2101382595": "Dossiers du FBI: Nous pensons que ce membre de gang utilisait le pseudonyme \"Hoxton\" jusqu'à l'évasion de James Hoxworth. Depuis, d'après les images de sécurité, il a pris le pseudonyme de \"Houston\". Il était présent lors de l'évasion de \"Hoxton\" et cela, ainsi que les images de sécurité obtenues par la suite, semblent indiquer un certain degré d'animosité entre les deux hommes."
+					},
+					"italian": {
+						"134957393": "Houston",
+						"2101382595": "File dell'FBI: Riteniamo che questo membro della banda usasse l'alias \"Hoxton\" fino all'evasione di James Hoxworth. Da allora, secondo i filmati di sicurezza, ha adottato l'alias \"Houston\". Era presente all'evasione di \"Hoxton\" e questo, insieme ai filmati di sicurezza acquisiti successivamente, sembra suggerire un livello di astio tra i due uomini."
+					},
+					"german": {
+						"134957393": "Houston",
+						"2101382595": "FBI-Akten: Wir glauben, dass dieses Bandenmitglied bis zum Ausbruch von James Hoxworth den Decknamen \"Hoxton\" verwendet hat. Seitdem hat er laut Sicherheitsvideos den Decknamen \"Houston\" angenommen. Er war beim Ausbruch von \"Hoxton\" anwesend, und diese Tatsache sowie die später erworbenen Sicherheitsaufnahmen scheinen auf eine gewisse Feindseligkeit zwischen den beiden Männern hinzudeuten."
+					},
+					"spanish": {
+						"134957393": "Houston",
+						"2101382595": "Archivos del FBI: Creemos que este miembro de la banda usaba el alias de \"Hoxton\" hasta la fuga de James Hoxworth. Desde entonces, según las grabaciones de seguridad, ha adoptado el alias de \"Houston\". Estuvo presente en la fuga de \"Hoxton\" y eso, y las imágenes de seguridad adquiridas posteriormente, parecen indicar un nivel de animosidad entre los dos hombres."
+					},
+					"russian": {
+						"134957393": "Хьюстон",
+						"2101382595": "Документы ФБР: Мы полагаем, что этот член банды использовал псевдоним \"Хокстон\" до побега Джеймса Хоксворта. С тех пор, согласно записям камер наблюдения, он взял псевдоним \"Хьюстон\". Он присутствовал при побеге Хокстона, и это, а также полученные впоследствии записи с камер наблюдения, намекают на враждебность между этими двумя людьми."
+					}
+				}
+			}
+		},
+		{
+			"group": "Houston",
+			"name": "Summer Sightseeing Suit",
+			"type": "select",
+			"contentFolders": [
+				"1_content/houston",
+				"2_patches/replace/houston/summersightseeing"
+			],
+			"blobsFolders": [
+				"blobs/houston/summersightseeing"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2627471231": "FBI Files: We believe that this gang member was using the alias of \"Hoxton\" until the break-out of James Hoxworth. Since then, according to security footage, he has adopted the alias \"Houston\". He was present at the break-out of \"Hoxton\" and that, and subsequently acquired security footage, seems to hint at a level of animosity between the two men.",
+						"2814457931": "Houston"
+					},
+					"french": {
+						"2627471231": "Dossiers du FBI: Nous pensons que ce membre de gang utilisait le pseudonyme \"Hoxton\" jusqu'à l'évasion de James Hoxworth. Depuis, d'après les images de sécurité, il a pris le pseudonyme de \"Houston\". Il était présent lors de l'évasion de \"Hoxton\" et cela, ainsi que les images de sécurité obtenues par la suite, semblent indiquer un certain degré d'animosité entre les deux hommes.",
+						"2814457931": "Houston"
+					},
+					"italian": {
+						"2627471231": "File dell'FBI: Riteniamo che questo membro della banda usasse l'alias \"Hoxton\" fino all'evasione di James Hoxworth. Da allora, secondo i filmati di sicurezza, ha adottato l'alias \"Houston\". Era presente all'evasione di \"Hoxton\" e questo, insieme ai filmati di sicurezza acquisiti successivamente, sembra suggerire un livello di astio tra i due uomini.",
+						"2814457931": "Houston"
+					},
+					"german": {
+						"2627471231": "FBI-Akten: Wir glauben, dass dieses Bandenmitglied bis zum Ausbruch von James Hoxworth den Decknamen \"Hoxton\" verwendet hat. Seitdem hat er laut Sicherheitsvideos den Decknamen \"Houston\" angenommen. Er war beim Ausbruch von \"Hoxton\" anwesend, und diese Tatsache sowie die später erworbenen Sicherheitsaufnahmen scheinen auf eine gewisse Feindseligkeit zwischen den beiden Männern hinzudeuten.",
+						"2814457931": "Houston"
+					},
+					"spanish": {
+						"2627471231": "Archivos del FBI: Creemos que este miembro de la banda usaba el alias de \"Hoxton\" hasta la fuga de James Hoxworth. Desde entonces, según las grabaciones de seguridad, ha adoptado el alias de \"Houston\". Estuvo presente en la fuga de \"Hoxton\" y eso, y las imágenes de seguridad adquiridas posteriormente, parecen indicar un nivel de animosidad entre los dos hombres.",
+						"2814457931": "Houston"
+					},
+					"russian": {
+						"2627471231": "Документы ФБР: Мы полагаем, что этот член банды использовал псевдоним \"Хокстон\" до побега Джеймса Хоксворта. С тех пор, согласно записям камер наблюдения, он взял псевдоним \"Хьюстон\". Он присутствовал при побеге Хокстона, и это, а также полученные впоследствии записи с камер наблюдения, намекают на враждебность между этими двумя людьми.",
+						"2814457931": "Хьюстон"
+					}
+				}
+			}
+		},
+		{
+			"group": "Houston",
+			"name": "Casual Undercover",
+			"type": "select",
+			"contentFolders": [
+				"1_content/houston",
+				"2_patches/replace/houston/casualundercover"
+			],
+			"blobsFolders": [
+				"blobs/houston/casualundercover"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2052724919": "Houston",
+						"3635577953": "FBI Files: We believe that this gang member was using the alias of \"Hoxton\" until the break-out of James Hoxworth. Since then, according to security footage, he has adopted the alias \"Houston\". He was present at the break-out of \"Hoxton\" and that, and subsequently acquired security footage, seems to hint at a level of animosity between the two men."
+					},
+					"french": {
+						"2052724919": "Houston",
+						"3635577953": "Dossiers du FBI: Nous pensons que ce membre de gang utilisait le pseudonyme \"Hoxton\" jusqu'à l'évasion de James Hoxworth. Depuis, d'après les images de sécurité, il a pris le pseudonyme de \"Houston\". Il était présent lors de l'évasion de \"Hoxton\" et cela, ainsi que les images de sécurité obtenues par la suite, semblent indiquer un certain degré d'animosité entre les deux hommes."
+					},
+					"italian": {
+						"2052724919": "Houston",
+						"3635577953": "File dell'FBI: Riteniamo che questo membro della banda usasse l'alias \"Hoxton\" fino all'evasione di James Hoxworth. Da allora, secondo i filmati di sicurezza, ha adottato l'alias \"Houston\". Era presente all'evasione di \"Hoxton\" e questo, insieme ai filmati di sicurezza acquisiti successivamente, sembra suggerire un livello di astio tra i due uomini."
+					},
+					"german": {
+						"2052724919": "Houston",
+						"3635577953": "FBI-Akten: Wir glauben, dass dieses Bandenmitglied bis zum Ausbruch von James Hoxworth den Decknamen \"Hoxton\" verwendet hat. Seitdem hat er laut Sicherheitsvideos den Decknamen \"Houston\" angenommen. Er war beim Ausbruch von \"Hoxton\" anwesend, und diese Tatsache sowie die später erworbenen Sicherheitsaufnahmen scheinen auf eine gewisse Feindseligkeit zwischen den beiden Männern hinzudeuten."
+					},
+					"spanish": {
+						"2052724919": "Houston",
+						"3635577953": "Archivos del FBI: Creemos que este miembro de la banda usaba el alias de \"Hoxton\" hasta la fuga de James Hoxworth. Desde entonces, según las grabaciones de seguridad, ha adoptado el alias de \"Houston\". Estuvo presente en la fuga de \"Hoxton\" y eso, y las imágenes de seguridad adquiridas posteriormente, parecen indicar un nivel de animosidad entre los dos hombres."
+					},
+					"russian": {
+						"2052724919": "Хьюстон",
+						"3635577953": "Документы ФБР: Мы полагаем, что этот член банды использовал псевдоним \"Хокстон\" до побега Джеймса Хоксворта. С тех пор, согласно записям камер наблюдения, он взял псевдоним \"Хьюстон\". Он присутствовал при побеге Хокстона, и это, а также полученные впоследствии записи с камер наблюдения, намекают на враждебность между этими двумя людьми."
+					}
+				}
+			}
+		},
+		{
+			"group": "Houston",
+			"name": "Midnight Black Suit",
+			"type": "select",
+			"contentFolders": [
+				"1_content/houston",
+				"2_patches/replace/houston/midnightblack"
+			],
+			"blobsFolders": [
+				"blobs/houston/midnightblack"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"972885031": "FBI Files: We believe that this gang member was using the alias of \"Hoxton\" until the break-out of James Hoxworth. Since then, according to security footage, he has adopted the alias \"Houston\". He was present at the break-out of \"Hoxton\" and that, and subsequently acquired security footage, seems to hint at a level of animosity between the two men.",
+						"2762453674": "Houston"
+					},
+					"french": {
+						"972885031": "Dossiers du FBI: Nous pensons que ce membre de gang utilisait le pseudonyme \"Hoxton\" jusqu'à l'évasion de James Hoxworth. Depuis, d'après les images de sécurité, il a pris le pseudonyme de \"Houston\". Il était présent lors de l'évasion de \"Hoxton\" et cela, ainsi que les images de sécurité obtenues par la suite, semblent indiquer un certain degré d'animosité entre les deux hommes.",
+						"2762453674": "Houston"
+					},
+					"italian": {
+						"972885031": "File dell'FBI: Riteniamo che questo membro della banda usasse l'alias \"Hoxton\" fino all'evasione di James Hoxworth. Da allora, secondo i filmati di sicurezza, ha adottato l'alias \"Houston\". Era presente all'evasione di \"Hoxton\" e questo, insieme ai filmati di sicurezza acquisiti successivamente, sembra suggerire un livello di astio tra i due uomini.",
+						"2762453674": "Houston"
+					},
+					"german": {
+						"972885031": "FBI-Akten: Wir glauben, dass dieses Bandenmitglied bis zum Ausbruch von James Hoxworth den Decknamen \"Hoxton\" verwendet hat. Seitdem hat er laut Sicherheitsvideos den Decknamen \"Houston\" angenommen. Er war beim Ausbruch von \"Hoxton\" anwesend, und diese Tatsache sowie die später erworbenen Sicherheitsaufnahmen scheinen auf eine gewisse Feindseligkeit zwischen den beiden Männern hinzudeuten.",
+						"2762453674": "Houston"
+					},
+					"spanish": {
+						"972885031": "Archivos del FBI: Creemos que este miembro de la banda usaba el alias de \"Hoxton\" hasta la fuga de James Hoxworth. Desde entonces, según las grabaciones de seguridad, ha adoptado el alias de \"Houston\". Estuvo presente en la fuga de \"Hoxton\" y eso, y las imágenes de seguridad adquiridas posteriormente, parecen indicar un nivel de animosidad entre los dos hombres.",
+						"2762453674": "Houston"
+					},
+					"russian": {
+						"972885031": "Документы ФБР: Мы полагаем, что этот член банды использовал псевдоним \"Хокстон\" до побега Джеймса Хоксворта. С тех пор, согласно записям камер наблюдения, он взял псевдоним \"Хьюстон\". Он присутствовал при побеге Хокстона, и это, а также полученные впоследствии записи с камер наблюдения, намекают на враждебность между этими двумя людьми.",
+						"2762453674": "Хьюстон"
+					}
+				}
+			}
+		},
+		{
+			"group": "Houston",
+			"name": "Summer Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"1_content/houston",
+				"2_patches/replace/houston/marrakesh"
+			],
+			"blobsFolders": [
+				"blobs/houston/marrakesh"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"1490534793": "Houston",
+						"4241939803": "FBI Files: We believe that this gang member was using the alias of \"Hoxton\" until the break-out of James Hoxworth. Since then, according to security footage, he has adopted the alias \"Houston\". He was present at the break-out of \"Hoxton\" and that, and subsequently acquired security footage, seems to hint at a level of animosity between the two men."
+					},
+					"french": {
+						"1490534793": "Houston",
+						"4241939803": "Dossiers du FBI: Nous pensons que ce membre de gang utilisait le pseudonyme \"Hoxton\" jusqu'à l'évasion de James Hoxworth. Depuis, d'après les images de sécurité, il a pris le pseudonyme de \"Houston\". Il était présent lors de l'évasion de \"Hoxton\" et cela, ainsi que les images de sécurité obtenues par la suite, semblent indiquer un certain degré d'animosité entre les deux hommes."
+					},
+					"italian": {
+						"1490534793": "Houston",
+						"4241939803": "File dell'FBI: Riteniamo che questo membro della banda usasse l'alias \"Hoxton\" fino all'evasione di James Hoxworth. Da allora, secondo i filmati di sicurezza, ha adottato l'alias \"Houston\". Era presente all'evasione di \"Hoxton\" e questo, insieme ai filmati di sicurezza acquisiti successivamente, sembra suggerire un livello di astio tra i due uomini."
+					},
+					"german": {
+						"1490534793": "Houston",
+						"4241939803": "FBI-Akten: Wir glauben, dass dieses Bandenmitglied bis zum Ausbruch von James Hoxworth den Decknamen \"Hoxton\" verwendet hat. Seitdem hat er laut Sicherheitsvideos den Decknamen \"Houston\" angenommen. Er war beim Ausbruch von \"Hoxton\" anwesend, und diese Tatsache sowie die später erworbenen Sicherheitsaufnahmen scheinen auf eine gewisse Feindseligkeit zwischen den beiden Männern hinzudeuten."
+					},
+					"spanish": {
+						"1490534793": "Houston",
+						"4241939803": "Archivos del FBI: Creemos que este miembro de la banda usaba el alias de \"Hoxton\" hasta la fuga de James Hoxworth. Desde entonces, según las grabaciones de seguridad, ha adoptado el alias de \"Houston\". Estuvo presente en la fuga de \"Hoxton\" y eso, y las imágenes de seguridad adquiridas posteriormente, parecen indicar un nivel de animosidad entre los dos hombres."
+					},
+					"russian": {
+						"1490534793": "Хьюстон",
+						"4241939803": "Документы ФБР: Мы полагаем, что этот член банды использовал псевдоним \"Хокстон\" до побега Джеймса Хоксворта. С тех пор, согласно записям камер наблюдения, он взял псевдоним \"Хьюстон\". Он присутствовал при побеге Хокстона, и это, а также полученные впоследствии записи с камер наблюдения, намекают на враждебность между этими двумя людьми."
+					}
+				}
+			}
+		},
+		{
+			"group": "Houston",
+			"name": "Tropical Suit",
+			"type": "select",
+			"contentFolders": [
+				"1_content/houston",
+				"2_patches/replace/houston/tropicalsuit"
+			],
+			"blobsFolders": [
+				"blobs/houston/tropicalsuit"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2053833950": "FBI Files: We believe that this gang member was using the alias of \"Hoxton\" until the break-out of James Hoxworth. Since then, according to security footage, he has adopted the alias \"Houston\". He was present at the break-out of \"Hoxton\" and that, and subsequently acquired security footage, seems to hint at a level of animosity between the two men.",
+						"2347383834": "Houston"
+					},
+					"french": {
+						"2053833950": "Dossiers du FBI: Nous pensons que ce membre de gang utilisait le pseudonyme \"Hoxton\" jusqu'à l'évasion de James Hoxworth. Depuis, d'après les images de sécurité, il a pris le pseudonyme de \"Houston\". Il était présent lors de l'évasion de \"Hoxton\" et cela, ainsi que les images de sécurité obtenues par la suite, semblent indiquer un certain degré d'animosité entre les deux hommes.",
+						"2347383834": "Houston"
+					},
+					"italian": {
+						"2053833950": "File dell'FBI: Riteniamo che questo membro della banda usasse l'alias \"Hoxton\" fino all'evasione di James Hoxworth. Da allora, secondo i filmati di sicurezza, ha adottato l'alias \"Houston\". Era presente all'evasione di \"Hoxton\" e questo, insieme ai filmati di sicurezza acquisiti successivamente, sembra suggerire un livello di astio tra i due uomini.",
+						"2347383834": "Houston"
+					},
+					"german": {
+						"2053833950": "FBI-Akten: Wir glauben, dass dieses Bandenmitglied bis zum Ausbruch von James Hoxworth den Decknamen \"Hoxton\" verwendet hat. Seitdem hat er laut Sicherheitsvideos den Decknamen \"Houston\" angenommen. Er war beim Ausbruch von \"Hoxton\" anwesend, und diese Tatsache sowie die später erworbenen Sicherheitsaufnahmen scheinen auf eine gewisse Feindseligkeit zwischen den beiden Männern hinzudeuten.",
+						"2347383834": "Houston"
+					},
+					"spanish": {
+						"2053833950": "Archivos del FBI: Creemos que este miembro de la banda usaba el alias de \"Hoxton\" hasta la fuga de James Hoxworth. Desde entonces, según las grabaciones de seguridad, ha adoptado el alias de \"Houston\". Estuvo presente en la fuga de \"Hoxton\" y eso, y las imágenes de seguridad adquiridas posteriormente, parecen indicar un nivel de animosidad entre los dos hombres.",
+						"2347383834": "Houston"
+					},
+					"russian": {
+						"2053833950": "Документы ФБР: Мы полагаем, что этот член банды использовал псевдоним \"Хокстон\" до побега Джеймса Хоксворта. С тех пор, согласно записям камер наблюдения, он взял псевдоним \"Хьюстон\". Он присутствовал при побеге Хокстона, и это, а также полученные впоследствии записи с камер наблюдения, намекают на враждебность между этими двумя людьми.",
+						"2347383834": "Хьюстон"
+					}
+				}
+			}
+		},
+		{
+			"group": "Houston",
+			"name": "Smart Casual Suit",
+			"type": "select",
+			"contentFolders": [
+				"1_content/houston",
+				"2_patches/replace/houston/smartcasual"
+			],
+			"blobsFolders": [
+				"blobs/houston/smartcasual"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"252086724": "Houston",
+						"678625422": "FBI Files: We believe that this gang member was using the alias of \"Hoxton\" until the break-out of James Hoxworth. Since then, according to security footage, he has adopted the alias \"Houston\". He was present at the break-out of \"Hoxton\" and that, and subsequently acquired security footage, seems to hint at a level of animosity between the two men."
+					},
+					"french": {
+						"252086724": "Houston",
+						"678625422": "Dossiers du FBI: Nous pensons que ce membre de gang utilisait le pseudonyme \"Hoxton\" jusqu'à l'évasion de James Hoxworth. Depuis, d'après les images de sécurité, il a pris le pseudonyme de \"Houston\". Il était présent lors de l'évasion de \"Hoxton\" et cela, ainsi que les images de sécurité obtenues par la suite, semblent indiquer un certain degré d'animosité entre les deux hommes."
+					},
+					"italian": {
+						"252086724": "Houston",
+						"678625422": "File dell'FBI: Riteniamo che questo membro della banda usasse l'alias \"Hoxton\" fino all'evasione di James Hoxworth. Da allora, secondo i filmati di sicurezza, ha adottato l'alias \"Houston\". Era presente all'evasione di \"Hoxton\" e questo, insieme ai filmati di sicurezza acquisiti successivamente, sembra suggerire un livello di astio tra i due uomini."
+					},
+					"german": {
+						"252086724": "Houston",
+						"678625422": "FBI-Akten: Wir glauben, dass dieses Bandenmitglied bis zum Ausbruch von James Hoxworth den Decknamen \"Hoxton\" verwendet hat. Seitdem hat er laut Sicherheitsvideos den Decknamen \"Houston\" angenommen. Er war beim Ausbruch von \"Hoxton\" anwesend, und diese Tatsache sowie die später erworbenen Sicherheitsaufnahmen scheinen auf eine gewisse Feindseligkeit zwischen den beiden Männern hinzudeuten."
+					},
+					"spanish": {
+						"252086724": "Houston",
+						"678625422": "Archivos del FBI: Creemos que este miembro de la banda usaba el alias de \"Hoxton\" hasta la fuga de James Hoxworth. Desde entonces, según las grabaciones de seguridad, ha adoptado el alias de \"Houston\". Estuvo presente en la fuga de \"Hoxton\" y eso, y las imágenes de seguridad adquiridas posteriormente, parecen indicar un nivel de animosidad entre los dos hombres."
+					},
+					"russian": {
+						"252086724": "Хьюстон",
+						"678625422": "Документы ФБР: Мы полагаем, что этот член банды использовал псевдоним \"Хокстон\" до побега Джеймса Хоксворта. С тех пор, согласно записям камер наблюдения, он взял псевдоним \"Хьюстон\". Он присутствовал при побеге Хокстона, и это, а также полученные впоследствии записи с камер наблюдения, намекают на враждебность между этими двумя людьми."
+					}
+				}
+			}
+		},
+		{
+			"group": "Houston",
+			"name": "The Raver",
+			"type": "select",
+			"contentFolders": [
+				"1_content/houston",
+				"2_patches/replace/houston/raver"
+			],
+			"blobsFolders": [
+				"blobs/houston/raver"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"3362995256": "Houston",
+						"4079878924": "FBI Files: We believe that this gang member was using the alias of \"Hoxton\" until the break-out of James Hoxworth. Since then, according to security footage, he has adopted the alias \"Houston\". He was present at the break-out of \"Hoxton\" and that, and subsequently acquired security footage, seems to hint at a level of animosity between the two men."
+					},
+					"french": {
+						"3362995256": "Houston",
+						"4079878924": "Dossiers du FBI: Nous pensons que ce membre de gang utilisait le pseudonyme \"Hoxton\" jusqu'à l'évasion de James Hoxworth. Depuis, d'après les images de sécurité, il a pris le pseudonyme de \"Houston\". Il était présent lors de l'évasion de \"Hoxton\" et cela, ainsi que les images de sécurité obtenues par la suite, semblent indiquer un certain degré d'animosité entre les deux hommes."
+					},
+					"italian": {
+						"3362995256": "Houston",
+						"4079878924": "File dell'FBI: Riteniamo che questo membro della banda usasse l'alias \"Hoxton\" fino all'evasione di James Hoxworth. Da allora, secondo i filmati di sicurezza, ha adottato l'alias \"Houston\". Era presente all'evasione di \"Hoxton\" e questo, insieme ai filmati di sicurezza acquisiti successivamente, sembra suggerire un livello di astio tra i due uomini."
+					},
+					"german": {
+						"3362995256": "Houston",
+						"4079878924": "FBI-Akten: Wir glauben, dass dieses Bandenmitglied bis zum Ausbruch von James Hoxworth den Decknamen \"Hoxton\" verwendet hat. Seitdem hat er laut Sicherheitsvideos den Decknamen \"Houston\" angenommen. Er war beim Ausbruch von \"Hoxton\" anwesend, und diese Tatsache sowie die später erworbenen Sicherheitsaufnahmen scheinen auf eine gewisse Feindseligkeit zwischen den beiden Männern hinzudeuten."
+					},
+					"spanish": {
+						"3362995256": "Houston",
+						"4079878924": "Archivos del FBI: Creemos que este miembro de la banda usaba el alias de \"Hoxton\" hasta la fuga de James Hoxworth. Desde entonces, según las grabaciones de seguridad, ha adoptado el alias de \"Houston\". Estuvo presente en la fuga de \"Hoxton\" y eso, y las imágenes de seguridad adquiridas posteriormente, parecen indicar un nivel de animosidad entre los dos hombres."
+					},
+					"russian": {
+						"3362995256": "Хьюстон",
+						"4079878924": "Документы ФБР: Мы полагаем, что этот член банды использовал псевдоним \"Хокстон\" до побега Джеймса Хоксворта. С тех пор, согласно записям камер наблюдения, он взял псевдоним \"Хьюстон\". Он присутствовал при побеге Хокстона, и это, а также полученные впоследствии записи с камер наблюдения, намекают на враждебность между этими двумя людьми."
+					}
+				}
+			}
+		},
+		{
+			"group": "Houston",
+			"name": "Lucky Ducky",
+			"type": "select",
+			"contentFolders": [
+				"1_content/houston",
+				"2_patches/replace/houston/luckyducky"
+			],
+			"blobsFolders": [
+				"blobs/houston/luckyducky"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2760943898": "Houston",
+						"2681050670": "FBI Files: We believe that this gang member was using the alias of \"Hoxton\" until the break-out of James Hoxworth. Since then, according to security footage, he has adopted the alias \"Houston\". He was present at the break-out of \"Hoxton\" and that, and subsequently acquired security footage, seems to hint at a level of animosity between the two men."
+					},
+					"french": {
+						"2760943898": "Houston",
+						"2681050670": "Dossiers du FBI: Nous pensons que ce membre de gang utilisait le pseudonyme \"Hoxton\" jusqu'à l'évasion de James Hoxworth. Depuis, d'après les images de sécurité, il a pris le pseudonyme de \"Houston\". Il était présent lors de l'évasion de \"Hoxton\" et cela, ainsi que les images de sécurité obtenues par la suite, semblent indiquer un certain degré d'animosité entre les deux hommes."
+					},
+					"italian": {
+						"2760943898": "Houston",
+						"2681050670": "File dell'FBI: Riteniamo che questo membro della banda usasse l'alias \"Hoxton\" fino all'evasione di James Hoxworth. Da allora, secondo i filmati di sicurezza, ha adottato l'alias \"Houston\". Era presente all'evasione di \"Hoxton\" e questo, insieme ai filmati di sicurezza acquisiti successivamente, sembra suggerire un livello di astio tra i due uomini."
+					},
+					"german": {
+						"2760943898": "Houston",
+						"2681050670": "FBI-Akten: Wir glauben, dass dieses Bandenmitglied bis zum Ausbruch von James Hoxworth den Decknamen \"Hoxton\" verwendet hat. Seitdem hat er laut Sicherheitsvideos den Decknamen \"Houston\" angenommen. Er war beim Ausbruch von \"Hoxton\" anwesend, und diese Tatsache sowie die später erworbenen Sicherheitsaufnahmen scheinen auf eine gewisse Feindseligkeit zwischen den beiden Männern hinzudeuten."
+					},
+					"spanish": {
+						"2760943898": "Houston",
+						"2681050670": "Archivos del FBI: Creemos que este miembro de la banda usaba el alias de \"Hoxton\" hasta la fuga de James Hoxworth. Desde entonces, según las grabaciones de seguridad, ha adoptado el alias de \"Houston\". Estuvo presente en la fuga de \"Hoxton\" y eso, y las imágenes de seguridad adquiridas posteriormente, parecen indicar un nivel de animosidad entre los dos hombres."
+					},
+					"russian": {
+						"2760943898": "Хьюстон",
+						"2681050670": "Документы ФБР: Мы полагаем, что этот член банды использовал псевдоним \"Хокстон\" до побега Джеймса Хоксворта. С тех пор, согласно записям камер наблюдения, он взял псевдоним \"Хьюстон\". Он присутствовал при побеге Хокстона, и это, а также полученные впоследствии записи с камер наблюдения, намекают на враждебность между этими двумя людьми."
+					}
+				}
+			}
+		},
+		{
+			"group": "Hoxton",
+			"name": "Do not install",
+			"type": "select",
+			"enabledByDefault": true,
+			"tooltip": "Do not install Hoxton.",
+			"image": "hoxton.jpg"
+		},
+		{
+			"group": "Hoxton",
+			"name": "Peacock Addon",
+			"type": "select",
+			"tooltip": "Install Hoxton to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+			"contentFolders": [
+				"1_content/hoxton",
+				"2_patches/replace/hoxton/addon"
+			],
+			"blobsFolders": [
+				"blobs/hoxton/addon"
+			],
+			"localisedLines": {
+				"009029B43EBB914E": "UI_TOKEN_OUTFIT_HERO_PAYDAY_HOXTON_DESC",
+				"00E1AC2CC94E6E68": "UI_TOKEN_OUTFIT_HERO_PAYDAY_HOXTON_NAME"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_HOXTON_DESC": "FBI Files: \"Hoxton\" was recently incarcerated at Hazelton Prison, but was freed by the Payday gang while he was being taken to a parole hearing. We are sure he will be very difficult to apprehend again.",
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_HOXTON_NAME": "Hoxton"
+				},
+				"french": {
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_HOXTON_DESC": "Dossiers du FBI: \"Hoxton\" a récemment été incarcéré à la prison d'Hazelton, mais a été libéré par le gang Payday alors qu'il était conduit à une audience de libération conditionnelle. Nous sommes sûrs qu'il sera très difficile de l'appréhender à nouveau.",
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_HOXTON_NAME": "Hoxton"
+				},
+				"german": {
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_HOXTON_DESC": "FBI-Akten: \"Hoxton\" war kürzlich im Hazelton-Gefängnis inhaftiert, wurde aber von der Payday-Gang befreit, als er zu einer Bewährungsanhörung gebracht wurde. Wir sind sicher, dass es sehr schwierig sein wird, ihn wieder zu fassen.",
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_HOXTON_NAME": "Hoxton"
+				},
+				"spanish": {
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_HOXTON_DESC": "Archivos del FBI: \"Hoxton\" fue encarcelado recientemente en la prisión de Hazelton, pero fue liberado por la banda Payday mientras era llevado a una audiencia de libertad condicional. Estamos seguros de que será muy difícil volver a detenerlo.",
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_HOXTON_NAME": "Hoxton"
+				},
+				"italian": {
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_HOXTON_DESC": "File dell'FBI: \"Hoxton\" è stato recentemente incarcerato nella prigione di Hazelton, ma è stato liberato dalla banda Payday mentre veniva portato a un'udienza per la libertà vigilata. Siamo certi che sarà molto difficile catturarlo di nuovo.",
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_HOXTON_NAME": "Hoxton"
+				},
+				"russian": {
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_HOXTON_DESC": "Досье ФБР: \"Хокстон\" был недавно заключен в тюрьму Хейзелтон, но был освобожден бандой Пейдей, когда его везли на слушание по условно-досрочному освобождению. Мы уверены, что его будет очень трудно задержать снова.",
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_HOXTON_NAME": "Хокстон"
+				}
+			}
+		},
+		{
+			"group": "Hoxton",
+			"name": "Casual Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"1_content/hoxton",
+				"2_patches/replace/hoxton/bangkok"
+			],
+			"blobsFolders": [
+				"blobs/hoxton/bangkok"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"2741280242": "FBI Files: \"Hoxton\" was recently incarcerated at Hazelton Prison, but was freed by the Payday gang while he was being taken to a parole hearing. We are sure he will be very difficult to apprehend again.",
+						"4086875141": "Hoxton"
+					},
+					"french": {
+						"2741280242": "Dossiers du FBI: \"Hoxton\" a récemment été incarcéré à la prison d'Hazelton, mais a été libéré par le gang Payday alors qu'il était conduit à une audience de libération conditionnelle. Nous sommes sûrs qu'il sera très difficile de l'appréhender à nouveau.",
+						"4086875141": "Hoxton"
+					},
+					"italian": {
+						"2741280242": "File dell'FBI: \"Hoxton\" è stato recentemente incarcerato nella prigione di Hazelton, ma è stato liberato dalla banda Payday mentre veniva portato a un'udienza per la libertà vigilata. Siamo certi che sarà molto difficile catturarlo di nuovo.",
+						"4086875141": "Hoxton"
+					},
+					"german": {
+						"2741280242": "FBI-Akten: \"Hoxton\" war kürzlich im Hazelton-Gefängnis inhaftiert, wurde aber von der Payday-Gang befreit, als er zu einer Bewährungsanhörung gebracht wurde. Wir sind sicher, dass es sehr schwierig sein wird, ihn wieder zu fassen.",
+						"4086875141": "Hoxton"
+					},
+					"spanish": {
+						"2741280242": "Archivos del FBI: \"Hoxton\" fue encarcelado recientemente en la prisión de Hazelton, pero fue liberado por la banda Payday mientras era llevado a una audiencia de libertad condicional. Estamos seguros de que será muy difícil volver a detenerlo.",
+						"4086875141": "Hoxton"
+					},
+					"russian": {
+						"2741280242": "Досье ФБР: \"Хокстон\" был недавно заключен в тюрьму Хейзелтон, но был освобожден бандой Пейдей, когда его везли на слушание по условно-досрочному освобождению. Мы уверены, что его будет очень трудно задержать снова.",
+						"4086875141": "Хокстон"
+					}
+				}
+			}
+		},
+		{
+			"group": "Hoxton",
+			"name": "Italian Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"1_content/hoxton",
+				"2_patches/replace/hoxton/sapienza"
+			],
+			"blobsFolders": [
+				"blobs/hoxton/sapienza"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"3346035357": "FBI Files: \"Hoxton\" was recently incarcerated at Hazelton Prison, but was freed by the Payday gang while he was being taken to a parole hearing. We are sure he will be very difficult to apprehend again.",
+						"3648979387": "Hoxton"
+					},
+					"french": {
+						"3346035357": "Dossiers du FBI: \"Hoxton\" a récemment été incarcéré à la prison d'Hazelton, mais a été libéré par le gang Payday alors qu'il était conduit à une audience de libération conditionnelle. Nous sommes sûrs qu'il sera très difficile de l'appréhender à nouveau.",
+						"3648979387": "Hoxton"
+					},
+					"italian": {
+						"3346035357": "File dell'FBI: \"Hoxton\" è stato recentemente incarcerato nella prigione di Hazelton, ma è stato liberato dalla banda Payday mentre veniva portato a un'udienza per la libertà vigilata. Siamo certi che sarà molto difficile catturarlo di nuovo.",
+						"3648979387": "Hoxton"
+					},
+					"german": {
+						"3346035357": "FBI-Akten: \"Hoxton\" war kürzlich im Hazelton-Gefängnis inhaftiert, wurde aber von der Payday-Gang befreit, als er zu einer Bewährungsanhörung gebracht wurde. Wir sind sicher, dass es sehr schwierig sein wird, ihn wieder zu fassen.",
+						"3648979387": "Hoxton"
+					},
+					"spanish": {
+						"3346035357": "Archivos del FBI: \"Hoxton\" fue encarcelado recientemente en la prisión de Hazelton, pero fue liberado por la banda Payday mientras era llevado a una audiencia de libertad condicional. Estamos seguros de que será muy difícil volver a detenerlo.",
+						"3648979387": "Hoxton"
+					},
+					"russian": {
+						"3346035357": "Досье ФБР: \"Хокстон\" был недавно заключен в тюрьму Хейзелтон, но был освобожден бандой Пейдей, когда его везли на слушание по условно-досрочному освобождению. Мы уверены, что его будет очень трудно задержать снова.",
+						"3648979387": "Хокстон"
+					}
+				}
+			}
+		},
+		{
+			"group": "Hoxton",
+			"name": "Florida Fit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"1_content/hoxton",
+				"2_patches/replace/hoxton/miami"
+			],
+			"blobsFolders": [
+				"blobs/hoxton/miami"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"1774659088": "Hoxton",
+						"3175901226": "FBI Files: \"Hoxton\" was recently incarcerated at Hazelton Prison, but was freed by the Payday gang while he was being taken to a parole hearing. We are sure he will be very difficult to apprehend again."
+					},
+					"french": {
+						"1774659088": "Hoxton",
+						"3175901226": "Dossiers du FBI: \"Hoxton\" a récemment été incarcéré à la prison d'Hazelton, mais a été libéré par le gang Payday alors qu'il était conduit à une audience de libération conditionnelle. Nous sommes sûrs qu'il sera très difficile de l'appréhender à nouveau."
+					},
+					"italian": {
+						"1774659088": "Hoxton",
+						"3175901226": "File dell'FBI: \"Hoxton\" è stato recentemente incarcerato nella prigione di Hazelton, ma è stato liberato dalla banda Payday mentre veniva portato a un'udienza per la libertà vigilata. Siamo certi che sarà molto difficile catturarlo di nuovo."
+					},
+					"german": {
+						"1774659088": "Hoxton",
+						"3175901226": "FBI-Akten: \"Hoxton\" war kürzlich im Hazelton-Gefängnis inhaftiert, wurde aber von der Payday-Gang befreit, als er zu einer Bewährungsanhörung gebracht wurde. Wir sind sicher, dass es sehr schwierig sein wird, ihn wieder zu fassen."
+					},
+					"spanish": {
+						"1774659088": "Hoxton",
+						"3175901226": "Archivos del FBI: \"Hoxton\" fue encarcelado recientemente en la prisión de Hazelton, pero fue liberado por la banda Payday mientras era llevado a una audiencia de libertad condicional. Estamos seguros de que será muy difícil volver a detenerlo."
+					},
+					"russian": {
+						"1774659088": "Хокстон",
+						"3175901226": "Досье ФБР: \"Хокстон\" был недавно заключен в тюрьму Хейзелтон, но был освобожден бандой Пейдей, когда его везли на слушание по условно-досрочному освобождению. Мы уверены, что его будет очень трудно задержать снова."
+					}
+				}
+			}
+		},
+		{
+			"group": "Hoxton",
+			"name": "Casual Tourist with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"1_content/hoxton",
+				"2_patches/replace/hoxton/sanfortuna"
+			],
+			"blobsFolders": [
+				"blobs/hoxton/sanfortuna"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2978719530": "Hoxton",
+						"3533044117": "FBI Files: \"Hoxton\" was recently incarcerated at Hazelton Prison, but was freed by the Payday gang while he was being taken to a parole hearing. We are sure he will be very difficult to apprehend again."
+					},
+					"french": {
+						"2978719530": "Hoxton",
+						"3533044117": "Dossiers du FBI: \"Hoxton\" a récemment été incarcéré à la prison d'Hazelton, mais a été libéré par le gang Payday alors qu'il était conduit à une audience de libération conditionnelle. Nous sommes sûrs qu'il sera très difficile de l'appréhender à nouveau."
+					},
+					"italian": {
+						"2978719530": "Hoxton",
+						"3533044117": "File dell'FBI: \"Hoxton\" è stato recentemente incarcerato nella prigione di Hazelton, ma è stato liberato dalla banda Payday mentre veniva portato a un'udienza per la libertà vigilata. Siamo certi che sarà molto difficile catturarlo di nuovo."
+					},
+					"german": {
+						"2978719530": "Hoxton",
+						"3533044117": "FBI-Akten: \"Hoxton\" war kürzlich im Hazelton-Gefängnis inhaftiert, wurde aber von der Payday-Gang befreit, als er zu einer Bewährungsanhörung gebracht wurde. Wir sind sicher, dass es sehr schwierig sein wird, ihn wieder zu fassen."
+					},
+					"spanish": {
+						"2978719530": "Hoxton",
+						"3533044117": "Archivos del FBI: \"Hoxton\" fue encarcelado recientemente en la prisión de Hazelton, pero fue liberado por la banda Payday mientras era llevado a una audiencia de libertad condicional. Estamos seguros de que será muy difícil volver a detenerlo."
+					},
+					"russian": {
+						"2978719530": "Хокстон",
+						"3533044117": "Досье ФБР: \"Хокстон\" был недавно заключен в тюрьму Хейзелтон, но был освобожден бандой Пейдей, когда его везли на слушание по условно-досрочному освобождению. Мы уверены, что его будет очень трудно задержать снова."
+					}
+				}
+			}
+		},
+		{
+			"group": "Hoxton",
+			"name": "Summer Suave Suit",
+			"type": "select",
+			"contentFolders": [
+				"1_content/hoxton",
+				"2_patches/replace/hoxton/summersuave"
+			],
+			"blobsFolders": [
+				"blobs/hoxton/summersuave"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"134957393": "Hoxton",
+						"2101382595": "FBI Files: \"Hoxton\" was recently incarcerated at Hazelton Prison, but was freed by the Payday gang while he was being taken to a parole hearing. We are sure he will be very difficult to apprehend again."
+					},
+					"french": {
+						"134957393": "Hoxton",
+						"2101382595": "Dossiers du FBI: \"Hoxton\" a récemment été incarcéré à la prison d'Hazelton, mais a été libéré par le gang Payday alors qu'il était conduit à une audience de libération conditionnelle. Nous sommes sûrs qu'il sera très difficile de l'appréhender à nouveau."
+					},
+					"italian": {
+						"134957393": "Hoxton",
+						"2101382595": "File dell'FBI: \"Hoxton\" è stato recentemente incarcerato nella prigione di Hazelton, ma è stato liberato dalla banda Payday mentre veniva portato a un'udienza per la libertà vigilata. Siamo certi che sarà molto difficile catturarlo di nuovo."
+					},
+					"german": {
+						"134957393": "Hoxton",
+						"2101382595": "FBI-Akten: \"Hoxton\" war kürzlich im Hazelton-Gefängnis inhaftiert, wurde aber von der Payday-Gang befreit, als er zu einer Bewährungsanhörung gebracht wurde. Wir sind sicher, dass es sehr schwierig sein wird, ihn wieder zu fassen."
+					},
+					"spanish": {
+						"134957393": "Hoxton",
+						"2101382595": "Archivos del FBI: \"Hoxton\" fue encarcelado recientemente en la prisión de Hazelton, pero fue liberado por la banda Payday mientras era llevado a una audiencia de libertad condicional. Estamos seguros de que será muy difícil volver a detenerlo."
+					},
+					"russian": {
+						"134957393": "Хокстон",
+						"2101382595": "Досье ФБР: \"Хокстон\" был недавно заключен в тюрьму Хейзелтон, но был освобожден бандой Пейдей, когда его везли на слушание по условно-досрочному освобождению. Мы уверены, что его будет очень трудно задержать снова."
+					}
+				}
+			}
+		},
+		{
+			"group": "Hoxton",
+			"name": "Summer Sightseeing Suit",
+			"type": "select",
+			"contentFolders": [
+				"1_content/hoxton",
+				"2_patches/replace/hoxton/summersightseeing"
+			],
+			"blobsFolders": [
+				"blobs/hoxton/summersightseeing"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2627471231": "FBI Files: \"Hoxton\" was recently incarcerated at Hazelton Prison, but was freed by the Payday gang while he was being taken to a parole hearing. We are sure he will be very difficult to apprehend again.",
+						"2814457931": "Hoxton"
+					},
+					"french": {
+						"2627471231": "Dossiers du FBI: \"Hoxton\" a récemment été incarcéré à la prison d'Hazelton, mais a été libéré par le gang Payday alors qu'il était conduit à une audience de libération conditionnelle. Nous sommes sûrs qu'il sera très difficile de l'appréhender à nouveau.",
+						"2814457931": "Hoxton"
+					},
+					"italian": {
+						"2627471231": "File dell'FBI: \"Hoxton\" è stato recentemente incarcerato nella prigione di Hazelton, ma è stato liberato dalla banda Payday mentre veniva portato a un'udienza per la libertà vigilata. Siamo certi che sarà molto difficile catturarlo di nuovo.",
+						"2814457931": "Hoxton"
+					},
+					"german": {
+						"2627471231": "FBI-Akten: \"Hoxton\" war kürzlich im Hazelton-Gefängnis inhaftiert, wurde aber von der Payday-Gang befreit, als er zu einer Bewährungsanhörung gebracht wurde. Wir sind sicher, dass es sehr schwierig sein wird, ihn wieder zu fassen.",
+						"2814457931": "Hoxton"
+					},
+					"spanish": {
+						"2627471231": "Archivos del FBI: \"Hoxton\" fue encarcelado recientemente en la prisión de Hazelton, pero fue liberado por la banda Payday mientras era llevado a una audiencia de libertad condicional. Estamos seguros de que será muy difícil volver a detenerlo.",
+						"2814457931": "Hoxton"
+					},
+					"russian": {
+						"2627471231": "Досье ФБР: \"Хокстон\" был недавно заключен в тюрьму Хейзелтон, но был освобожден бандой Пейдей, когда его везли на слушание по условно-досрочному освобождению. Мы уверены, что его будет очень трудно задержать снова.",
+						"2814457931": "Хокстон"
+					}
+				}
+			}
+		},
+		{
+			"group": "Hoxton",
+			"name": "Casual Undercover",
+			"type": "select",
+			"contentFolders": [
+				"1_content/hoxton",
+				"2_patches/replace/hoxton/casualundercover"
+			],
+			"blobsFolders": [
+				"blobs/hoxton/casualundercover"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2052724919": "Hoxton",
+						"3635577953": "FBI Files: \"Hoxton\" was recently incarcerated at Hazelton Prison, but was freed by the Payday gang while he was being taken to a parole hearing. We are sure he will be very difficult to apprehend again."
+					},
+					"french": {
+						"2052724919": "Hoxton",
+						"3635577953": "Dossiers du FBI: \"Hoxton\" a récemment été incarcéré à la prison d'Hazelton, mais a été libéré par le gang Payday alors qu'il était conduit à une audience de libération conditionnelle. Nous sommes sûrs qu'il sera très difficile de l'appréhender à nouveau."
+					},
+					"italian": {
+						"2052724919": "Hoxton",
+						"3635577953": "File dell'FBI: \"Hoxton\" è stato recentemente incarcerato nella prigione di Hazelton, ma è stato liberato dalla banda Payday mentre veniva portato a un'udienza per la libertà vigilata. Siamo certi che sarà molto difficile catturarlo di nuovo."
+					},
+					"german": {
+						"2052724919": "Hoxton",
+						"3635577953": "FBI-Akten: \"Hoxton\" war kürzlich im Hazelton-Gefängnis inhaftiert, wurde aber von der Payday-Gang befreit, als er zu einer Bewährungsanhörung gebracht wurde. Wir sind sicher, dass es sehr schwierig sein wird, ihn wieder zu fassen."
+					},
+					"spanish": {
+						"2052724919": "Hoxton",
+						"3635577953": "Archivos del FBI: \"Hoxton\" fue encarcelado recientemente en la prisión de Hazelton, pero fue liberado por la banda Payday mientras era llevado a una audiencia de libertad condicional. Estamos seguros de que será muy difícil volver a detenerlo."
+					},
+					"russian": {
+						"2052724919": "Хокстон",
+						"3635577953": "Досье ФБР: \"Хокстон\" был недавно заключен в тюрьму Хейзелтон, но был освобожден бандой Пейдей, когда его везли на слушание по условно-досрочному освобождению. Мы уверены, что его будет очень трудно задержать снова."
+					}
+				}
+			}
+		},
+		{
+			"group": "Hoxton",
+			"name": "Midnight Black Suit",
+			"type": "select",
+			"contentFolders": [
+				"1_content/hoxton",
+				"2_patches/replace/hoxton/midnightblack"
+			],
+			"blobsFolders": [
+				"blobs/hoxton/midnightblack"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"972885031": "FBI Files: \"Hoxton\" was recently incarcerated at Hazelton Prison, but was freed by the Payday gang while he was being taken to a parole hearing. We are sure he will be very difficult to apprehend again.",
+						"2762453674": "Hoxton"
+					},
+					"french": {
+						"972885031": "Dossiers du FBI: \"Hoxton\" a récemment été incarcéré à la prison d'Hazelton, mais a été libéré par le gang Payday alors qu'il était conduit à une audience de libération conditionnelle. Nous sommes sûrs qu'il sera très difficile de l'appréhender à nouveau.",
+						"2762453674": "Hoxton"
+					},
+					"italian": {
+						"972885031": "File dell'FBI: \"Hoxton\" è stato recentemente incarcerato nella prigione di Hazelton, ma è stato liberato dalla banda Payday mentre veniva portato a un'udienza per la libertà vigilata. Siamo certi che sarà molto difficile catturarlo di nuovo.",
+						"2762453674": "Hoxton"
+					},
+					"german": {
+						"972885031": "FBI-Akten: \"Hoxton\" war kürzlich im Hazelton-Gefängnis inhaftiert, wurde aber von der Payday-Gang befreit, als er zu einer Bewährungsanhörung gebracht wurde. Wir sind sicher, dass es sehr schwierig sein wird, ihn wieder zu fassen.",
+						"2762453674": "Hoxton"
+					},
+					"spanish": {
+						"972885031": "Archivos del FBI: \"Hoxton\" fue encarcelado recientemente en la prisión de Hazelton, pero fue liberado por la banda Payday mientras era llevado a una audiencia de libertad condicional. Estamos seguros de que será muy difícil volver a detenerlo.",
+						"2762453674": "Hoxton"
+					},
+					"russian": {
+						"972885031": "Досье ФБР: \"Хокстон\" был недавно заключен в тюрьму Хейзелтон, но был освобожден бандой Пейдей, когда его везли на слушание по условно-досрочному освобождению. Мы уверены, что его будет очень трудно задержать снова.",
+						"2762453674": "Хокстон"
+					}
+				}
+			}
+		},
+		{
+			"group": "Hoxton",
+			"name": "Summer Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"1_content/hoxton",
+				"2_patches/replace/hoxton/marrakesh"
+			],
+			"blobsFolders": [
+				"blobs/hoxton/marrakesh"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"1490534793": "Hoxton",
+						"4241939803": "FBI Files: \"Hoxton\" was recently incarcerated at Hazelton Prison, but was freed by the Payday gang while he was being taken to a parole hearing. We are sure he will be very difficult to apprehend again."
+					},
+					"french": {
+						"1490534793": "Hoxton",
+						"4241939803": "Dossiers du FBI: \"Hoxton\" a récemment été incarcéré à la prison d'Hazelton, mais a été libéré par le gang Payday alors qu'il était conduit à une audience de libération conditionnelle. Nous sommes sûrs qu'il sera très difficile de l'appréhender à nouveau."
+					},
+					"italian": {
+						"1490534793": "Hoxton",
+						"4241939803": "File dell'FBI: \"Hoxton\" è stato recentemente incarcerato nella prigione di Hazelton, ma è stato liberato dalla banda Payday mentre veniva portato a un'udienza per la libertà vigilata. Siamo certi che sarà molto difficile catturarlo di nuovo."
+					},
+					"german": {
+						"1490534793": "Hoxton",
+						"4241939803": "FBI-Akten: \"Hoxton\" war kürzlich im Hazelton-Gefängnis inhaftiert, wurde aber von der Payday-Gang befreit, als er zu einer Bewährungsanhörung gebracht wurde. Wir sind sicher, dass es sehr schwierig sein wird, ihn wieder zu fassen."
+					},
+					"spanish": {
+						"1490534793": "Hoxton",
+						"4241939803": "Archivos del FBI: \"Hoxton\" fue encarcelado recientemente en la prisión de Hazelton, pero fue liberado por la banda Payday mientras era llevado a una audiencia de libertad condicional. Estamos seguros de que será muy difícil volver a detenerlo."
+					},
+					"russian": {
+						"1490534793": "Хокстон",
+						"4241939803": "Досье ФБР: \"Хокстон\" был недавно заключен в тюрьму Хейзелтон, но был освобожден бандой Пейдей, когда его везли на слушание по условно-досрочному освобождению. Мы уверены, что его будет очень трудно задержать снова."
+					}
+				}
+			}
+		},
+		{
+			"group": "Hoxton",
+			"name": "Tropical Suit",
+			"type": "select",
+			"contentFolders": [
+				"1_content/hoxton",
+				"2_patches/replace/hoxton/tropicalsuit"
+			],
+			"blobsFolders": [
+				"blobs/hoxton/tropicalsuit"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2053833950": "FBI Files: \"Hoxton\" was recently incarcerated at Hazelton Prison, but was freed by the Payday gang while he was being taken to a parole hearing. We are sure he will be very difficult to apprehend again.",
+						"2347383834": "Hoxton"
+					},
+					"french": {
+						"2053833950": "Dossiers du FBI: \"Hoxton\" a récemment été incarcéré à la prison d'Hazelton, mais a été libéré par le gang Payday alors qu'il était conduit à une audience de libération conditionnelle. Nous sommes sûrs qu'il sera très difficile de l'appréhender à nouveau.",
+						"2347383834": "Hoxton"
+					},
+					"italian": {
+						"2053833950": "File dell'FBI: \"Hoxton\" è stato recentemente incarcerato nella prigione di Hazelton, ma è stato liberato dalla banda Payday mentre veniva portato a un'udienza per la libertà vigilata. Siamo certi che sarà molto difficile catturarlo di nuovo.",
+						"2347383834": "Hoxton"
+					},
+					"german": {
+						"2053833950": "FBI-Akten: \"Hoxton\" war kürzlich im Hazelton-Gefängnis inhaftiert, wurde aber von der Payday-Gang befreit, als er zu einer Bewährungsanhörung gebracht wurde. Wir sind sicher, dass es sehr schwierig sein wird, ihn wieder zu fassen.",
+						"2347383834": "Hoxton"
+					},
+					"spanish": {
+						"2053833950": "Archivos del FBI: \"Hoxton\" fue encarcelado recientemente en la prisión de Hazelton, pero fue liberado por la banda Payday mientras era llevado a una audiencia de libertad condicional. Estamos seguros de que será muy difícil volver a detenerlo.",
+						"2347383834": "Hoxton"
+					},
+					"russian": {
+						"2053833950": "Досье ФБР: \"Хокстон\" был недавно заключен в тюрьму Хейзелтон, но был освобожден бандой Пейдей, когда его везли на слушание по условно-досрочному освобождению. Мы уверены, что его будет очень трудно задержать снова.",
+						"2347383834": "Хокстон"
+					}
+				}
+			}
+		},
+		{
+			"group": "Hoxton",
+			"name": "Smart Casual Suit",
+			"type": "select",
+			"contentFolders": [
+				"1_content/hoxton",
+				"2_patches/replace/hoxton/smartcasual"
+			],
+			"blobsFolders": [
+				"blobs/hoxton/smartcasual"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"252086724": "Hoxton",
+						"678625422": "FBI Files: \"Hoxton\" was recently incarcerated at Hazelton Prison, but was freed by the Payday gang while he was being taken to a parole hearing. We are sure he will be very difficult to apprehend again."
+					},
+					"french": {
+						"252086724": "Hoxton",
+						"678625422": "Dossiers du FBI: \"Hoxton\" a récemment été incarcéré à la prison d'Hazelton, mais a été libéré par le gang Payday alors qu'il était conduit à une audience de libération conditionnelle. Nous sommes sûrs qu'il sera très difficile de l'appréhender à nouveau."
+					},
+					"italian": {
+						"252086724": "Hoxton",
+						"678625422": "File dell'FBI: \"Hoxton\" è stato recentemente incarcerato nella prigione di Hazelton, ma è stato liberato dalla banda Payday mentre veniva portato a un'udienza per la libertà vigilata. Siamo certi che sarà molto difficile catturarlo di nuovo."
+					},
+					"german": {
+						"252086724": "Hoxton",
+						"678625422": "FBI-Akten: \"Hoxton\" war kürzlich im Hazelton-Gefängnis inhaftiert, wurde aber von der Payday-Gang befreit, als er zu einer Bewährungsanhörung gebracht wurde. Wir sind sicher, dass es sehr schwierig sein wird, ihn wieder zu fassen."
+					},
+					"spanish": {
+						"252086724": "Hoxton",
+						"678625422": "Archivos del FBI: \"Hoxton\" fue encarcelado recientemente en la prisión de Hazelton, pero fue liberado por la banda Payday mientras era llevado a una audiencia de libertad condicional. Estamos seguros de que será muy difícil volver a detenerlo."
+					},
+					"russian": {
+						"252086724": "Хокстон",
+						"678625422": "Досье ФБР: \"Хокстон\" был недавно заключен в тюрьму Хейзелтон, но был освобожден бандой Пейдей, когда его везли на слушание по условно-досрочному освобождению. Мы уверены, что его будет очень трудно задержать снова."
+					}
+				}
+			}
+		},
+		{
+			"group": "Hoxton",
+			"name": "The Raver",
+			"type": "select",
+			"contentFolders": [
+				"1_content/hoxton",
+				"2_patches/replace/hoxton/raver"
+			],
+			"blobsFolders": [
+				"blobs/hoxton/raver"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"3362995256": "Hoxton",
+						"4079878924": "FBI Files: \"Hoxton\" was recently incarcerated at Hazelton Prison, but was freed by the Payday gang while he was being taken to a parole hearing. We are sure he will be very difficult to apprehend again."
+					},
+					"french": {
+						"3362995256": "Hoxton",
+						"4079878924": "Dossiers du FBI: \"Hoxton\" a récemment été incarcéré à la prison d'Hazelton, mais a été libéré par le gang Payday alors qu'il était conduit à une audience de libération conditionnelle. Nous sommes sûrs qu'il sera très difficile de l'appréhender à nouveau."
+					},
+					"italian": {
+						"3362995256": "Hoxton",
+						"4079878924": "File dell'FBI: \"Hoxton\" è stato recentemente incarcerato nella prigione di Hazelton, ma è stato liberato dalla banda Payday mentre veniva portato a un'udienza per la libertà vigilata. Siamo certi che sarà molto difficile catturarlo di nuovo."
+					},
+					"german": {
+						"3362995256": "Hoxton",
+						"4079878924": "FBI-Akten: \"Hoxton\" war kürzlich im Hazelton-Gefängnis inhaftiert, wurde aber von der Payday-Gang befreit, als er zu einer Bewährungsanhörung gebracht wurde. Wir sind sicher, dass es sehr schwierig sein wird, ihn wieder zu fassen."
+					},
+					"spanish": {
+						"3362995256": "Hoxton",
+						"4079878924": "Archivos del FBI: \"Hoxton\" fue encarcelado recientemente en la prisión de Hazelton, pero fue liberado por la banda Payday mientras era llevado a una audiencia de libertad condicional. Estamos seguros de que será muy difícil volver a detenerlo."
+					},
+					"russian": {
+						"3362995256": "Хокстон",
+						"4079878924": "Досье ФБР: \"Хокстон\" был недавно заключен в тюрьму Хейзелтон, но был освобожден бандой Пейдей, когда его везли на слушание по условно-досрочному освобождению. Мы уверены, что его будет очень трудно задержать снова."
+					}
+				}
+			}
+		},
+		{
+			"group": "Hoxton",
+			"name": "Lucky Ducky",
+			"type": "select",
+			"contentFolders": [
+				"1_content/hoxton",
+				"2_patches/replace/hoxton/luckyducky"
+			],
+			"blobsFolders": [
+				"blobs/hoxton/luckyducky"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2760943898": "Hoxton",
+						"2681050670": "FBI Files: \"Hoxton\" was recently incarcerated at Hazelton Prison, but was freed by the Payday gang while he was being taken to a parole hearing. We are sure he will be very difficult to apprehend again."
+					},
+					"french": {
+						"2760943898": "Hoxton",
+						"2681050670": "Dossiers du FBI: \"Hoxton\" a récemment été incarcéré à la prison d'Hazelton, mais a été libéré par le gang Payday alors qu'il était conduit à une audience de libération conditionnelle. Nous sommes sûrs qu'il sera très difficile de l'appréhender à nouveau."
+					},
+					"italian": {
+						"2760943898": "Hoxton",
+						"2681050670": "File dell'FBI: \"Hoxton\" è stato recentemente incarcerato nella prigione di Hazelton, ma è stato liberato dalla banda Payday mentre veniva portato a un'udienza per la libertà vigilata. Siamo certi che sarà molto difficile catturarlo di nuovo."
+					},
+					"german": {
+						"2760943898": "Hoxton",
+						"2681050670": "FBI-Akten: \"Hoxton\" war kürzlich im Hazelton-Gefängnis inhaftiert, wurde aber von der Payday-Gang befreit, als er zu einer Bewährungsanhörung gebracht wurde. Wir sind sicher, dass es sehr schwierig sein wird, ihn wieder zu fassen."
+					},
+					"spanish": {
+						"2760943898": "Hoxton",
+						"2681050670": "Archivos del FBI: \"Hoxton\" fue encarcelado recientemente en la prisión de Hazelton, pero fue liberado por la banda Payday mientras era llevado a una audiencia de libertad condicional. Estamos seguros de que será muy difícil volver a detenerlo."
+					},
+					"russian": {
+						"2760943898": "Хокстон",
+						"2681050670": "Досье ФБР: \"Хокстон\" был недавно заключен в тюрьму Хейзелтон, но был освобожден бандой Пейдей, когда его везли на слушание по условно-досрочному освобождению. Мы уверены, что его будет очень трудно задержать снова."
+					}
+				}
+			}
+		},
+		{
+			"group": "Wolf",
+			"name": "Do not install",
+			"type": "select",
+			"enabledByDefault": true,
+			"tooltip": "Do not install Wolf.",
+			"image": "wolf.jpg"
+		},
+		{
+			"group": "Wolf",
+			"name": "Peacock Addon",
+			"type": "select",
+			"tooltip": "Install Wolf to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+			"contentFolders": [
+				"1_content/wolf",
+				"2_patches/replace/wolf/addon"
+			],
+			"blobsFolders": [
+				"blobs/wolf/addon"
+			],
+			"localisedLines": {
+				"0063A848EF0535D5": "UI_TOKEN_OUTFIT_HERO_PAYDAY_WOLF_DESC",
+				"007E64FA2E4E2061": "UI_TOKEN_OUTFIT_HERO_PAYDAY_WOLF_NAME"
+			},
+			"localisation": {
+				"english": {
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_WOLF_DESC": "FBI Files: For his affinity for explosives and capability with hardware, we consider this one to be the Technician in the group. Further, study by our profiling teams in Behavioral Analysis suggest that \"Wolf\" could be psychotic, as evidenced by his sudden shifts of mood.",
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_WOLF_NAME": "Wolf"
+				},
+				"french": {
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_WOLF_DESC": "Dossiers du FBI: En raison de son affinité pour les explosifs et de son habileté avec le matériel, nous le considérons comme le Technicien du groupe. De plus, l'étude de nos équipes d'analyse comportementale suggère que \"Wolf\" pourrait être psychotique, comme en témoignent ses brusques changements d'humeur.",
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_WOLF_NAME": "Wolf"
+				},
+				"german": {
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_WOLF_DESC": "FBI-Akten: Aufgrund seiner Vorliebe für Sprengstoffe und seiner Fähigkeiten im Umgang mit Hardware halten wir ihn für den Techniker in der Gruppe. Außerdem deuten die Untersuchungen unserer Profiling-Teams in der Verhaltensanalyse darauf hin, dass \"Wolf\" psychotisch sein könnte, wie seine plötzlichen Stimmungsschwankungen zeigen.",
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_WOLF_NAME": "Wolf"
+				},
+				"spanish": {
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_WOLF_DESC": "Archivos del FBI: Por su afinidad con los explosivos y su capacidad con el hardware, consideramos que éste es el Técnico del grupo. Además, los estudios de nuestros equipos de perfiles en Análisis de Conducta sugieren que \"Wolf\" podría ser psicótico, como demuestran sus repentinos cambios de humor.",
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_WOLF_NAME": "Wolf"
+				},
+				"italian": {
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_WOLF_DESC": "Documenti dell'FBI: Per la sua affinità con gli esplosivi e l'abilità con l'hardware, lo consideriamo il Tecnico del gruppo. Inoltre, lo studio dei nostri team di analisi comportamentale suggerisce che \"Wolf\" potrebbe essere psicotico, come dimostrano i suoi improvvisi cambi di umore.",
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_WOLF_NAME": "Wolf"
+				},
+				"russian": {
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_WOLF_DESC": "Досье ФБР: Из-за его привязанности к взрывчатым веществам и умения обращаться с техникой, мы считаем его техником в группе. Кроме того, исследования наших профилирующих групп по поведенческому анализу показывают, что \"Вулф\" может быть психопатом, о чем свидетельствуют его внезапные смены настроения.",
+					"UI_TOKEN_OUTFIT_HERO_PAYDAY_WOLF_NAME": "Вулф"
+				}
+			}
+		},
+		{
+			"group": "Wolf",
+			"name": "Casual Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"1_content/wolf",
+				"2_patches/replace/wolf/bangkok"
+			],
+			"blobsFolders": [
+				"blobs/wolf/bangkok"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"2741280242": "FBI Files: For his affinity for explosives and capability with hardware, we consider this one to be the Technician in the group. Further, study by our profiling teams in Behavioral Analysis suggest that \"Wolf\" could be psychotic, as evidenced by his sudden shifts of mood.",
+						"4086875141": "Wolf"
+					},
+					"french": {
+						"2741280242": "Dossiers du FBI: En raison de son affinité pour les explosifs et de son habileté avec le matériel, nous le considérons comme le Technicien du groupe. De plus, l'étude de nos équipes d'analyse comportementale suggère que \"Wolf\" pourrait être psychotique, comme en témoignent ses brusques changements d'humeur.",
+						"4086875141": "Wolf"
+					},
+					"italian": {
+						"2741280242": "Documenti dell'FBI: Per la sua affinità con gli esplosivi e l'abilità con l'hardware, lo consideriamo il Tecnico del gruppo. Inoltre, lo studio dei nostri team di analisi comportamentale suggerisce che \"Wolf\" potrebbe essere psicotico, come dimostrano i suoi improvvisi cambi di umore.",
+						"4086875141": "Wolf"
+					},
+					"german": {
+						"2741280242": "FBI-Akten: Aufgrund seiner Vorliebe für Sprengstoffe und seiner Fähigkeiten im Umgang mit Hardware halten wir ihn für den Techniker in der Gruppe. Außerdem deuten die Untersuchungen unserer Profiling-Teams in der Verhaltensanalyse darauf hin, dass \"Wolf\" psychotisch sein könnte, wie seine plötzlichen Stimmungsschwankungen zeigen.",
+						"4086875141": "Wolf"
+					},
+					"spanish": {
+						"2741280242": "Archivos del FBI: Por su afinidad con los explosivos y su capacidad con el hardware, consideramos que éste es el Técnico del grupo. Además, los estudios de nuestros equipos de perfiles en Análisis de Conducta sugieren que \"Wolf\" podría ser psicótico, como demuestran sus repentinos cambios de humor.",
+						"4086875141": "Wolf"
+					},
+					"russian": {
+						"2741280242": "Досье ФБР: Из-за его привязанности к взрывчатым веществам и умения обращаться с техникой, мы считаем его техником в группе. Кроме того, исследования наших профилирующих групп по поведенческому анализу показывают, что \"Вулф\" может быть психопатом, о чем свидетельствуют его внезапные смены настроения.",
+						"4086875141": "Вулф"
+					}
+				}
+			}
+		},
+		{
+			"group": "Wolf",
+			"name": "Italian Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"1_content/wolf",
+				"2_patches/replace/wolf/sapienza"
+			],
+			"blobsFolders": [
+				"blobs/wolf/sapienza"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"3346035357": "FBI Files: For his affinity for explosives and capability with hardware, we consider this one to be the Technician in the group. Further, study by our profiling teams in Behavioral Analysis suggest that \"Wolf\" could be psychotic, as evidenced by his sudden shifts of mood.",
+						"3648979387": "Wolf"
+					},
+					"french": {
+						"3346035357": "Dossiers du FBI: En raison de son affinité pour les explosifs et de son habileté avec le matériel, nous le considérons comme le Technicien du groupe. De plus, l'étude de nos équipes d'analyse comportementale suggère que \"Wolf\" pourrait être psychotique, comme en témoignent ses brusques changements d'humeur.",
+						"3648979387": "Wolf"
+					},
+					"italian": {
+						"3346035357": "Documenti dell'FBI: Per la sua affinità con gli esplosivi e l'abilità con l'hardware, lo consideriamo il Tecnico del gruppo. Inoltre, lo studio dei nostri team di analisi comportamentale suggerisce che \"Wolf\" potrebbe essere psicotico, come dimostrano i suoi improvvisi cambi di umore.",
+						"3648979387": "Wolf"
+					},
+					"german": {
+						"3346035357": "FBI-Akten: Aufgrund seiner Vorliebe für Sprengstoffe und seiner Fähigkeiten im Umgang mit Hardware halten wir ihn für den Techniker in der Gruppe. Außerdem deuten die Untersuchungen unserer Profiling-Teams in der Verhaltensanalyse darauf hin, dass \"Wolf\" psychotisch sein könnte, wie seine plötzlichen Stimmungsschwankungen zeigen.",
+						"3648979387": "Wolf"
+					},
+					"spanish": {
+						"3346035357": "Archivos del FBI: Por su afinidad con los explosivos y su capacidad con el hardware, consideramos que éste es el Técnico del grupo. Además, los estudios de nuestros equipos de perfiles en Análisis de Conducta sugieren que \"Wolf\" podría ser psicótico, como demuestran sus repentinos cambios de humor.",
+						"3648979387": "Wolf"
+					},
+					"russian": {
+						"3346035357": "Досье ФБР: Из-за его привязанности к взрывчатым веществам и умения обращаться с техникой, мы считаем его техником в группе. Кроме того, исследования наших профилирующих групп по поведенческому анализу показывают, что \"Вулф\" может быть психопатом, о чем свидетельствуют его внезапные смены настроения.",
+						"3648979387": "Вулф"
+					}
+				}
+			}
+		},
+		{
+			"group": "Wolf",
+			"name": "Florida Fit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"1_content/wolf",
+				"2_patches/replace/wolf/miami"
+			],
+			"blobsFolders": [
+				"blobs/wolf/miami"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"1774659088": "Wolf",
+						"3175901226": "FBI Files: For his affinity for explosives and capability with hardware, we consider this one to be the Technician in the group. Further, study by our profiling teams in Behavioral Analysis suggest that \"Wolf\" could be psychotic, as evidenced by his sudden shifts of mood."
+					},
+					"french": {
+						"1774659088": "Wolf",
+						"3175901226": "Dossiers du FBI: En raison de son affinité pour les explosifs et de son habileté avec le matériel, nous le considérons comme le Technicien du groupe. De plus, l'étude de nos équipes d'analyse comportementale suggère que \"Wolf\" pourrait être psychotique, comme en témoignent ses brusques changements d'humeur."
+					},
+					"italian": {
+						"1774659088": "Wolf",
+						"3175901226": "Documenti dell'FBI: Per la sua affinità con gli esplosivi e l'abilità con l'hardware, lo consideriamo il Tecnico del gruppo. Inoltre, lo studio dei nostri team di analisi comportamentale suggerisce che \"Wolf\" potrebbe essere psicotico, come dimostrano i suoi improvvisi cambi di umore."
+					},
+					"german": {
+						"1774659088": "Wolf",
+						"3175901226": "FBI-Akten: Aufgrund seiner Vorliebe für Sprengstoffe und seiner Fähigkeiten im Umgang mit Hardware halten wir ihn für den Techniker in der Gruppe. Außerdem deuten die Untersuchungen unserer Profiling-Teams in der Verhaltensanalyse darauf hin, dass \"Wolf\" psychotisch sein könnte, wie seine plötzlichen Stimmungsschwankungen zeigen."
+					},
+					"spanish": {
+						"1774659088": "Wolf",
+						"3175901226": "Archivos del FBI: Por su afinidad con los explosivos y su capacidad con el hardware, consideramos que éste es el Técnico del grupo. Además, los estudios de nuestros equipos de perfiles en Análisis de Conducta sugieren que \"Wolf\" podría ser psicótico, como demuestran sus repentinos cambios de humor."
+					},
+					"russian": {
+						"1774659088": "Вулф",
+						"3175901226": "Досье ФБР: Из-за его привязанности к взрывчатым веществам и умения обращаться с техникой, мы считаем его техником в группе. Кроме того, исследования наших профилирующих групп по поведенческому анализу показывают, что \"Вулф\" может быть психопатом, о чем свидетельствуют его внезапные смены настроения."
+					}
+				}
+			}
+		},
+		{
+			"group": "Wolf",
+			"name": "Casual Tourist with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"1_content/wolf",
+				"2_patches/replace/wolf/sanfortuna"
+			],
+			"blobsFolders": [
+				"blobs/wolf/sanfortuna"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2978719530": "Wolf",
+						"3533044117": "FBI Files: For his affinity for explosives and capability with hardware, we consider this one to be the Technician in the group. Further, study by our profiling teams in Behavioral Analysis suggest that \"Wolf\" could be psychotic, as evidenced by his sudden shifts of mood."
+					},
+					"french": {
+						"2978719530": "Wolf",
+						"3533044117": "Dossiers du FBI: En raison de son affinité pour les explosifs et de son habileté avec le matériel, nous le considérons comme le Technicien du groupe. De plus, l'étude de nos équipes d'analyse comportementale suggère que \"Wolf\" pourrait être psychotique, comme en témoignent ses brusques changements d'humeur."
+					},
+					"italian": {
+						"2978719530": "Wolf",
+						"3533044117": "Documenti dell'FBI: Per la sua affinità con gli esplosivi e l'abilità con l'hardware, lo consideriamo il Tecnico del gruppo. Inoltre, lo studio dei nostri team di analisi comportamentale suggerisce che \"Wolf\" potrebbe essere psicotico, come dimostrano i suoi improvvisi cambi di umore."
+					},
+					"german": {
+						"2978719530": "Wolf",
+						"3533044117": "FBI-Akten: Aufgrund seiner Vorliebe für Sprengstoffe und seiner Fähigkeiten im Umgang mit Hardware halten wir ihn für den Techniker in der Gruppe. Außerdem deuten die Untersuchungen unserer Profiling-Teams in der Verhaltensanalyse darauf hin, dass \"Wolf\" psychotisch sein könnte, wie seine plötzlichen Stimmungsschwankungen zeigen."
+					},
+					"spanish": {
+						"2978719530": "Wolf",
+						"3533044117": "Archivos del FBI: Por su afinidad con los explosivos y su capacidad con el hardware, consideramos que éste es el Técnico del grupo. Además, los estudios de nuestros equipos de perfiles en Análisis de Conducta sugieren que \"Wolf\" podría ser psicótico, como demuestran sus repentinos cambios de humor."
+					},
+					"russian": {
+						"2978719530": "Вулф",
+						"3533044117": "Досье ФБР: Из-за его привязанности к взрывчатым веществам и умения обращаться с техникой, мы считаем его техником в группе. Кроме того, исследования наших профилирующих групп по поведенческому анализу показывают, что \"Вулф\" может быть психопатом, о чем свидетельствуют его внезапные смены настроения."
+					}
+				}
+			}
+		},
+		{
+			"group": "Wolf",
+			"name": "Summer Suave Suit",
+			"type": "select",
+			"contentFolders": [
+				"1_content/wolf",
+				"2_patches/replace/wolf/summersuave"
+			],
+			"blobsFolders": [
+				"blobs/wolf/summersuave"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"134957393": "Wolf",
+						"2101382595": "FBI Files: For his affinity for explosives and capability with hardware, we consider this one to be the Technician in the group. Further, study by our profiling teams in Behavioral Analysis suggest that \"Wolf\" could be psychotic, as evidenced by his sudden shifts of mood."
+					},
+					"french": {
+						"134957393": "Wolf",
+						"2101382595": "Dossiers du FBI: En raison de son affinité pour les explosifs et de son habileté avec le matériel, nous le considérons comme le Technicien du groupe. De plus, l'étude de nos équipes d'analyse comportementale suggère que \"Wolf\" pourrait être psychotique, comme en témoignent ses brusques changements d'humeur."
+					},
+					"italian": {
+						"134957393": "Wolf",
+						"2101382595": "Documenti dell'FBI: Per la sua affinità con gli esplosivi e l'abilità con l'hardware, lo consideriamo il Tecnico del gruppo. Inoltre, lo studio dei nostri team di analisi comportamentale suggerisce che \"Wolf\" potrebbe essere psicotico, come dimostrano i suoi improvvisi cambi di umore."
+					},
+					"german": {
+						"134957393": "Wolf",
+						"2101382595": "FBI-Akten: Aufgrund seiner Vorliebe für Sprengstoffe und seiner Fähigkeiten im Umgang mit Hardware halten wir ihn für den Techniker in der Gruppe. Außerdem deuten die Untersuchungen unserer Profiling-Teams in der Verhaltensanalyse darauf hin, dass \"Wolf\" psychotisch sein könnte, wie seine plötzlichen Stimmungsschwankungen zeigen."
+					},
+					"spanish": {
+						"134957393": "Wolf",
+						"2101382595": "Archivos del FBI: Por su afinidad con los explosivos y su capacidad con el hardware, consideramos que éste es el Técnico del grupo. Además, los estudios de nuestros equipos de perfiles en Análisis de Conducta sugieren que \"Wolf\" podría ser psicótico, como demuestran sus repentinos cambios de humor."
+					},
+					"russian": {
+						"134957393": "Вулф",
+						"2101382595": "Досье ФБР: Из-за его привязанности к взрывчатым веществам и умения обращаться с техникой, мы считаем его техником в группе. Кроме того, исследования наших профилирующих групп по поведенческому анализу показывают, что \"Вулф\" может быть психопатом, о чем свидетельствуют его внезапные смены настроения."
+					}
+				}
+			}
+		},
+		{
+			"group": "Wolf",
+			"name": "Summer Sightseeing Suit",
+			"type": "select",
+			"contentFolders": [
+				"1_content/wolf",
+				"2_patches/replace/wolf/summersightseeing"
+			],
+			"blobsFolders": [
+				"blobs/wolf/summersightseeing"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2627471231": "FBI Files: For his affinity for explosives and capability with hardware, we consider this one to be the Technician in the group. Further, study by our profiling teams in Behavioral Analysis suggest that \"Wolf\" could be psychotic, as evidenced by his sudden shifts of mood.",
+						"2814457931": "Wolf"
+					},
+					"french": {
+						"2627471231": "Dossiers du FBI: En raison de son affinité pour les explosifs et de son habileté avec le matériel, nous le considérons comme le Technicien du groupe. De plus, l'étude de nos équipes d'analyse comportementale suggère que \"Wolf\" pourrait être psychotique, comme en témoignent ses brusques changements d'humeur.",
+						"2814457931": "Wolf"
+					},
+					"italian": {
+						"2627471231": "Documenti dell'FBI: Per la sua affinità con gli esplosivi e l'abilità con l'hardware, lo consideriamo il Tecnico del gruppo. Inoltre, lo studio dei nostri team di analisi comportamentale suggerisce che \"Wolf\" potrebbe essere psicotico, come dimostrano i suoi improvvisi cambi di umore.",
+						"2814457931": "Wolf"
+					},
+					"german": {
+						"2627471231": "FBI-Akten: Aufgrund seiner Vorliebe für Sprengstoffe und seiner Fähigkeiten im Umgang mit Hardware halten wir ihn für den Techniker in der Gruppe. Außerdem deuten die Untersuchungen unserer Profiling-Teams in der Verhaltensanalyse darauf hin, dass \"Wolf\" psychotisch sein könnte, wie seine plötzlichen Stimmungsschwankungen zeigen.",
+						"2814457931": "Wolf"
+					},
+					"spanish": {
+						"2627471231": "Archivos del FBI: Por su afinidad con los explosivos y su capacidad con el hardware, consideramos que éste es el Técnico del grupo. Además, los estudios de nuestros equipos de perfiles en Análisis de Conducta sugieren que \"Wolf\" podría ser psicótico, como demuestran sus repentinos cambios de humor.",
+						"2814457931": "Wolf"
+					},
+					"russian": {
+						"2627471231": "Досье ФБР: Из-за его привязанности к взрывчатым веществам и умения обращаться с техникой, мы считаем его техником в группе. Кроме того, исследования наших профилирующих групп по поведенческому анализу показывают, что \"Вулф\" может быть психопатом, о чем свидетельствуют его внезапные смены настроения.",
+						"2814457931": "Вулф"
+					}
+				}
+			}
+		},
+		{
+			"group": "Wolf",
+			"name": "Casual Undercover",
+			"type": "select",
+			"contentFolders": [
+				"1_content/wolf",
+				"2_patches/replace/wolf/casualundercover"
+			],
+			"blobsFolders": [
+				"blobs/wolf/casualundercover"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2052724919": "Wolf",
+						"3635577953": "FBI Files: For his affinity for explosives and capability with hardware, we consider this one to be the Technician in the group. Further, study by our profiling teams in Behavioral Analysis suggest that \"Wolf\" could be psychotic, as evidenced by his sudden shifts of mood."
+					},
+					"french": {
+						"2052724919": "Wolf",
+						"3635577953": "Dossiers du FBI: En raison de son affinité pour les explosifs et de son habileté avec le matériel, nous le considérons comme le Technicien du groupe. De plus, l'étude de nos équipes d'analyse comportementale suggère que \"Wolf\" pourrait être psychotique, comme en témoignent ses brusques changements d'humeur."
+					},
+					"italian": {
+						"2052724919": "Wolf",
+						"3635577953": "Documenti dell'FBI: Per la sua affinità con gli esplosivi e l'abilità con l'hardware, lo consideriamo il Tecnico del gruppo. Inoltre, lo studio dei nostri team di analisi comportamentale suggerisce che \"Wolf\" potrebbe essere psicotico, come dimostrano i suoi improvvisi cambi di umore."
+					},
+					"german": {
+						"2052724919": "Wolf",
+						"3635577953": "FBI-Akten: Aufgrund seiner Vorliebe für Sprengstoffe und seiner Fähigkeiten im Umgang mit Hardware halten wir ihn für den Techniker in der Gruppe. Außerdem deuten die Untersuchungen unserer Profiling-Teams in der Verhaltensanalyse darauf hin, dass \"Wolf\" psychotisch sein könnte, wie seine plötzlichen Stimmungsschwankungen zeigen."
+					},
+					"spanish": {
+						"2052724919": "Wolf",
+						"3635577953": "Archivos del FBI: Por su afinidad con los explosivos y su capacidad con el hardware, consideramos que éste es el Técnico del grupo. Además, los estudios de nuestros equipos de perfiles en Análisis de Conducta sugieren que \"Wolf\" podría ser psicótico, como demuestran sus repentinos cambios de humor."
+					},
+					"russian": {
+						"2052724919": "Вулф",
+						"3635577953": "Досье ФБР: Из-за его привязанности к взрывчатым веществам и умения обращаться с техникой, мы считаем его техником в группе. Кроме того, исследования наших профилирующих групп по поведенческому анализу показывают, что \"Вулф\" может быть психопатом, о чем свидетельствуют его внезапные смены настроения."
+					}
+				}
+			}
+		},
+		{
+			"group": "Wolf",
+			"name": "Midnight Black Suit",
+			"type": "select",
+			"contentFolders": [
+				"1_content/wolf",
+				"2_patches/replace/wolf/midnightblack"
+			],
+			"blobsFolders": [
+				"blobs/wolf/midnightblack"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"972885031": "FBI Files: For his affinity for explosives and capability with hardware, we consider this one to be the Technician in the group. Further, study by our profiling teams in Behavioral Analysis suggest that \"Wolf\" could be psychotic, as evidenced by his sudden shifts of mood.",
+						"2762453674": "Wolf"
+					},
+					"french": {
+						"972885031": "Dossiers du FBI: En raison de son affinité pour les explosifs et de son habileté avec le matériel, nous le considérons comme le Technicien du groupe. De plus, l'étude de nos équipes d'analyse comportementale suggère que \"Wolf\" pourrait être psychotique, comme en témoignent ses brusques changements d'humeur.",
+						"2762453674": "Wolf"
+					},
+					"italian": {
+						"972885031": "Documenti dell'FBI: Per la sua affinità con gli esplosivi e l'abilità con l'hardware, lo consideriamo il Tecnico del gruppo. Inoltre, lo studio dei nostri team di analisi comportamentale suggerisce che \"Wolf\" potrebbe essere psicotico, come dimostrano i suoi improvvisi cambi di umore.",
+						"2762453674": "Wolf"
+					},
+					"german": {
+						"972885031": "FBI-Akten: Aufgrund seiner Vorliebe für Sprengstoffe und seiner Fähigkeiten im Umgang mit Hardware halten wir ihn für den Techniker in der Gruppe. Außerdem deuten die Untersuchungen unserer Profiling-Teams in der Verhaltensanalyse darauf hin, dass \"Wolf\" psychotisch sein könnte, wie seine plötzlichen Stimmungsschwankungen zeigen.",
+						"2762453674": "Wolf"
+					},
+					"spanish": {
+						"972885031": "Archivos del FBI: Por su afinidad con los explosivos y su capacidad con el hardware, consideramos que éste es el Técnico del grupo. Además, los estudios de nuestros equipos de perfiles en Análisis de Conducta sugieren que \"Wolf\" podría ser psicótico, como demuestran sus repentinos cambios de humor.",
+						"2762453674": "Wolf"
+					},
+					"russian": {
+						"972885031": "Досье ФБР: Из-за его привязанности к взрывчатым веществам и умения обращаться с техникой, мы считаем его техником в группе. Кроме того, исследования наших профилирующих групп по поведенческому анализу показывают, что \"Вулф\" может быть психопатом, о чем свидетельствуют его внезапные смены настроения.",
+						"2762453674": "Вулф"
+					}
+				}
+			}
+		},
+		{
+			"group": "Wolf",
+			"name": "Summer Suit with Gloves",
+			"type": "select",
+			"contentFolders": [
+				"1_content/wolf",
+				"2_patches/replace/wolf/marrakesh"
+			],
+			"blobsFolders": [
+				"blobs/wolf/marrakesh"
+			],
+			"localisationOverrides": {
+				"00985A1100E5EDDC": {
+					"english": {
+						"1490534793": "Wolf",
+						"4241939803": "FBI Files: For his affinity for explosives and capability with hardware, we consider this one to be the Technician in the group. Further, study by our profiling teams in Behavioral Analysis suggest that \"Wolf\" could be psychotic, as evidenced by his sudden shifts of mood."
+					},
+					"french": {
+						"1490534793": "Wolf",
+						"4241939803": "Dossiers du FBI: En raison de son affinité pour les explosifs et de son habileté avec le matériel, nous le considérons comme le Technicien du groupe. De plus, l'étude de nos équipes d'analyse comportementale suggère que \"Wolf\" pourrait être psychotique, comme en témoignent ses brusques changements d'humeur."
+					},
+					"italian": {
+						"1490534793": "Wolf",
+						"4241939803": "Documenti dell'FBI: Per la sua affinità con gli esplosivi e l'abilità con l'hardware, lo consideriamo il Tecnico del gruppo. Inoltre, lo studio dei nostri team di analisi comportamentale suggerisce che \"Wolf\" potrebbe essere psicotico, come dimostrano i suoi improvvisi cambi di umore."
+					},
+					"german": {
+						"1490534793": "Wolf",
+						"4241939803": "FBI-Akten: Aufgrund seiner Vorliebe für Sprengstoffe und seiner Fähigkeiten im Umgang mit Hardware halten wir ihn für den Techniker in der Gruppe. Außerdem deuten die Untersuchungen unserer Profiling-Teams in der Verhaltensanalyse darauf hin, dass \"Wolf\" psychotisch sein könnte, wie seine plötzlichen Stimmungsschwankungen zeigen."
+					},
+					"spanish": {
+						"1490534793": "Wolf",
+						"4241939803": "Archivos del FBI: Por su afinidad con los explosivos y su capacidad con el hardware, consideramos que éste es el Técnico del grupo. Además, los estudios de nuestros equipos de perfiles en Análisis de Conducta sugieren que \"Wolf\" podría ser psicótico, como demuestran sus repentinos cambios de humor."
+					},
+					"russian": {
+						"1490534793": "Вулф",
+						"4241939803": "Досье ФБР: Из-за его привязанности к взрывчатым веществам и умения обращаться с техникой, мы считаем его техником в группе. Кроме того, исследования наших профилирующих групп по поведенческому анализу показывают, что \"Вулф\" может быть психопатом, о чем свидетельствуют его внезапные смены настроения."
+					}
+				}
+			}
+		},
+		{
+			"group": "Wolf",
+			"name": "Tropical Suit",
+			"type": "select",
+			"contentFolders": [
+				"1_content/wolf",
+				"2_patches/replace/wolf/tropicalsuit"
+			],
+			"blobsFolders": [
+				"blobs/wolf/tropicalsuit"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"2053833950": "FBI Files: For his affinity for explosives and capability with hardware, we consider this one to be the Technician in the group. Further, study by our profiling teams in Behavioral Analysis suggest that \"Wolf\" could be psychotic, as evidenced by his sudden shifts of mood.",
+						"2347383834": "Wolf"
+					},
+					"french": {
+						"2053833950": "Dossiers du FBI: En raison de son affinité pour les explosifs et de son habileté avec le matériel, nous le considérons comme le Technicien du groupe. De plus, l'étude de nos équipes d'analyse comportementale suggère que \"Wolf\" pourrait être psychotique, comme en témoignent ses brusques changements d'humeur.",
+						"2347383834": "Wolf"
+					},
+					"italian": {
+						"2053833950": "Documenti dell'FBI: Per la sua affinità con gli esplosivi e l'abilità con l'hardware, lo consideriamo il Tecnico del gruppo. Inoltre, lo studio dei nostri team di analisi comportamentale suggerisce che \"Wolf\" potrebbe essere psicotico, come dimostrano i suoi improvvisi cambi di umore.",
+						"2347383834": "Wolf"
+					},
+					"german": {
+						"2053833950": "FBI-Akten: Aufgrund seiner Vorliebe für Sprengstoffe und seiner Fähigkeiten im Umgang mit Hardware halten wir ihn für den Techniker in der Gruppe. Außerdem deuten die Untersuchungen unserer Profiling-Teams in der Verhaltensanalyse darauf hin, dass \"Wolf\" psychotisch sein könnte, wie seine plötzlichen Stimmungsschwankungen zeigen.",
+						"2347383834": "Wolf"
+					},
+					"spanish": {
+						"2053833950": "Archivos del FBI: Por su afinidad con los explosivos y su capacidad con el hardware, consideramos que éste es el Técnico del grupo. Además, los estudios de nuestros equipos de perfiles en Análisis de Conducta sugieren que \"Wolf\" podría ser psicótico, como demuestran sus repentinos cambios de humor.",
+						"2347383834": "Wolf"
+					},
+					"russian": {
+						"2053833950": "Досье ФБР: Из-за его привязанности к взрывчатым веществам и умения обращаться с техникой, мы считаем его техником в группе. Кроме того, исследования наших профилирующих групп по поведенческому анализу показывают, что \"Вулф\" может быть психопатом, о чем свидетельствуют его внезапные смены настроения.",
+						"2347383834": "Вулф"
+					}
+				}
+			}
+		},
+		{
+			"group": "Wolf",
+			"name": "Smart Casual Suit",
+			"type": "select",
+			"contentFolders": [
+				"1_content/wolf",
+				"2_patches/replace/wolf/smartcasual"
+			],
+			"blobsFolders": [
+				"blobs/wolf/smartcasual"
+			],
+			"localisationOverrides": {
+				"009F430D046716BE": {
+					"english": {
+						"252086724": "Wolf",
+						"678625422": "FBI Files: For his affinity for explosives and capability with hardware, we consider this one to be the Technician in the group. Further, study by our profiling teams in Behavioral Analysis suggest that \"Wolf\" could be psychotic, as evidenced by his sudden shifts of mood."
+					},
+					"french": {
+						"252086724": "Wolf",
+						"678625422": "Dossiers du FBI: En raison de son affinité pour les explosifs et de son habileté avec le matériel, nous le considérons comme le Technicien du groupe. De plus, l'étude de nos équipes d'analyse comportementale suggère que \"Wolf\" pourrait être psychotique, comme en témoignent ses brusques changements d'humeur."
+					},
+					"italian": {
+						"252086724": "Wolf",
+						"678625422": "Documenti dell'FBI: Per la sua affinità con gli esplosivi e l'abilità con l'hardware, lo consideriamo il Tecnico del gruppo. Inoltre, lo studio dei nostri team di analisi comportamentale suggerisce che \"Wolf\" potrebbe essere psicotico, come dimostrano i suoi improvvisi cambi di umore."
+					},
+					"german": {
+						"252086724": "Wolf",
+						"678625422": "FBI-Akten: Aufgrund seiner Vorliebe für Sprengstoffe und seiner Fähigkeiten im Umgang mit Hardware halten wir ihn für den Techniker in der Gruppe. Außerdem deuten die Untersuchungen unserer Profiling-Teams in der Verhaltensanalyse darauf hin, dass \"Wolf\" psychotisch sein könnte, wie seine plötzlichen Stimmungsschwankungen zeigen."
+					},
+					"spanish": {
+						"252086724": "Wolf",
+						"678625422": "Archivos del FBI: Por su afinidad con los explosivos y su capacidad con el hardware, consideramos que éste es el Técnico del grupo. Además, los estudios de nuestros equipos de perfiles en Análisis de Conducta sugieren que \"Wolf\" podría ser psicótico, como demuestran sus repentinos cambios de humor."
+					},
+					"russian": {
+						"252086724": "Вулф",
+						"678625422": "Досье ФБР: Из-за его привязанности к взрывчатым веществам и умения обращаться с техникой, мы считаем его техником в группе. Кроме того, исследования наших профилирующих групп по поведенческому анализу показывают, что \"Вулф\" может быть психопатом, о чем свидетельствуют его внезапные смены настроения."
+					}
+				}
+			}
+		},
+		{
+			"group": "Wolf",
+			"name": "The Raver",
+			"type": "select",
+			"contentFolders": [
+				"1_content/wolf",
+				"2_patches/replace/wolf/raver"
+			],
+			"blobsFolders": [
+				"blobs/wolf/raver"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"3362995256": "Wolf",
+						"4079878924": "FBI Files: For his affinity for explosives and capability with hardware, we consider this one to be the Technician in the group. Further, study by our profiling teams in Behavioral Analysis suggest that \"Wolf\" could be psychotic, as evidenced by his sudden shifts of mood."
+					},
+					"french": {
+						"3362995256": "Wolf",
+						"4079878924": "Dossiers du FBI: En raison de son affinité pour les explosifs et de son habileté avec le matériel, nous le considérons comme le Technicien du groupe. De plus, l'étude de nos équipes d'analyse comportementale suggère que \"Wolf\" pourrait être psychotique, comme en témoignent ses brusques changements d'humeur."
+					},
+					"italian": {
+						"3362995256": "Wolf",
+						"4079878924": "Documenti dell'FBI: Per la sua affinità con gli esplosivi e l'abilità con l'hardware, lo consideriamo il Tecnico del gruppo. Inoltre, lo studio dei nostri team di analisi comportamentale suggerisce che \"Wolf\" potrebbe essere psicotico, come dimostrano i suoi improvvisi cambi di umore."
+					},
+					"german": {
+						"3362995256": "Wolf",
+						"4079878924": "FBI-Akten: Aufgrund seiner Vorliebe für Sprengstoffe und seiner Fähigkeiten im Umgang mit Hardware halten wir ihn für den Techniker in der Gruppe. Außerdem deuten die Untersuchungen unserer Profiling-Teams in der Verhaltensanalyse darauf hin, dass \"Wolf\" psychotisch sein könnte, wie seine plötzlichen Stimmungsschwankungen zeigen."
+					},
+					"spanish": {
+						"3362995256": "Wolf",
+						"4079878924": "Archivos del FBI: Por su afinidad con los explosivos y su capacidad con el hardware, consideramos que éste es el Técnico del grupo. Además, los estudios de nuestros equipos de perfiles en Análisis de Conducta sugieren que \"Wolf\" podría ser psicótico, como demuestran sus repentinos cambios de humor."
+					},
+					"russian": {
+						"3362995256": "Вулф",
+						"4079878924": "Досье ФБР: Из-за его привязанности к взрывчатым веществам и умения обращаться с техникой, мы считаем его техником в группе. Кроме того, исследования наших профилирующих групп по поведенческому анализу показывают, что \"Вулф\" может быть психопатом, о чем свидетельствуют его внезапные смены настроения."
+					}
+				}
+			}
+		},
+		{
+			"group": "Wolf",
+			"name": "Lucky Ducky",
+			"type": "select",
+			"contentFolders": [
+				"1_content/wolf",
+				"2_patches/replace/wolf/luckyducky"
+			],
+			"blobsFolders": [
+				"blobs/wolf/luckyducky"
+			],
+			"localisationOverrides": {
+				"004B8C5124A49543": {
+					"english": {
+						"2760943898": "Wolf",
+						"2681050670": "FBI Files: For his affinity for explosives and capability with hardware, we consider this one to be the Technician in the group. Further, study by our profiling teams in Behavioral Analysis suggest that \"Wolf\" could be psychotic, as evidenced by his sudden shifts of mood."
+					},
+					"french": {
+						"2760943898": "Wolf",
+						"2681050670": "Dossiers du FBI: En raison de son affinité pour les explosifs et de son habileté avec le matériel, nous le considérons comme le Technicien du groupe. De plus, l'étude de nos équipes d'analyse comportementale suggère que \"Wolf\" pourrait être psychotique, comme en témoignent ses brusques changements d'humeur."
+					},
+					"italian": {
+						"2760943898": "Wolf",
+						"2681050670": "Documenti dell'FBI: Per la sua affinità con gli esplosivi e l'abilità con l'hardware, lo consideriamo il Tecnico del gruppo. Inoltre, lo studio dei nostri team di analisi comportamentale suggerisce che \"Wolf\" potrebbe essere psicotico, come dimostrano i suoi improvvisi cambi di umore."
+					},
+					"german": {
+						"2760943898": "Wolf",
+						"2681050670": "FBI-Akten: Aufgrund seiner Vorliebe für Sprengstoffe und seiner Fähigkeiten im Umgang mit Hardware halten wir ihn für den Techniker in der Gruppe. Außerdem deuten die Untersuchungen unserer Profiling-Teams in der Verhaltensanalyse darauf hin, dass \"Wolf\" psychotisch sein könnte, wie seine plötzlichen Stimmungsschwankungen zeigen."
+					},
+					"spanish": {
+						"2760943898": "Wolf",
+						"2681050670": "Archivos del FBI: Por su afinidad con los explosivos y su capacidad con el hardware, consideramos que éste es el Técnico del grupo. Además, los estudios de nuestros equipos de perfiles en Análisis de Conducta sugieren que \"Wolf\" podría ser psicótico, como demuestran sus repentinos cambios de humor."
+					},
+					"russian": {
+						"2760943898": "Вулф",
+						"2681050670": "Досье ФБР: Из-за его привязанности к взрывчатым веществам и умения обращаться с техникой, мы считаем его техником в группе. Кроме того, исследования наших профилирующих групп по поведенческому анализу показывают, что \"Вулф\" может быть психопатом, о чем свидетельствуют его внезапные смены настроения."
+					}
+				}
+			}
+		},
+		{
+			"group": "Chains - Mask",
+			"name": "Masked (Default)",
+			"type": "select",
+			"tooltip": "No change.",
+			"enabledByDefault": true
+		},
+		{
+			"group": "Chains - Mask",
+			"name": "Maskless",
+			"type": "select",
+			"tooltip": "Remove the mask from the Chains suit.",
+			"contentFolders": ["2_patches/variant/chains/nomask"]
+		},
+		{
+			"group": "Chains - Gloves",
+			"name": "Default",
+			"type": "select",
+			"tooltip": "No change.",
+			"enabledByDefault": true
+		},
+		{
+			"group": "Chains - Gloves",
+			"name": "No gloves",
+			"type": "select",
+			"tooltip": "Remove the gloves from the Chains suit.",
+			"contentFolders": ["2_patches/variant/chains/nogloves"]
+		},
+		{
+			"group": "Chains - Gloves",
+			"name": "Leather gloves",
+			"type": "select",
+			"tooltip": "Use leather gloves with the Chains suit.",
+			"contentFolders": ["2_patches/variant/chains/leathergloves"]
+		},
+		{
+			"group": "Chains - Gloves",
+			"name": "Driving gloves",
+			"type": "select",
+			"tooltip": "Use driving gloves with the Chains suit.",
+			"contentFolders": ["2_patches/variant/chains/drivinggloves"]
+		},
+		{
+			"group": "Dallas - Mask",
+			"name": "Masked (Default)",
+			"type": "select",
+			"tooltip": "No change.",
+			"enabledByDefault": true
+		},
+		{
+			"group": "Dallas - Mask",
+			"name": "Maskless",
+			"type": "select",
+			"tooltip": "Remove the mask from the Dallas suit.",
+			"contentFolders": ["2_patches/variant/dallas/nomask"]
+		},
+		{
+			"group": "Dallas - Gloves",
+			"name": "Default",
+			"type": "select",
+			"tooltip": "No change.",
+			"enabledByDefault": true
+		},
+		{
+			"group": "Dallas - Gloves",
+			"name": "No gloves",
+			"type": "select",
+			"tooltip": "Remove the gloves from the Dallas suit.",
+			"contentFolders": ["2_patches/variant/dallas/nogloves"]
+		},
+		{
+			"group": "Dallas - Gloves",
+			"name": "Leather gloves",
+			"type": "select",
+			"tooltip": "Use leather gloves with the Dallas suit.",
+			"contentFolders": ["2_patches/variant/dallas/leathergloves"]
+		},
+		{
+			"group": "Dallas - Gloves",
+			"name": "Driving gloves",
+			"type": "select",
+			"tooltip": "Use driving gloves with the Dallas suit.",
+			"contentFolders": ["2_patches/variant/dallas/drivinggloves"]
+		},
+		{
+			"group": "Houston - Mask",
+			"name": "Masked (Default)",
+			"type": "select",
+			"tooltip": "No change.",
+			"enabledByDefault": true
+		},
+		{
+			"group": "Houston - Mask",
+			"name": "Maskless",
+			"type": "select",
+			"tooltip": "Remove the mask from the Houston suit.",
+			"contentFolders": ["2_patches/variant/houston/nomask"]
+		},
+		{
+			"group": "Houston - Gloves",
+			"name": "Default",
+			"type": "select",
+			"tooltip": "No change.",
+			"enabledByDefault": true
+		},
+		{
+			"group": "Houston - Gloves",
+			"name": "No gloves",
+			"type": "select",
+			"tooltip": "Remove the gloves from the Houston suit.",
+			"contentFolders": ["2_patches/variant/houston/nogloves"]
+		},
+		{
+			"group": "Houston - Gloves",
+			"name": "Leather gloves",
+			"type": "select",
+			"tooltip": "Use leather gloves with the Houston suit.",
+			"contentFolders": ["2_patches/variant/houston/leathergloves"]
+		},
+		{
+			"group": "Houston - Gloves",
+			"name": "Driving gloves",
+			"type": "select",
+			"tooltip": "Use driving gloves with the Houston suit.",
+			"contentFolders": ["2_patches/variant/houston/drivinggloves"]
+		},
+		{
+			"group": "Hoxton - Mask",
+			"name": "Masked (Default)",
+			"type": "select",
+			"tooltip": "No change.",
+			"enabledByDefault": true
+		},
+		{
+			"group": "Hoxton - Mask",
+			"name": "Maskless",
+			"type": "select",
+			"tooltip": "Remove the mask from the Hoxton suit.",
+			"contentFolders": ["2_patches/variant/hoxton/nomask"]
+		},
+		{
+			"group": "Hoxton - Gloves",
+			"name": "Default",
+			"type": "select",
+			"tooltip": "No change.",
+			"enabledByDefault": true
+		},
+		{
+			"group": "Hoxton - Gloves",
+			"name": "No gloves",
+			"type": "select",
+			"tooltip": "Remove the gloves from the Hoxton suit.",
+			"contentFolders": ["2_patches/variant/hoxton/nogloves"]
+		},
+		{
+			"group": "Hoxton - Gloves",
+			"name": "Leather gloves",
+			"type": "select",
+			"tooltip": "Use leather gloves with the Hoxton suit.",
+			"contentFolders": ["2_patches/variant/hoxton/leathergloves"]
+		},
+		{
+			"group": "Hoxton - Gloves",
+			"name": "Driving gloves",
+			"type": "select",
+			"tooltip": "Use driving gloves with the Hoxton suit.",
+			"contentFolders": ["2_patches/variant/hoxton/drivinggloves"]
+		},
+		{
+			"group": "Wolf - Mask",
+			"name": "Masked (Default)",
+			"type": "select",
+			"tooltip": "No change.",
+			"enabledByDefault": true
+		},
+		{
+			"group": "Wolf - Mask",
+			"name": "Maskless",
+			"type": "select",
+			"tooltip": "Remove the mask from the Wolf suit.",
+			"contentFolders": ["2_patches/variant/wolf/nomask"]
+		},
+		{
+			"group": "Wolf - Gloves",
+			"name": "Default",
+			"type": "select",
+			"tooltip": "No change.",
+			"enabledByDefault": true
+		},
+		{
+			"group": "Wolf - Gloves",
+			"name": "No gloves",
+			"type": "select",
+			"tooltip": "Remove the gloves from the Wolf suit.",
+			"contentFolders": ["2_patches/variant/wolf/nogloves"]
+		},
+		{
+			"group": "Wolf - Gloves",
+			"name": "Leather gloves",
+			"type": "select",
+			"tooltip": "Use leather gloves with the Wolf suit.",
+			"contentFolders": ["2_patches/variant/wolf/leathergloves"]
+		},
+		{
+			"group": "Wolf - Gloves",
+			"name": "Driving gloves",
+			"type": "select",
+			"tooltip": "Use driving gloves with the Wolf suit.",
+			"contentFolders": ["2_patches/variant/wolf/drivinggloves"]
+		}
+	]
 }

@@ -1,0 +1,14 @@
+{
+	"c1b0183f-a557-4495-866c-593a6b7d4769": {
+		"ID_": "c1b0183f-a557-4495-866c-593a6b7d4769",
+		"CommonName": "CHAR_Global_Hero_Payday_Houston_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_PAYDAY_HOUSTON_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_Outfits_payday_houston.jpg",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_PAYDAY_HOUSTON_NAME",
+		"Category": "",
+		"ImageTransparent": "",
+		"TokenID": "TOKEN_OUTFIT_HERO_PAYDAY_HOUSTON"
+	}
+}

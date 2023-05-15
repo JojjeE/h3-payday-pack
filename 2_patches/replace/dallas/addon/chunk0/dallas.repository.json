@@ -1,0 +1,14 @@
+{
+	"505c8ffe-732a-4db0-9d02-64e3676c698c": {
+		"ID_": "505c8ffe-732a-4db0-9d02-64e3676c698c",
+		"CommonName": "CHAR_Global_Hero_Payday_Dallas_M",
+		"Description": "UI_TOKEN_OUTFIT_HERO_PAYDAY_DALLAS_DESC",
+		"HeroDisguiseAvailable": true,
+		"Image": "images/unlockables_override/47_Outfits_payday_dallas.jpg",
+		"IsHitmanSuit": true,
+		"Name": "UI_TOKEN_OUTFIT_HERO_PAYDAY_DALLAS_NAME",
+		"Category": "",
+		"ImageTransparent": "",
+		"TokenID": "TOKEN_OUTFIT_HERO_PAYDAY_DALLAS"
+	}
+}
