@@ -1,1 +1,107 @@
-{"tempHash":"00097AA87B144150","tbluHash":"00E738E7CF7A35E1","patch":[{"AddEntity":["feed3585243dfcff",{"parent":"ba8ea9278df2079","name":"CHAR_Global_Hero_Payday_Houston_M","factory":"[modules:/zglobaloutfitkit.class].pc_entitytype","blueprint":"[modules:/zglobaloutfitkit.class].pc_entityblueprint","properties":{"m_eActorType":{"type":"EActorType","value":"eAT_Hitman"},"m_eSoundFootwearType":{"type":"EHM5SoundFootwearType","value":"EFWT_SNEAKERS"},"m_aCharSets":{"type":"TArray<SEntityTemplateReference>","value":["feedd15663543055"]},"m_sId":{"type":"ZGuid","value":"c1b0183f-a557-4495-866c-593a6b7d4769"},"m_bCanCallForHelp":{"type":"bool","value":true},"m_sCommonName":{"type":"ZString","value":"PaydayHouston"},"m_sTitle":{"type":"ZString","value":"Payday Houston"},"m_eOutfitAICategory":{"type":"EOutfitAICategory","value":"OAC_47Suit"},"m_rNameTextResource":{"type":"ZRuntimeResourceID","value":{"resource":"00449C23DBD0C2AA","flag":"5F"}},"m_rDescriptionTextResource":{"type":"ZRuntimeResourceID","value":{"resource":"00833CDBA06B51C2","flag":"5F"}},"m_bHeroDisguiseAvailable":{"type":"bool","value":true},"m_bIsHitmanSuit":{"type":"bool","value":true}}}]},{"AddEntity":["feedd15663543055",{"parent":"feed3585243dfcff","name":"CHARSET_Agent47_Payday_Houston","factory":"00A3C9BAA0A750DA","blueprint":"0042839BDB8EB714"}]},{"AddEntity":["feedc49962518c0b",{"parent":"feed3585243dfcff","name":"Prof_Agent47","factory":"[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entityblueprint","properties":{"m_aHolders":{"type":"TArray<SEntityTemplateReference>","value":["feed3585243dfcff"],"postInit":true}}}]},{"AddEntity":["feedc6f383154134",{"parent":"feed3585243dfcff","name":"Prof_Hero_SignatureSuit","factory":"[assembly:/_pro/design/actor/profession.template?/prof_hero_signaturesuit.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/actor/profession.template?/prof_hero_signaturesuit.entitytemplate].pc_entityblueprint","properties":{"m_aHolders":{"type":"TArray<SEntityTemplateReference>","value":["feed3585243dfcff"]}}}]},{"AddEntity":["feed71bdc79c0819",{"parent":"feed3585243dfcff","name":"KeywordEntity_FOLEY_SUIT47","factory":"[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entitytype","blueprint":"[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entityblueprint","properties":{"m_rHolder":{"type":"SEntityTemplateReference","value":"feed3585243dfcff"}}}]},{"AddEntity":["feedf649ed7a98f7",{"parent":"feed3585243dfcff","name":"Keyword_Prof_Class_Default","factory":"007A51A2AFEC0D1A","blueprint":"00B0282A41C1CF2E","properties":{"m_aHolders":{"type":"TArray<SEntityTemplateReference>","value":["feed3585243dfcff"]}}}]}],"patchVersion":6}
+{
+	"tempHash": "00097AA87B144150",
+	"tbluHash": "00E738E7CF7A35E1",
+	"patch": [
+		{
+			"AddEntity": [
+				"feed3585243dfcff",
+				{
+					"parent": "ba8ea9278df2079",
+					"name": "CHAR_Global_Hero_Payday_Houston_M",
+					"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+					"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+					"properties": {
+						"m_eActorType": { "type": "EActorType", "value": "eAT_Hitman" },
+						"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_SNEAKERS" },
+						"m_aCharSets": { "type": "TArray<SEntityTemplateReference>", "value": ["feedd15663543055"] },
+						"m_sId": { "type": "ZGuid", "value": "c1b0183f-a557-4495-866c-593a6b7d4769" },
+						"m_bCanCallForHelp": { "type": "bool", "value": true },
+						"m_sCommonName": { "type": "ZString", "value": "PaydayHouston" },
+						"m_sTitle": { "type": "ZString", "value": "Payday Houston" },
+						"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_47Suit" },
+						"m_rNameTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": { "resource": "00449C23DBD0C2AA", "flag": "5F" }
+						},
+						"m_rDescriptionTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": { "resource": "00833CDBA06B51C2", "flag": "5F" }
+						},
+						"m_bHeroDisguiseAvailable": { "type": "bool", "value": true },
+						"m_bIsHitmanSuit": { "type": "bool", "value": true }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feedd15663543055",
+				{
+					"parent": "feed3585243dfcff",
+					"name": "CHARSET_Agent47_Payday_Houston",
+					"factory": "00A3C9BAA0A750DA",
+					"blueprint": "0042839BDB8EB714"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feedc49962518c0b",
+				{
+					"parent": "feed3585243dfcff",
+					"name": "Prof_Agent47",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["feed3585243dfcff"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feedc6f383154134",
+				{
+					"parent": "feed3585243dfcff",
+					"name": "Prof_Hero_SignatureSuit",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_hero_signaturesuit.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_hero_signaturesuit.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feed3585243dfcff"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed71bdc79c0819",
+				{
+					"parent": "feed3585243dfcff",
+					"name": "KeywordEntity_FOLEY_SUIT47",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entityblueprint",
+					"properties": { "m_rHolder": { "type": "SEntityTemplateReference", "value": "feed3585243dfcff" } }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feedf649ed7a98f7",
+				{
+					"parent": "feed3585243dfcff",
+					"name": "Keyword_Prof_Class_Default",
+					"factory": "007A51A2AFEC0D1A",
+					"blueprint": "00B0282A41C1CF2E",
+					"properties": {
+						"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feed3585243dfcff"] }
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

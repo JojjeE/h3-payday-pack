@@ -1,1 +1,14 @@
-{"tempHash":"008EDB1C80DB506C","tbluHash":"00F4B69A56FC5A98","patch":[{"RemoveEntityByID":"feed938b3fb3c3cb"},{"SubEntityOperation":["1cd8cbfcc76d214f",{"PatchArrayPropertyValue":["m_aBodyParts",[{"RemoveItemByValue":"feed938b3fb3c3cb"}]]}]}],"patchVersion":6}
+{
+	"tempHash": "008EDB1C80DB506C",
+	"tbluHash": "00F4B69A56FC5A98",
+	"patch": [
+		{ "RemoveEntityByID": "feed938b3fb3c3cb" },
+		{
+			"SubEntityOperation": [
+				"1cd8cbfcc76d214f",
+				{ "PatchArrayPropertyValue": ["m_aBodyParts", [{ "RemoveItemByValue": "feed938b3fb3c3cb" }]] }
+			]
+		}
+	],
+	"patchVersion": 6
+}

@@ -1,1 +1,43 @@
-{"tempHash":"0024575BC949390D","tbluHash":"008D417E6A6F75FB","patch":[{"SubEntityOperation":["b35a5a951d1ea6ac",{"SetPropertyValue":{"property_name":"m_pMeshResource","value":{"resource":"00C448EDCED92510","flag":"5F"}}}]},{"AddEntity":["feed350c5d109954",{"parent":"1cd8cbfcc76d214f","name":"agent47_gloves_white","factory":"[assembly:/_pro/characters/assets/hero/agent47/materials/agent47_gloves_white.mi].pc_entitytype","blueprint":"[assembly:/_pro/characters/assets/hero/agent47/materials/agent47_gloves_white.mi].pc_entityblueprint","properties":{"ConstantVector1D_01_Value_op":{"type":"IRenderMaterialEntity.EModifierOperation","value":"eReplace"},"ConstantVector1D_01_Value":{"type":"float32","value":0.025},"Active":{"type":"bool","value":true},"Clients":{"type":"TArray<SEntityTemplateReference>","value":["1cd8cbfcc76d214f"],"postInit":true},"m_eidParent":{"type":"SEntityTemplateReference","value":"1cd8cbfcc76d214f","postInit":true}}}]}],"patchVersion":6}
+{
+	"tempHash": "0024575BC949390D",
+	"tbluHash": "008D417E6A6F75FB",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"b35a5a951d1ea6ac",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_pMeshResource",
+						"value": { "resource": "00C448EDCED92510", "flag": "5F" }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed350c5d109954",
+				{
+					"parent": "1cd8cbfcc76d214f",
+					"name": "agent47_gloves_white",
+					"factory": "[assembly:/_pro/characters/assets/hero/agent47/materials/agent47_gloves_white.mi].pc_entitytype",
+					"blueprint": "[assembly:/_pro/characters/assets/hero/agent47/materials/agent47_gloves_white.mi].pc_entityblueprint",
+					"properties": {
+						"ConstantVector1D_01_Value_op": {
+							"type": "IRenderMaterialEntity.EModifierOperation",
+							"value": "eReplace"
+						},
+						"ConstantVector1D_01_Value": { "type": "float32", "value": 0.025 },
+						"Active": { "type": "bool", "value": true },
+						"Clients": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["1cd8cbfcc76d214f"],
+							"postInit": true
+						},
+						"m_eidParent": { "type": "SEntityTemplateReference", "value": "1cd8cbfcc76d214f", "postInit": true }
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

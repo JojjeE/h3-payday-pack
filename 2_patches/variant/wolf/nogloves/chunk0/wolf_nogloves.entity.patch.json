@@ -1,1 +1,18 @@
-{"tempHash":"00184C68994908FA","tbluHash":"00E9ADA3C0123184","patch":[{"SubEntityOperation":["b35a5a951d1ea6ac",{"SetPropertyValue":{"property_name":"m_pMeshResource","value":{"resource":"006EF3B73EB77D7A","flag":"5F"}}}]}],"patchVersion":6}
+{
+	"tempHash": "00184C68994908FA",
+	"tbluHash": "00E9ADA3C0123184",
+	"patch": [
+		{
+			"SubEntityOperation": [
+				"b35a5a951d1ea6ac",
+				{
+					"SetPropertyValue": {
+						"property_name": "m_pMeshResource",
+						"value": { "resource": "006EF3B73EB77D7A", "flag": "5F" }
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
+}

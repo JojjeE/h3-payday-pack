@@ -1,1 +1,84 @@
-{"tempHash":"00A3C9BAA0A750DA","tbluHash":"0042839BDB8EB714","rootEntity":"54a1b5f4f140da38","entities":{"54a1b5f4f140da38":{"parent":null,"name":"CHARSET_Agent47_Payday_Houston","factory":"004470A9E6A7722D","blueprint":"00E21A11EC782D9E","properties":{"m_aCharacters":{"type":"TArray<SEntityTemplateReference>","value":["c0d9b72359bcc5d5","850ba190994afc30","9542a28b25fba015"],"postInit":true}}},"bd27a0e5c8ea5f60":{"parent":"850ba190994afc30","name":"Var0","factory":"[modules:/zoutfitvariation.class].pc_entitytype","blueprint":"[modules:/zoutfitvariation.class].pc_entityblueprint"},"c0d9b72359bcc5d5":{"parent":"54a1b5f4f140da38","name":"Actor","factory":"[modules:/zcharsetcharactertype.class].pc_entitytype","blueprint":"[modules:/zcharsetcharactertype.class].pc_entityblueprint","properties":{"m_aVariations":{"type":"TArray<SEntityTemplateReference>","value":["500fc586c7741e05"],"postInit":true}}},"500fc586c7741e05":{"parent":"c0d9b72359bcc5d5","name":"0","factory":"[modules:/zoutfitvariation.class].pc_entitytype","blueprint":"[modules:/zoutfitvariation.class].pc_entityblueprint"},"850ba190994afc30":{"parent":"54a1b5f4f140da38","name":"Nude","factory":"[modules:/zcharsetcharactertype.class].pc_entitytype","blueprint":"[modules:/zcharsetcharactertype.class].pc_entityblueprint","properties":{"m_aVariations":{"type":"TArray<SEntityTemplateReference>","value":["bd27a0e5c8ea5f60"]}}},"9542a28b25fba015":{"parent":"54a1b5f4f140da38","name":"HeroA","factory":"[modules:/zcharsetcharactertype.class].pc_entitytype","blueprint":"[modules:/zcharsetcharactertype.class].pc_entityblueprint","properties":{"m_aVariations":{"type":"TArray<SEntityTemplateReference>","value":["94c4a814062b31f9"],"postInit":true}}},"94c4a814062b31f9":{"parent":"9542a28b25fba015","name":"Var0","factory":"[modules:/zoutfitvariation.class].pc_entitytype","blueprint":"[modules:/zoutfitvariation.class].pc_entityblueprint","properties":{"m_Outfit":{"type":"ZRuntimeResourceID","value":{"resource":"0024575BC949390D","flag":"9F"}}}}},"propertyOverrides":[],"overrideDeletes":[],"pinConnectionOverrides":[],"pinConnectionOverrideDeletes":[],"externalScenes":[],"subType":"template","quickEntityVersion":3.1,"extraFactoryDependencies":[],"extraBlueprintDependencies":[],"comments":[]}
+{
+	"tempHash": "00A3C9BAA0A750DA",
+	"tbluHash": "0042839BDB8EB714",
+	"rootEntity": "54a1b5f4f140da38",
+	"entities": {
+		"54a1b5f4f140da38": {
+			"parent": null,
+			"name": "CHARSET_Agent47_Payday_Houston",
+			"factory": "004470A9E6A7722D",
+			"blueprint": "00E21A11EC782D9E",
+			"properties": {
+				"m_aCharacters": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["c0d9b72359bcc5d5", "850ba190994afc30", "9542a28b25fba015"],
+					"postInit": true
+				}
+			}
+		},
+		"bd27a0e5c8ea5f60": {
+			"parent": "850ba190994afc30",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"c0d9b72359bcc5d5": {
+			"parent": "54a1b5f4f140da38",
+			"name": "Actor",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["500fc586c7741e05"],
+					"postInit": true
+				}
+			}
+		},
+		"500fc586c7741e05": {
+			"parent": "c0d9b72359bcc5d5",
+			"name": "0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"850ba190994afc30": {
+			"parent": "54a1b5f4f140da38",
+			"name": "Nude",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": { "m_aVariations": { "type": "TArray<SEntityTemplateReference>", "value": ["bd27a0e5c8ea5f60"] } }
+		},
+		"9542a28b25fba015": {
+			"parent": "54a1b5f4f140da38",
+			"name": "HeroA",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["94c4a814062b31f9"],
+					"postInit": true
+				}
+			}
+		},
+		"94c4a814062b31f9": {
+			"parent": "9542a28b25fba015",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": { "type": "ZRuntimeResourceID", "value": { "resource": "0024575BC949390D", "flag": "9F" } }
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
