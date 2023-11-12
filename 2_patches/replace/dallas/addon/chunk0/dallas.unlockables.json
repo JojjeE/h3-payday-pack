@@ -3,7 +3,7 @@
 		"Id": "TOKEN_OUTFIT_HERO_PAYDAY_DALLAS",
 		"Guid": "af6a6f4c-619a-4a65-8bb9-e0e4ad993c55",
 		"Type": "disguise",
-		"Subtype": "themed",
+		"Subtype": "payday",
 		"ImageId": "",
 		"RMTPrice": -1,
 		"GamePrice": -1,

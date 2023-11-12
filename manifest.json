@@ -8,7 +8,33 @@
 	"version": "1.1.0",
 	"updateCheck": "https://github.dioden.nu/updateChecks/paydaypack.json",
 	"contentFolders": ["1_content/base"],
-	"dependencies": ["0088CA6403FFE4E0","00692A773C2E6DDB","00498BDC07570E97"],
+	"dependencies": ["0088CA6403FFE4E0", "00692A773C2E6DDB", "00498BDC07570E97"],
+	"localisation": {
+		"english": {
+			"UI_ITEM_SUBTYPE_PAYDAY": "Payday",
+			"UI_ITEM_SUBTYPE_IN_PLURAL_PAYDAY": "Payday"
+		},
+		"french": {
+			"UI_ITEM_SUBTYPE_PAYDAY": "Payday",
+			"UI_ITEM_SUBTYPE_IN_PLURAL_PAYDAY": "Payday"
+		},
+		"german": {
+			"UI_ITEM_SUBTYPE_PAYDAY": "Payday",
+			"UI_ITEM_SUBTYPE_IN_PLURAL_PAYDAY": "Payday"
+		},
+		"spanish": {
+			"UI_ITEM_SUBTYPE_PAYDAY": "Payday",
+			"UI_ITEM_SUBTYPE_IN_PLURAL_PAYDAY": "Payday"
+		},
+		"italian": {
+			"UI_ITEM_SUBTYPE_PAYDAY": "Payday",
+			"UI_ITEM_SUBTYPE_IN_PLURAL_PAYDAY": "Payday"
+		},
+		"russian": {
+			"UI_ITEM_SUBTYPE_PAYDAY": "Пейдей",
+			"UI_ITEM_SUBTYPE_IN_PLURAL_PAYDAY": "Пейдей"
+		}
+	},
 	"options": [
 		{
 			"group": "Chains",
@@ -23,13 +49,8 @@
 			"name": "Peacock Addon",
 			"type": "select",
 			"tooltip": "Install Chains to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
-			"contentFolders": [
-				"1_content/chains",
-				"2_patches/replace/chains/addon"
-			],
-			"blobsFolders": [
-				"blobs/chains/addon"
-			],
+			"contentFolders": ["1_content/chains", "2_patches/replace/chains/addon"],
+			"blobsFolders": ["blobs/chains/addon"],
 			"localisedLines": {
 				"00D002B073C00A9E": "UI_TOKEN_OUTFIT_HERO_PAYDAY_CHAINS_DESC",
 				"00B79014A35C9A18": "UI_TOKEN_OUTFIT_HERO_PAYDAY_CHAINS_NAME"
@@ -65,13 +86,8 @@
 			"group": "Chains",
 			"name": "Casual Suit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/chains",
-				"2_patches/replace/chains/bangkok"
-			],
-			"blobsFolders": [
-				"blobs/chains/bangkok"
-			],
+			"contentFolders": ["1_content/chains", "2_patches/replace/chains/bangkok"],
+			"blobsFolders": ["blobs/chains/bangkok"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
@@ -105,13 +121,8 @@
 			"group": "Chains",
 			"name": "Italian Suit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/chains",
-				"2_patches/replace/chains/sapienza"
-			],
-			"blobsFolders": [
-				"blobs/chains/sapienza"
-			],
+			"contentFolders": ["1_content/chains", "2_patches/replace/chains/sapienza"],
+			"blobsFolders": ["blobs/chains/sapienza"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
@@ -145,13 +156,8 @@
 			"group": "Chains",
 			"name": "Florida Fit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/chains",
-				"2_patches/replace/chains/miami"
-			],
-			"blobsFolders": [
-				"blobs/chains/miami"
-			],
+			"contentFolders": ["1_content/chains", "2_patches/replace/chains/miami"],
+			"blobsFolders": ["blobs/chains/miami"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -185,13 +191,8 @@
 			"group": "Chains",
 			"name": "Casual Tourist with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/chains",
-				"2_patches/replace/chains/sanfortuna"
-			],
-			"blobsFolders": [
-				"blobs/chains/sanfortuna"
-			],
+			"contentFolders": ["1_content/chains", "2_patches/replace/chains/sanfortuna"],
+			"blobsFolders": ["blobs/chains/sanfortuna"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -225,13 +226,8 @@
 			"group": "Chains",
 			"name": "Summer Suave Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/chains",
-				"2_patches/replace/chains/summersuave"
-			],
-			"blobsFolders": [
-				"blobs/chains/summersuave"
-			],
+			"contentFolders": ["1_content/chains", "2_patches/replace/chains/summersuave"],
+			"blobsFolders": ["blobs/chains/summersuave"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -265,13 +261,8 @@
 			"group": "Chains",
 			"name": "Summer Sightseeing Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/chains",
-				"2_patches/replace/chains/summersightseeing"
-			],
-			"blobsFolders": [
-				"blobs/chains/summersightseeing"
-			],
+			"contentFolders": ["1_content/chains", "2_patches/replace/chains/summersightseeing"],
+			"blobsFolders": ["blobs/chains/summersightseeing"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
 					"english": {
@@ -305,13 +296,8 @@
 			"group": "Chains",
 			"name": "Casual Undercover",
 			"type": "select",
-			"contentFolders": [
-				"1_content/chains",
-				"2_patches/replace/chains/casualundercover"
-			],
-			"blobsFolders": [
-				"blobs/chains/casualundercover"
-			],
+			"contentFolders": ["1_content/chains", "2_patches/replace/chains/casualundercover"],
+			"blobsFolders": ["blobs/chains/casualundercover"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -345,13 +331,8 @@
 			"group": "Chains",
 			"name": "Midnight Black Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/chains",
-				"2_patches/replace/chains/midnightblack"
-			],
-			"blobsFolders": [
-				"blobs/chains/midnightblack"
-			],
+			"contentFolders": ["1_content/chains", "2_patches/replace/chains/midnightblack"],
+			"blobsFolders": ["blobs/chains/midnightblack"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -385,13 +366,8 @@
 			"group": "Chains",
 			"name": "Summer Suit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/chains",
-				"2_patches/replace/chains/marrakesh"
-			],
-			"blobsFolders": [
-				"blobs/chains/marrakesh"
-			],
+			"contentFolders": ["1_content/chains", "2_patches/replace/chains/marrakesh"],
+			"blobsFolders": ["blobs/chains/marrakesh"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
@@ -425,13 +401,8 @@
 			"group": "Chains",
 			"name": "Tropical Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/chains",
-				"2_patches/replace/chains/tropicalsuit"
-			],
-			"blobsFolders": [
-				"blobs/chains/tropicalsuit"
-			],
+			"contentFolders": ["1_content/chains", "2_patches/replace/chains/tropicalsuit"],
+			"blobsFolders": ["blobs/chains/tropicalsuit"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -465,13 +436,8 @@
 			"group": "Chains",
 			"name": "Smart Casual Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/chains",
-				"2_patches/replace/chains/smartcasual"
-			],
-			"blobsFolders": [
-				"blobs/chains/smartcasual"
-			],
+			"contentFolders": ["1_content/chains", "2_patches/replace/chains/smartcasual"],
+			"blobsFolders": ["blobs/chains/smartcasual"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -505,13 +471,8 @@
 			"group": "Chains",
 			"name": "The Raver",
 			"type": "select",
-			"contentFolders": [
-				"1_content/chains",
-				"2_patches/replace/chains/raver"
-			],
-			"blobsFolders": [
-				"blobs/chains/raver"
-			],
+			"contentFolders": ["1_content/chains", "2_patches/replace/chains/raver"],
+			"blobsFolders": ["blobs/chains/raver"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
 					"english": {
@@ -545,13 +506,8 @@
 			"group": "Chains",
 			"name": "Lucky Ducky",
 			"type": "select",
-			"contentFolders": [
-				"1_content/chains",
-				"2_patches/replace/chains/luckyducky"
-			],
-			"blobsFolders": [
-				"blobs/chains/luckyducky"
-			],
+			"contentFolders": ["1_content/chains", "2_patches/replace/chains/luckyducky"],
+			"blobsFolders": ["blobs/chains/luckyducky"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
 					"english": {
@@ -594,13 +550,8 @@
 			"name": "Peacock Addon",
 			"type": "select",
 			"tooltip": "Install Dallas to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
-			"contentFolders": [
-				"1_content/dallas",
-				"2_patches/replace/dallas/addon"
-			],
-			"blobsFolders": [
-				"blobs/dallas/addon"
-			],
+			"contentFolders": ["1_content/dallas", "2_patches/replace/dallas/addon"],
+			"blobsFolders": ["blobs/dallas/addon"],
 			"localisedLines": {
 				"002E90FCF23E17D4": "UI_TOKEN_OUTFIT_HERO_PAYDAY_DALLAS_DESC",
 				"0016D91C520D1EFE": "UI_TOKEN_OUTFIT_HERO_PAYDAY_DALLAS_NAME"
@@ -636,13 +587,8 @@
 			"group": "Dallas",
 			"name": "Casual Suit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/dallas",
-				"2_patches/replace/dallas/bangkok"
-			],
-			"blobsFolders": [
-				"blobs/dallas/bangkok"
-			],
+			"contentFolders": ["1_content/dallas", "2_patches/replace/dallas/bangkok"],
+			"blobsFolders": ["blobs/dallas/bangkok"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
@@ -676,13 +622,8 @@
 			"group": "Dallas",
 			"name": "Italian Suit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/dallas",
-				"2_patches/replace/dallas/sapienza"
-			],
-			"blobsFolders": [
-				"blobs/dallas/sapienza"
-			],
+			"contentFolders": ["1_content/dallas", "2_patches/replace/dallas/sapienza"],
+			"blobsFolders": ["blobs/dallas/sapienza"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
@@ -716,13 +657,8 @@
 			"group": "Dallas",
 			"name": "Florida Fit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/dallas",
-				"2_patches/replace/dallas/miami"
-			],
-			"blobsFolders": [
-				"blobs/dallas/miami"
-			],
+			"contentFolders": ["1_content/dallas", "2_patches/replace/dallas/miami"],
+			"blobsFolders": ["blobs/dallas/miami"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -756,13 +692,8 @@
 			"group": "Dallas",
 			"name": "Casual Tourist with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/dallas",
-				"2_patches/replace/dallas/sanfortuna"
-			],
-			"blobsFolders": [
-				"blobs/dallas/sanfortuna"
-			],
+			"contentFolders": ["1_content/dallas", "2_patches/replace/dallas/sanfortuna"],
+			"blobsFolders": ["blobs/dallas/sanfortuna"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -796,13 +727,8 @@
 			"group": "Dallas",
 			"name": "Summer Suave Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/dallas",
-				"2_patches/replace/dallas/summersuave"
-			],
-			"blobsFolders": [
-				"blobs/dallas/summersuave"
-			],
+			"contentFolders": ["1_content/dallas", "2_patches/replace/dallas/summersuave"],
+			"blobsFolders": ["blobs/dallas/summersuave"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -836,13 +762,8 @@
 			"group": "Dallas",
 			"name": "Summer Sightseeing Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/dallas",
-				"2_patches/replace/dallas/summersightseeing"
-			],
-			"blobsFolders": [
-				"blobs/dallas/summersightseeing"
-			],
+			"contentFolders": ["1_content/dallas", "2_patches/replace/dallas/summersightseeing"],
+			"blobsFolders": ["blobs/dallas/summersightseeing"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
 					"english": {
@@ -876,13 +797,8 @@
 			"group": "Dallas",
 			"name": "Casual Undercover",
 			"type": "select",
-			"contentFolders": [
-				"1_content/dallas",
-				"2_patches/replace/dallas/casualundercover"
-			],
-			"blobsFolders": [
-				"blobs/dallas/casualundercover"
-			],
+			"contentFolders": ["1_content/dallas", "2_patches/replace/dallas/casualundercover"],
+			"blobsFolders": ["blobs/dallas/casualundercover"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -916,13 +832,8 @@
 			"group": "Dallas",
 			"name": "Midnight Black Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/dallas",
-				"2_patches/replace/dallas/midnightblack"
-			],
-			"blobsFolders": [
-				"blobs/dallas/midnightblack"
-			],
+			"contentFolders": ["1_content/dallas", "2_patches/replace/dallas/midnightblack"],
+			"blobsFolders": ["blobs/dallas/midnightblack"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -956,13 +867,8 @@
 			"group": "Dallas",
 			"name": "Summer Suit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/dallas",
-				"2_patches/replace/dallas/marrakesh"
-			],
-			"blobsFolders": [
-				"blobs/dallas/marrakesh"
-			],
+			"contentFolders": ["1_content/dallas", "2_patches/replace/dallas/marrakesh"],
+			"blobsFolders": ["blobs/dallas/marrakesh"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
@@ -996,13 +902,8 @@
 			"group": "Dallas",
 			"name": "Tropical Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/dallas",
-				"2_patches/replace/dallas/tropicalsuit"
-			],
-			"blobsFolders": [
-				"blobs/dallas/tropicalsuit"
-			],
+			"contentFolders": ["1_content/dallas", "2_patches/replace/dallas/tropicalsuit"],
+			"blobsFolders": ["blobs/dallas/tropicalsuit"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -1036,13 +937,8 @@
 			"group": "Dallas",
 			"name": "Smart Casual Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/dallas",
-				"2_patches/replace/dallas/smartcasual"
-			],
-			"blobsFolders": [
-				"blobs/dallas/smartcasual"
-			],
+			"contentFolders": ["1_content/dallas", "2_patches/replace/dallas/smartcasual"],
+			"blobsFolders": ["blobs/dallas/smartcasual"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -1076,13 +972,8 @@
 			"group": "Dallas",
 			"name": "The Raver",
 			"type": "select",
-			"contentFolders": [
-				"1_content/dallas",
-				"2_patches/replace/dallas/raver"
-			],
-			"blobsFolders": [
-				"blobs/dallas/raver"
-			],
+			"contentFolders": ["1_content/dallas", "2_patches/replace/dallas/raver"],
+			"blobsFolders": ["blobs/dallas/raver"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
 					"english": {
@@ -1116,13 +1007,8 @@
 			"group": "Dallas",
 			"name": "Lucky Ducky",
 			"type": "select",
-			"contentFolders": [
-				"1_content/dallas",
-				"2_patches/replace/dallas/luckyducky"
-			],
-			"blobsFolders": [
-				"blobs/dallas/luckyducky"
-			],
+			"contentFolders": ["1_content/dallas", "2_patches/replace/dallas/luckyducky"],
+			"blobsFolders": ["blobs/dallas/luckyducky"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
 					"english": {
@@ -1165,13 +1051,8 @@
 			"name": "Peacock Addon",
 			"type": "select",
 			"tooltip": "Install Houston to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
-			"contentFolders": [
-				"1_content/houston",
-				"2_patches/replace/houston/addon"
-			],
-			"blobsFolders": [
-				"blobs/houston/addon"
-			],
+			"contentFolders": ["1_content/houston", "2_patches/replace/houston/addon"],
+			"blobsFolders": ["blobs/houston/addon"],
 			"localisedLines": {
 				"00833CDBA06B51C2": "UI_TOKEN_OUTFIT_HERO_PAYDAY_HOUSTON_DESC",
 				"00449C23DBD0C2AA": "UI_TOKEN_OUTFIT_HERO_PAYDAY_HOUSTON_NAME"
@@ -1207,13 +1088,8 @@
 			"group": "Houston",
 			"name": "Casual Suit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/houston",
-				"2_patches/replace/houston/bangkok"
-			],
-			"blobsFolders": [
-				"blobs/houston/bangkok"
-			],
+			"contentFolders": ["1_content/houston", "2_patches/replace/houston/bangkok"],
+			"blobsFolders": ["blobs/houston/bangkok"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
@@ -1247,13 +1123,8 @@
 			"group": "Houston",
 			"name": "Italian Suit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/houston",
-				"2_patches/replace/houston/sapienza"
-			],
-			"blobsFolders": [
-				"blobs/houston/sapienza"
-			],
+			"contentFolders": ["1_content/houston", "2_patches/replace/houston/sapienza"],
+			"blobsFolders": ["blobs/houston/sapienza"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
@@ -1287,13 +1158,8 @@
 			"group": "Houston",
 			"name": "Florida Fit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/houston",
-				"2_patches/replace/houston/miami"
-			],
-			"blobsFolders": [
-				"blobs/houston/miami"
-			],
+			"contentFolders": ["1_content/houston", "2_patches/replace/houston/miami"],
+			"blobsFolders": ["blobs/houston/miami"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -1327,13 +1193,8 @@
 			"group": "Houston",
 			"name": "Casual Tourist with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/houston",
-				"2_patches/replace/houston/sanfortuna"
-			],
-			"blobsFolders": [
-				"blobs/houston/sanfortuna"
-			],
+			"contentFolders": ["1_content/houston", "2_patches/replace/houston/sanfortuna"],
+			"blobsFolders": ["blobs/houston/sanfortuna"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -1367,13 +1228,8 @@
 			"group": "Houston",
 			"name": "Summer Suave Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/houston",
-				"2_patches/replace/houston/summersuave"
-			],
-			"blobsFolders": [
-				"blobs/houston/summersuave"
-			],
+			"contentFolders": ["1_content/houston", "2_patches/replace/houston/summersuave"],
+			"blobsFolders": ["blobs/houston/summersuave"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -1407,13 +1263,8 @@
 			"group": "Houston",
 			"name": "Summer Sightseeing Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/houston",
-				"2_patches/replace/houston/summersightseeing"
-			],
-			"blobsFolders": [
-				"blobs/houston/summersightseeing"
-			],
+			"contentFolders": ["1_content/houston", "2_patches/replace/houston/summersightseeing"],
+			"blobsFolders": ["blobs/houston/summersightseeing"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
 					"english": {
@@ -1447,13 +1298,8 @@
 			"group": "Houston",
 			"name": "Casual Undercover",
 			"type": "select",
-			"contentFolders": [
-				"1_content/houston",
-				"2_patches/replace/houston/casualundercover"
-			],
-			"blobsFolders": [
-				"blobs/houston/casualundercover"
-			],
+			"contentFolders": ["1_content/houston", "2_patches/replace/houston/casualundercover"],
+			"blobsFolders": ["blobs/houston/casualundercover"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -1487,13 +1333,8 @@
 			"group": "Houston",
 			"name": "Midnight Black Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/houston",
-				"2_patches/replace/houston/midnightblack"
-			],
-			"blobsFolders": [
-				"blobs/houston/midnightblack"
-			],
+			"contentFolders": ["1_content/houston", "2_patches/replace/houston/midnightblack"],
+			"blobsFolders": ["blobs/houston/midnightblack"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -1527,13 +1368,8 @@
 			"group": "Houston",
 			"name": "Summer Suit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/houston",
-				"2_patches/replace/houston/marrakesh"
-			],
-			"blobsFolders": [
-				"blobs/houston/marrakesh"
-			],
+			"contentFolders": ["1_content/houston", "2_patches/replace/houston/marrakesh"],
+			"blobsFolders": ["blobs/houston/marrakesh"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
@@ -1567,13 +1403,8 @@
 			"group": "Houston",
 			"name": "Tropical Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/houston",
-				"2_patches/replace/houston/tropicalsuit"
-			],
-			"blobsFolders": [
-				"blobs/houston/tropicalsuit"
-			],
+			"contentFolders": ["1_content/houston", "2_patches/replace/houston/tropicalsuit"],
+			"blobsFolders": ["blobs/houston/tropicalsuit"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -1607,13 +1438,8 @@
 			"group": "Houston",
 			"name": "Smart Casual Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/houston",
-				"2_patches/replace/houston/smartcasual"
-			],
-			"blobsFolders": [
-				"blobs/houston/smartcasual"
-			],
+			"contentFolders": ["1_content/houston", "2_patches/replace/houston/smartcasual"],
+			"blobsFolders": ["blobs/houston/smartcasual"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -1647,13 +1473,8 @@
 			"group": "Houston",
 			"name": "The Raver",
 			"type": "select",
-			"contentFolders": [
-				"1_content/houston",
-				"2_patches/replace/houston/raver"
-			],
-			"blobsFolders": [
-				"blobs/houston/raver"
-			],
+			"contentFolders": ["1_content/houston", "2_patches/replace/houston/raver"],
+			"blobsFolders": ["blobs/houston/raver"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
 					"english": {
@@ -1687,13 +1508,8 @@
 			"group": "Houston",
 			"name": "Lucky Ducky",
 			"type": "select",
-			"contentFolders": [
-				"1_content/houston",
-				"2_patches/replace/houston/luckyducky"
-			],
-			"blobsFolders": [
-				"blobs/houston/luckyducky"
-			],
+			"contentFolders": ["1_content/houston", "2_patches/replace/houston/luckyducky"],
+			"blobsFolders": ["blobs/houston/luckyducky"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
 					"english": {
@@ -1736,13 +1552,8 @@
 			"name": "Peacock Addon",
 			"type": "select",
 			"tooltip": "Install Hoxton to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
-			"contentFolders": [
-				"1_content/hoxton",
-				"2_patches/replace/hoxton/addon"
-			],
-			"blobsFolders": [
-				"blobs/hoxton/addon"
-			],
+			"contentFolders": ["1_content/hoxton", "2_patches/replace/hoxton/addon"],
+			"blobsFolders": ["blobs/hoxton/addon"],
 			"localisedLines": {
 				"009029B43EBB914E": "UI_TOKEN_OUTFIT_HERO_PAYDAY_HOXTON_DESC",
 				"00E1AC2CC94E6E68": "UI_TOKEN_OUTFIT_HERO_PAYDAY_HOXTON_NAME"
@@ -1778,13 +1589,8 @@
 			"group": "Hoxton",
 			"name": "Casual Suit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/hoxton",
-				"2_patches/replace/hoxton/bangkok"
-			],
-			"blobsFolders": [
-				"blobs/hoxton/bangkok"
-			],
+			"contentFolders": ["1_content/hoxton", "2_patches/replace/hoxton/bangkok"],
+			"blobsFolders": ["blobs/hoxton/bangkok"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
@@ -1818,13 +1624,8 @@
 			"group": "Hoxton",
 			"name": "Italian Suit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/hoxton",
-				"2_patches/replace/hoxton/sapienza"
-			],
-			"blobsFolders": [
-				"blobs/hoxton/sapienza"
-			],
+			"contentFolders": ["1_content/hoxton", "2_patches/replace/hoxton/sapienza"],
+			"blobsFolders": ["blobs/hoxton/sapienza"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
@@ -1858,13 +1659,8 @@
 			"group": "Hoxton",
 			"name": "Florida Fit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/hoxton",
-				"2_patches/replace/hoxton/miami"
-			],
-			"blobsFolders": [
-				"blobs/hoxton/miami"
-			],
+			"contentFolders": ["1_content/hoxton", "2_patches/replace/hoxton/miami"],
+			"blobsFolders": ["blobs/hoxton/miami"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -1898,13 +1694,8 @@
 			"group": "Hoxton",
 			"name": "Casual Tourist with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/hoxton",
-				"2_patches/replace/hoxton/sanfortuna"
-			],
-			"blobsFolders": [
-				"blobs/hoxton/sanfortuna"
-			],
+			"contentFolders": ["1_content/hoxton", "2_patches/replace/hoxton/sanfortuna"],
+			"blobsFolders": ["blobs/hoxton/sanfortuna"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -1938,13 +1729,8 @@
 			"group": "Hoxton",
 			"name": "Summer Suave Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/hoxton",
-				"2_patches/replace/hoxton/summersuave"
-			],
-			"blobsFolders": [
-				"blobs/hoxton/summersuave"
-			],
+			"contentFolders": ["1_content/hoxton", "2_patches/replace/hoxton/summersuave"],
+			"blobsFolders": ["blobs/hoxton/summersuave"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -1978,13 +1764,8 @@
 			"group": "Hoxton",
 			"name": "Summer Sightseeing Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/hoxton",
-				"2_patches/replace/hoxton/summersightseeing"
-			],
-			"blobsFolders": [
-				"blobs/hoxton/summersightseeing"
-			],
+			"contentFolders": ["1_content/hoxton", "2_patches/replace/hoxton/summersightseeing"],
+			"blobsFolders": ["blobs/hoxton/summersightseeing"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
 					"english": {
@@ -2018,13 +1799,8 @@
 			"group": "Hoxton",
 			"name": "Casual Undercover",
 			"type": "select",
-			"contentFolders": [
-				"1_content/hoxton",
-				"2_patches/replace/hoxton/casualundercover"
-			],
-			"blobsFolders": [
-				"blobs/hoxton/casualundercover"
-			],
+			"contentFolders": ["1_content/hoxton", "2_patches/replace/hoxton/casualundercover"],
+			"blobsFolders": ["blobs/hoxton/casualundercover"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -2058,13 +1834,8 @@
 			"group": "Hoxton",
 			"name": "Midnight Black Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/hoxton",
-				"2_patches/replace/hoxton/midnightblack"
-			],
-			"blobsFolders": [
-				"blobs/hoxton/midnightblack"
-			],
+			"contentFolders": ["1_content/hoxton", "2_patches/replace/hoxton/midnightblack"],
+			"blobsFolders": ["blobs/hoxton/midnightblack"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -2098,13 +1869,8 @@
 			"group": "Hoxton",
 			"name": "Summer Suit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/hoxton",
-				"2_patches/replace/hoxton/marrakesh"
-			],
-			"blobsFolders": [
-				"blobs/hoxton/marrakesh"
-			],
+			"contentFolders": ["1_content/hoxton", "2_patches/replace/hoxton/marrakesh"],
+			"blobsFolders": ["blobs/hoxton/marrakesh"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
@@ -2138,13 +1904,8 @@
 			"group": "Hoxton",
 			"name": "Tropical Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/hoxton",
-				"2_patches/replace/hoxton/tropicalsuit"
-			],
-			"blobsFolders": [
-				"blobs/hoxton/tropicalsuit"
-			],
+			"contentFolders": ["1_content/hoxton", "2_patches/replace/hoxton/tropicalsuit"],
+			"blobsFolders": ["blobs/hoxton/tropicalsuit"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -2178,13 +1939,8 @@
 			"group": "Hoxton",
 			"name": "Smart Casual Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/hoxton",
-				"2_patches/replace/hoxton/smartcasual"
-			],
-			"blobsFolders": [
-				"blobs/hoxton/smartcasual"
-			],
+			"contentFolders": ["1_content/hoxton", "2_patches/replace/hoxton/smartcasual"],
+			"blobsFolders": ["blobs/hoxton/smartcasual"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -2218,13 +1974,8 @@
 			"group": "Hoxton",
 			"name": "The Raver",
 			"type": "select",
-			"contentFolders": [
-				"1_content/hoxton",
-				"2_patches/replace/hoxton/raver"
-			],
-			"blobsFolders": [
-				"blobs/hoxton/raver"
-			],
+			"contentFolders": ["1_content/hoxton", "2_patches/replace/hoxton/raver"],
+			"blobsFolders": ["blobs/hoxton/raver"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
 					"english": {
@@ -2258,13 +2009,8 @@
 			"group": "Hoxton",
 			"name": "Lucky Ducky",
 			"type": "select",
-			"contentFolders": [
-				"1_content/hoxton",
-				"2_patches/replace/hoxton/luckyducky"
-			],
-			"blobsFolders": [
-				"blobs/hoxton/luckyducky"
-			],
+			"contentFolders": ["1_content/hoxton", "2_patches/replace/hoxton/luckyducky"],
+			"blobsFolders": ["blobs/hoxton/luckyducky"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
 					"english": {
@@ -2307,13 +2053,8 @@
 			"name": "Peacock Addon",
 			"type": "select",
 			"tooltip": "Install Wolf to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
-			"contentFolders": [
-				"1_content/wolf",
-				"2_patches/replace/wolf/addon"
-			],
-			"blobsFolders": [
-				"blobs/wolf/addon"
-			],
+			"contentFolders": ["1_content/wolf", "2_patches/replace/wolf/addon"],
+			"blobsFolders": ["blobs/wolf/addon"],
 			"localisedLines": {
 				"0063A848EF0535D5": "UI_TOKEN_OUTFIT_HERO_PAYDAY_WOLF_DESC",
 				"007E64FA2E4E2061": "UI_TOKEN_OUTFIT_HERO_PAYDAY_WOLF_NAME"
@@ -2349,13 +2090,8 @@
 			"group": "Wolf",
 			"name": "Casual Suit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/wolf",
-				"2_patches/replace/wolf/bangkok"
-			],
-			"blobsFolders": [
-				"blobs/wolf/bangkok"
-			],
+			"contentFolders": ["1_content/wolf", "2_patches/replace/wolf/bangkok"],
+			"blobsFolders": ["blobs/wolf/bangkok"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
@@ -2389,13 +2125,8 @@
 			"group": "Wolf",
 			"name": "Italian Suit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/wolf",
-				"2_patches/replace/wolf/sapienza"
-			],
-			"blobsFolders": [
-				"blobs/wolf/sapienza"
-			],
+			"contentFolders": ["1_content/wolf", "2_patches/replace/wolf/sapienza"],
+			"blobsFolders": ["blobs/wolf/sapienza"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
@@ -2429,13 +2160,8 @@
 			"group": "Wolf",
 			"name": "Florida Fit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/wolf",
-				"2_patches/replace/wolf/miami"
-			],
-			"blobsFolders": [
-				"blobs/wolf/miami"
-			],
+			"contentFolders": ["1_content/wolf", "2_patches/replace/wolf/miami"],
+			"blobsFolders": ["blobs/wolf/miami"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -2469,13 +2195,8 @@
 			"group": "Wolf",
 			"name": "Casual Tourist with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/wolf",
-				"2_patches/replace/wolf/sanfortuna"
-			],
-			"blobsFolders": [
-				"blobs/wolf/sanfortuna"
-			],
+			"contentFolders": ["1_content/wolf", "2_patches/replace/wolf/sanfortuna"],
+			"blobsFolders": ["blobs/wolf/sanfortuna"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -2509,13 +2230,8 @@
 			"group": "Wolf",
 			"name": "Summer Suave Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/wolf",
-				"2_patches/replace/wolf/summersuave"
-			],
-			"blobsFolders": [
-				"blobs/wolf/summersuave"
-			],
+			"contentFolders": ["1_content/wolf", "2_patches/replace/wolf/summersuave"],
+			"blobsFolders": ["blobs/wolf/summersuave"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -2549,13 +2265,8 @@
 			"group": "Wolf",
 			"name": "Summer Sightseeing Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/wolf",
-				"2_patches/replace/wolf/summersightseeing"
-			],
-			"blobsFolders": [
-				"blobs/wolf/summersightseeing"
-			],
+			"contentFolders": ["1_content/wolf", "2_patches/replace/wolf/summersightseeing"],
+			"blobsFolders": ["blobs/wolf/summersightseeing"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
 					"english": {
@@ -2589,13 +2300,8 @@
 			"group": "Wolf",
 			"name": "Casual Undercover",
 			"type": "select",
-			"contentFolders": [
-				"1_content/wolf",
-				"2_patches/replace/wolf/casualundercover"
-			],
-			"blobsFolders": [
-				"blobs/wolf/casualundercover"
-			],
+			"contentFolders": ["1_content/wolf", "2_patches/replace/wolf/casualundercover"],
+			"blobsFolders": ["blobs/wolf/casualundercover"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -2629,13 +2335,8 @@
 			"group": "Wolf",
 			"name": "Midnight Black Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/wolf",
-				"2_patches/replace/wolf/midnightblack"
-			],
-			"blobsFolders": [
-				"blobs/wolf/midnightblack"
-			],
+			"contentFolders": ["1_content/wolf", "2_patches/replace/wolf/midnightblack"],
+			"blobsFolders": ["blobs/wolf/midnightblack"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -2669,13 +2370,8 @@
 			"group": "Wolf",
 			"name": "Summer Suit with Gloves",
 			"type": "select",
-			"contentFolders": [
-				"1_content/wolf",
-				"2_patches/replace/wolf/marrakesh"
-			],
-			"blobsFolders": [
-				"blobs/wolf/marrakesh"
-			],
+			"contentFolders": ["1_content/wolf", "2_patches/replace/wolf/marrakesh"],
+			"blobsFolders": ["blobs/wolf/marrakesh"],
 			"localisationOverrides": {
 				"00985A1100E5EDDC": {
 					"english": {
@@ -2709,13 +2405,8 @@
 			"group": "Wolf",
 			"name": "Tropical Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/wolf",
-				"2_patches/replace/wolf/tropicalsuit"
-			],
-			"blobsFolders": [
-				"blobs/wolf/tropicalsuit"
-			],
+			"contentFolders": ["1_content/wolf", "2_patches/replace/wolf/tropicalsuit"],
+			"blobsFolders": ["blobs/wolf/tropicalsuit"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -2749,13 +2440,8 @@
 			"group": "Wolf",
 			"name": "Smart Casual Suit",
 			"type": "select",
-			"contentFolders": [
-				"1_content/wolf",
-				"2_patches/replace/wolf/smartcasual"
-			],
-			"blobsFolders": [
-				"blobs/wolf/smartcasual"
-			],
+			"contentFolders": ["1_content/wolf", "2_patches/replace/wolf/smartcasual"],
+			"blobsFolders": ["blobs/wolf/smartcasual"],
 			"localisationOverrides": {
 				"009F430D046716BE": {
 					"english": {
@@ -2789,13 +2475,8 @@
 			"group": "Wolf",
 			"name": "The Raver",
 			"type": "select",
-			"contentFolders": [
-				"1_content/wolf",
-				"2_patches/replace/wolf/raver"
-			],
-			"blobsFolders": [
-				"blobs/wolf/raver"
-			],
+			"contentFolders": ["1_content/wolf", "2_patches/replace/wolf/raver"],
+			"blobsFolders": ["blobs/wolf/raver"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
 					"english": {
@@ -2829,13 +2510,8 @@
 			"group": "Wolf",
 			"name": "Lucky Ducky",
 			"type": "select",
-			"contentFolders": [
-				"1_content/wolf",
-				"2_patches/replace/wolf/luckyducky"
-			],
-			"blobsFolders": [
-				"blobs/wolf/luckyducky"
-			],
+			"contentFolders": ["1_content/wolf", "2_patches/replace/wolf/luckyducky"],
+			"blobsFolders": ["blobs/wolf/luckyducky"],
 			"localisationOverrides": {
 				"004B8C5124A49543": {
 					"english": {

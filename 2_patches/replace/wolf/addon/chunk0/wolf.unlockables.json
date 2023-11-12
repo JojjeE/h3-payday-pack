@@ -3,7 +3,7 @@
 		"Id": "TOKEN_OUTFIT_HERO_PAYDAY_WOLF",
 		"Guid": "d663a2a4-f674-4e6c-ab94-ccc9109a9248",
 		"Type": "disguise",
-		"Subtype": "themed",
+		"Subtype": "payday",
 		"ImageId": "",
 		"RMTPrice": -1,
 		"GamePrice": -1,
