@@ -1814,7 +1814,7 @@
 					"defaultValue": "wolf-variant-mask-masked",
 					"options": [
 						{
-							"id": "wolf-variant-mask-maskless",
+							"id": "wolf-variant-mask-masked",
 							"name": "Masked",
 							"description": "No change."
 						},
