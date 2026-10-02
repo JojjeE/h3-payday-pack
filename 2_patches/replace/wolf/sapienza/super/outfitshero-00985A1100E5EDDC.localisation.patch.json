@@ -1,0 +1,21 @@
+{
+	"id": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero.sweetmenutext].pc_localized-textlist",
+	"lines": {
+		"46CBFCE2-9556-4740-9DAA-3670301D23EA_SAPIENZA_HERO_SAPIENZASUITNOGLASSESANDGLOVES_M_HPA2795_DESCRIPTION_": {
+			"english": "FBI Files: For his affinity for explosives and capability with hardware, we consider this one to be the Technician in the group. Further, study by our profiling teams in Behavioral Analysis suggest that \"Wolf\" could be psychotic, as evidenced by his sudden shifts of mood.",
+			"french": "Dossiers du FBI: En raison de son affinité pour les explosifs et de son habileté avec le matériel, nous le considérons comme le Technicien du groupe. De plus, l'étude de nos équipes d'analyse comportementale suggère que \"Wolf\" pourrait être psychotique, comme en témoignent ses brusques changements d'humeur.",
+			"german": "FBI-Akten: Aufgrund seiner Vorliebe für Sprengstoffe und seiner Fähigkeiten im Umgang mit Hardware halten wir ihn für den Techniker in der Gruppe. Außerdem deuten die Untersuchungen unserer Profiling-Teams in der Verhaltensanalyse darauf hin, dass \"Wolf\" psychotisch sein könnte, wie seine plötzlichen Stimmungsschwankungen zeigen.",
+			"italian": "Documenti dell'FBI: Per la sua affinità con gli esplosivi e l'abilità con l'hardware, lo consideriamo il Tecnico del gruppo. Inoltre, lo studio dei nostri team di analisi comportamentale suggerisce che \"Wolf\" potrebbe essere psicotico, come dimostrano i suoi improvvisi cambi di umore.",
+			"russian": "Досье ФБР: Из-за его привязанности к взрывчатым веществам и умения обращаться с техникой, мы считаем его техником в группе. Кроме того, исследования наших профилирующих групп по поведенческому анализу показывают, что \"Вулф\" может быть психопатом, о чем свидетельствуют его внезапные смены настроения.",
+			"spanish": "Archivos del FBI: Por su afinidad con los explosivos y su capacidad con el hardware, consideramos que éste es el Técnico del grupo. Además, los estudios de nuestros equipos de perfiles en Análisis de Conducta sugieren que \"Wolf\" podría ser psicótico, como demuestran sus repentinos cambios de humor."
+		},
+		"46CBFCE2-9556-4740-9DAA-3670301D23EA_SAPIENZA_HERO_SAPIENZASUITNOGLASSESANDGLOVES_M_HPA2795_NAME_": {
+			"english": "Wolf",
+			"french": "Wolf",
+			"german": "Wolf",
+			"italian": "Wolf",
+			"russian": "Вулф",
+			"spanish": "Wolf"
+		}
+	}
+}

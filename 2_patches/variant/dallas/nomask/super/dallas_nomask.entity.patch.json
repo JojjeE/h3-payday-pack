@@ -1,0 +1,1 @@
+{"factory":"001809DFADAFCE14","blueprint":"008F724BB784B7C8","patch":[{"RemoveEntity":"feed938b3fb3c3cb"},{"PatchEntity":["1cd8cbfcc76d214f",{"PatchPropertyValue":["m_aBodyParts",{"ArrayPatch":[{"type":"remove","item":[{"type":"SEntityTemplateReference","value":"feed938b3fb3c3cb"},0]}]},true]}]}],"patchVersion":7}

@@ -1,0 +1,21 @@
+{
+	"id": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero_s3.sweetmenutext].pc_localized-textlist",
+	"lines": {
+		"CHAR_REWARD_GLOBAL_HERO_DUCKYSUIT_M_DESC_7459C8B3-4F09-4D72-BF3F-84BAB1F9A2FF": {
+			"english": "FBI Files: If this one isn't actually the leader, he's definitely the trusted lieutenant. Dallas is one of the original four that emerged in 2011. He appears to be the Mastermind of the gang, and his calm demeanor under fire suggests both great experience and cunning intelligence.",
+			"french": "Dossiers du FBI: Si celui-ci n'est pas vraiment le chef, il est certainement le lieutenant de confiance. Dallas est l'un des quatre premiers à avoir émergé en 2011. Il semble être le cerveau du gang, et son comportement calme sous le feu de l'ennemi suggère à la fois une grande expérience et une intelligence rusée.",
+			"german": "FBI-Akten: Wenn er nicht gerade der Anführer ist, ist er auf jeden Fall der vertrauenswürdige Leutnant. Dallas ist einer der vier, die 2011 aufgetaucht sind. Er scheint das Superhirn der Bande zu sein, und sein ruhiges Verhalten unter Beschuss lässt sowohl auf große Erfahrung als auch auf gerissene Intelligenz schließen.",
+			"italian": "File dell'FBI: Se non è il capo, è sicuramente il luogotenente fidato. Dallas è uno dei quattro originari emersi nel 2011. Sembra essere la mente della banda e il suo contegno calmo sotto il fuoco suggerisce sia una grande esperienza che un'astuta intelligenza.",
+			"russian": "Досье ФБР: Если этот человек и не лидер, то уж точно доверенный лейтенант. Даллас - один из первоначальной четверки, появившейся в 2011 году. Он, похоже, главный в банде, а его спокойное поведение под огнем говорит как о большом опыте, так и о хитром уме.",
+			"spanish": "Archivos del FBI: Si este no es realmente el líder, definitivamente es el lugarteniente de confianza. Dallas es uno de los cuatro originales que surgieron en 2011. Parece ser el cerebro de la banda, y su comportamiento tranquilo bajo el fuego sugiere tanto una gran experiencia como una astuta inteligencia."
+		},
+		"CHAR_REWARD_GLOBAL_HERO_DUCKYSUIT_M_NAME_7459C8B3-4F09-4D72-BF3F-84BAB1F9A2FF": {
+			"english": "Dallas",
+			"french": "Dallas",
+			"german": "Dallas",
+			"italian": "Dallas",
+			"russian": "Даллас",
+			"spanish": "Dallas"
+		}
+	}
+}

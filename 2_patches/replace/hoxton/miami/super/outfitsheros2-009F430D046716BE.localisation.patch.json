@@ -1,0 +1,21 @@
+{
+	"id": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero_s2.sweetmenutext].pc_localized-textlist",
+	"lines": {
+		"CHAR_REWARD_HERO_ELUSIVEFLAMINGO_M_PRO130489_NAME_1AD1EC9B-1E96-4FAC-B0E6-8817A46DA9DB": {
+			"english": "Hoxton",
+			"french": "Hoxton",
+			"german": "Hoxton",
+			"italian": "Hoxton",
+			"russian": "Хокстон",
+			"spanish": "Hoxton"
+		},
+		"CHAR_REWARD_HERO_ELUSIVEFLAMINGO_M_PRO130489_DESCRIPTION_1AD1EC9B-1E96-4FAC-B0E6-8817A46DA9DB": {
+			"english": "FBI Files: \"Hoxton\" was recently incarcerated at Hazelton Prison, but was freed by the Payday gang while he was being taken to a parole hearing. We are sure he will be very difficult to apprehend again.",
+			"french": "Dossiers du FBI: \"Hoxton\" a récemment été incarcéré à la prison d'Hazelton, mais a été libéré par le gang Payday alors qu'il était conduit à une audience de libération conditionnelle. Nous sommes sûrs qu'il sera très difficile de l'appréhender à nouveau.",
+			"german": "FBI-Akten: \"Hoxton\" war kürzlich im Hazelton-Gefängnis inhaftiert, wurde aber von der Payday-Gang befreit, als er zu einer Bewährungsanhörung gebracht wurde. Wir sind sicher, dass es sehr schwierig sein wird, ihn wieder zu fassen.",
+			"italian": "File dell'FBI: \"Hoxton\" è stato recentemente incarcerato nella prigione di Hazelton, ma è stato liberato dalla banda Payday mentre veniva portato a un'udienza per la libertà vigilata. Siamo certi che sarà molto difficile catturarlo di nuovo.",
+			"russian": "Досье ФБР: \"Хокстон\" был недавно заключен в тюрьму Хейзелтон, но был освобожден бандой Пейдей, когда его везли на слушание по условно-досрочному освобождению. Мы уверены, что его будет очень трудно задержать снова.",
+			"spanish": "Archivos del FBI: \"Hoxton\" fue encarcelado recientemente en la prisión de Hazelton, pero fue liberado por la banda Payday mientras era llevado a una audiencia de libertad condicional. Estamos seguros de que será muy difícil volver a detenerlo."
+		}
+	}
+}

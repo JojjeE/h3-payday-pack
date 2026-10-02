@@ -1,0 +1,21 @@
+{
+	"id": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero_s2.sweetmenutext].pc_localized-textlist",
+	"lines": {
+		"CHAR_HIPPO_REWARD_HERO_HOTSUMMER19_M_PRO167930_NAME_C7B117FD-16CE-49A5-9FB2-5AD8376785C8": {
+			"english": "Houston",
+			"french": "Houston",
+			"german": "Houston",
+			"italian": "Houston",
+			"russian": "Хьюстон",
+			"spanish": "Houston"
+		},
+		"CHAR_HIPPO_REWARD_HERO_HOTSUMMER19_M_PRO167930_DESCRIPTION_C7B117FD-16CE-49A5-9FB2-5AD8376785C8": {
+			"english": "FBI Files: We believe that this gang member was using the alias of \"Hoxton\" until the break-out of James Hoxworth. Since then, according to security footage, he has adopted the alias \"Houston\". He was present at the break-out of \"Hoxton\" and that, and subsequently acquired security footage, seems to hint at a level of animosity between the two men.",
+			"french": "Dossiers du FBI: Nous pensons que ce membre de gang utilisait le pseudonyme \"Hoxton\" jusqu'à l'évasion de James Hoxworth. Depuis, d'après les images de sécurité, il a pris le pseudonyme de \"Houston\". Il était présent lors de l'évasion de \"Hoxton\" et cela, ainsi que les images de sécurité obtenues par la suite, semblent indiquer un certain degré d'animosité entre les deux hommes.",
+			"german": "FBI-Akten: Wir glauben, dass dieses Bandenmitglied bis zum Ausbruch von James Hoxworth den Decknamen \"Hoxton\" verwendet hat. Seitdem hat er laut Sicherheitsvideos den Decknamen \"Houston\" angenommen. Er war beim Ausbruch von \"Hoxton\" anwesend, und diese Tatsache sowie die später erworbenen Sicherheitsaufnahmen scheinen auf eine gewisse Feindseligkeit zwischen den beiden Männern hinzudeuten.",
+			"italian": "File dell'FBI: Riteniamo che questo membro della banda usasse l'alias \"Hoxton\" fino all'evasione di James Hoxworth. Da allora, secondo i filmati di sicurezza, ha adottato l'alias \"Houston\". Era presente all'evasione di \"Hoxton\" e questo, insieme ai filmati di sicurezza acquisiti successivamente, sembra suggerire un livello di astio tra i due uomini.",
+			"russian": "Документы ФБР: Мы полагаем, что этот член банды использовал псевдоним \"Хокстон\" до побега Джеймса Хоксворта. С тех пор, согласно записям камер наблюдения, он взял псевдоним \"Хьюстон\". Он присутствовал при побеге Хокстона, и это, а также полученные впоследствии записи с камер наблюдения, намекают на враждебность между этими двумя людьми.",
+			"spanish": "Archivos del FBI: Creemos que este miembro de la banda usaba el alias de \"Hoxton\" hasta la fuga de James Hoxworth. Desde entonces, según las grabaciones de seguridad, ha adoptado el alias de \"Houston\". Estuvo presente en la fuga de \"Hoxton\" y eso, y las imágenes de seguridad adquiridas posteriormente, parecen indicar un nivel de animosidad entre los dos hombres."
+		}
+	}
+}

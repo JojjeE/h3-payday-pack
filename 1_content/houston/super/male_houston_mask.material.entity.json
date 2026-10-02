@@ -1,0 +1,21 @@
+{
+	"factory": "002B07A7085840C2",
+	"blueprint": "006E1170D86344AC",
+	"material": "003C7AED069B9039",
+	"overrides": {
+		"Texture2DNormal_01": {
+			"type": "texture",
+			"value": "007C17286248FED0"
+		},
+		"Texture2D_03": { "type": "texture", "value": "00B0F15D198B6043" },
+		"Texture2D_01": { "type": "texture", "value": "00D42DEE363A9C57" },
+		"Diffuse_Color_01_Value": { "type": "color", "value": "ffffff" },
+		"ConstantVector1D_06_Value": { "type": "float", "value": 1.0 },
+		"ConstantVector1D_04_Value": { "type": "float", "value": 0.0 },
+		"ConstantVector1D_05_Value": { "type": "float", "value": 1.0 },
+		"ConstantVector1D_03_Value": { "type": "float", "value": 1.0 },
+		"ConstantVector1D_01_Value": { "type": "float", "value": 0.5 },
+		"Diffuse_Saturation_01_Value": { "type": "float", "value": 1.0 },
+		"Diffuse_Hue_Shift_01_Value": { "type": "float", "value": 0.0 }
+	}
+}
