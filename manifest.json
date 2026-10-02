@@ -77,7 +77,7 @@
 					}
 				},
 				{
-					"id": "chains-casual",
+					"id": "chains-bangkok",
 					"name": "Casual Suit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -85,10 +85,18 @@
 							"1_content/chains"
 						],
 						"blobFolders": ["blobs/chains/bangkok"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-bangkok\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-bangkok\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-bangkok\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-bangkok\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
-					"id": "chains-italian",
+					"id": "chains-sapienza",
 					"name": "Italian Suit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -96,10 +104,18 @@
 							"1_content/chains"
 						],
 						"blobFolders": ["blobs/chains/sapienza"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-sapienza\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-sapienza\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-sapienza\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-sapienza\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
-					"id": "chains-floridafit",
+					"id": "chains-miami",
 					"name": "Florida Fit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -107,10 +123,18 @@
 							"1_content/chains"
 						],
 						"blobFolders": ["blobs/chains/miami"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-miami\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-miami\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-miami\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-miami\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
-					"id": "chains-casualtourist",
+					"id": "chains-sanfortuna",
 					"name": "Casual Tourist with Gloves",
 					"data": {
 						"contentFolders": [
@@ -118,6 +142,14 @@
 							"1_content/chains"
 						],
 						"blobFolders": ["blobs/chains/sanfortuna"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-sanfortuna\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-sanfortuna\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-sanfortuna\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-sanfortuna\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
@@ -129,6 +161,14 @@
 							"1_content/chains"
 						],
 						"blobFolders": ["blobs/chains/summersuave"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-summersuave\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-summersuave\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-summersuave\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-summersuave\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
@@ -140,10 +180,18 @@
 							"1_content/chains"
 						],
 						"blobFolders": ["blobs/chains/summersightseeing"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-summersightseeing\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-summersightseeing\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-summersightseeing\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-summersightseeing\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
-					"id": "chains-undercover",
+					"id": "chains-casualundercover",
 					"name": "Casual Undercover",
 					"data": {
 						"contentFolders": [
@@ -151,6 +199,14 @@
 							"1_content/chains"
 						],
 						"blobFolders": ["blobs/chains/casualundercover"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-casualundercover\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-casualundercover\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-casualundercover\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-casualundercover\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
@@ -162,10 +218,18 @@
 							"1_content/chains"
 						],
 						"blobFolders": ["blobs/chains/midnightblack"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-midnightblack\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-midnightblack\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-midnightblack\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-midnightblack\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
-					"id": "chains-summersuit",
+					"id": "chains-marrakesh",
 					"name": "Summer Suit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -173,6 +237,14 @@
 							"1_content/chains"
 						],
 						"blobFolders": ["blobs/chains/marrakesh"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-marrakesh\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-marrakesh\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-marrakesh\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-marrakesh\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
@@ -184,6 +256,14 @@
 							"1_content/chains"
 						],
 						"blobFolders": ["blobs/chains/tropicalsuit"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-tropicalsuit\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-tropicalsuit\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-tropicalsuit\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-tropicalsuit\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
@@ -195,6 +275,14 @@
 							"1_content/chains"
 						],
 						"blobFolders": ["blobs/chains/smartcasual"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-smartcasual\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-smartcasual\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-smartcasual\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-smartcasual\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
@@ -206,10 +294,18 @@
 							"1_content/chains"
 						],
 						"blobFolders": ["blobs/chains/raver"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-raver\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-raver\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-raver\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-raver\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
-					"id": "chains-ducky",
+					"id": "chains-luckyducky",
 					"name": "Lucky Ducky",
 					"data": {
 						"contentFolders": [
@@ -217,6 +313,14 @@
 							"1_content/chains"
 						],
 						"blobFolders": ["blobs/chains/luckyducky"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-luckyducky\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-luckyducky\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-luckyducky\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-luckyducky\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				}
 			]
@@ -268,7 +372,7 @@
 					}
 				},
 				{
-					"id": "dallas-casual",
+					"id": "dallas-bangkok",
 					"name": "Casual Suit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -276,10 +380,18 @@
 							"1_content/dallas"
 						],
 						"blobFolders": ["blobs/dallas/bangkok"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-bangkok\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-bangkok\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-bangkok\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-bangkok\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
-					"id": "dallas-italian",
+					"id": "dallas-sapienza",
 					"name": "Italian Suit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -287,10 +399,18 @@
 							"1_content/dallas"
 						],
 						"blobFolders": ["blobs/dallas/sapienza"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-sapienza\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-sapienza\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-sapienza\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-sapienza\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
-					"id": "dallas-floridafit",
+					"id": "dallas-miami",
 					"name": "Florida Fit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -298,10 +418,18 @@
 							"1_content/dallas"
 						],
 						"blobFolders": ["blobs/dallas/miami"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-miami\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-miami\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-miami\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-miami\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
-					"id": "dallas-casualtourist",
+					"id": "dallas-sanfortuna",
 					"name": "Casual Tourist with Gloves",
 					"data": {
 						"contentFolders": [
@@ -309,6 +437,14 @@
 							"1_content/dallas"
 						],
 						"blobFolders": ["blobs/dallas/sanfortuna"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-sanfortuna\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-sanfortuna\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-sanfortuna\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-sanfortuna\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
@@ -320,6 +456,14 @@
 							"1_content/dallas"
 						],
 						"blobFolders": ["blobs/dallas/summersuave"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-summersuave\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-summersuave\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-summersuave\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-summersuave\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
@@ -331,10 +475,18 @@
 							"1_content/dallas"
 						],
 						"blobFolders": ["blobs/dallas/summersightseeing"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-summersightseeing\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-summersightseeing\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-summersightseeing\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-summersightseeing\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
-					"id": "dallas-undercover",
+					"id": "dallas-casualundercover",
 					"name": "Casual Undercover",
 					"data": {
 						"contentFolders": [
@@ -342,6 +494,14 @@
 							"1_content/dallas"
 						],
 						"blobFolders": ["blobs/dallas/casualundercover"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-casualundercover\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-casualundercover\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-casualundercover\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-casualundercover\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
@@ -353,10 +513,18 @@
 							"1_content/dallas"
 						],
 						"blobFolders": ["blobs/dallas/midnightblack"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-midnightblack\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-midnightblack\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-midnightblack\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-midnightblack\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
-					"id": "dallas-summersuit",
+					"id": "dallas-marrakesh",
 					"name": "Summer Suit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -364,6 +532,14 @@
 							"1_content/dallas"
 						],
 						"blobFolders": ["blobs/dallas/marrakesh"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-marrakesh\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-marrakesh\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-marrakesh\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-marrakesh\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
@@ -375,6 +551,14 @@
 							"1_content/dallas"
 						],
 						"blobFolders": ["blobs/dallas/tropicalsuit"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-tropicalsuit\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-tropicalsuit\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-tropicalsuit\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-tropicalsuit\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
@@ -386,6 +570,14 @@
 							"1_content/dallas"
 						],
 						"blobFolders": ["blobs/dallas/smartcasual"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-smartcasual\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-smartcasual\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-smartcasual\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-smartcasual\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
@@ -397,10 +589,18 @@
 							"1_content/dallas"
 						],
 						"blobFolders": ["blobs/dallas/raver"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-raver\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-raver\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-raver\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-raver\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
-					"id": "dallas-ducky",
+					"id": "dallas-luckyducky",
 					"name": "Lucky Ducky",
 					"data": {
 						"contentFolders": [
@@ -408,6 +608,14 @@
 							"1_content/dallas"
 						],
 						"blobFolders": ["blobs/dallas/luckyducky"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-luckyducky\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-luckyducky\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-luckyducky\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-luckyducky\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				}
 			]
@@ -459,7 +667,7 @@
 					}
 				},
 				{
-					"id": "houston-casual",
+					"id": "houston-bangkok",
 					"name": "Casual Suit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -467,10 +675,18 @@
 							"1_content/houston"
 						],
 						"blobFolders": ["blobs/houston/bangkok"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-bangkok\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-bangkok\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-bangkok\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-bangkok\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
-					"id": "houston-italian",
+					"id": "houston-sapienza",
 					"name": "Italian Suit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -478,10 +694,18 @@
 							"1_content/houston"
 						],
 						"blobFolders": ["blobs/houston/sapienza"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-sapienza\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-sapienza\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-sapienza\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-sapienza\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
-					"id": "houston-floridafit",
+					"id": "houston-miami",
 					"name": "Florida Fit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -489,10 +713,18 @@
 							"1_content/houston"
 						],
 						"blobFolders": ["blobs/houston/miami"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-miami\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-miami\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-miami\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-miami\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
-					"id": "houston-casualtourist",
+					"id": "houston-sanfortuna",
 					"name": "Casual Tourist with Gloves",
 					"data": {
 						"contentFolders": [
@@ -500,6 +732,14 @@
 							"1_content/houston"
 						],
 						"blobFolders": ["blobs/houston/sanfortuna"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-sanfortuna\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-sanfortuna\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-sanfortuna\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-sanfortuna\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
@@ -511,6 +751,14 @@
 							"1_content/houston"
 						],
 						"blobFolders": ["blobs/houston/summersuave"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-summersuave\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-summersuave\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-summersuave\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-summersuave\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
@@ -522,10 +770,18 @@
 							"1_content/houston"
 						],
 						"blobFolders": ["blobs/houston/summersightseeing"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-summersightseeing\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-summersightseeing\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-summersightseeing\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-summersightseeing\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
-					"id": "houston-undercover",
+					"id": "houston-casualundercover",
 					"name": "Casual Undercover",
 					"data": {
 						"contentFolders": [
@@ -533,6 +789,14 @@
 							"1_content/houston"
 						],
 						"blobFolders": ["blobs/houston/casualundercover"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-casualundercover\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-casualundercover\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-casualundercover\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-casualundercover\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
@@ -544,10 +808,18 @@
 							"1_content/houston"
 						],
 						"blobFolders": ["blobs/houston/midnightblack"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-midnightblack\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-midnightblack\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-midnightblack\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-midnightblack\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
-					"id": "houston-summersuit",
+					"id": "houston-marrakesh",
 					"name": "Summer Suit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -555,6 +827,14 @@
 							"1_content/houston"
 						],
 						"blobFolders": ["blobs/houston/marrakesh"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-marrakesh\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-marrakesh\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-marrakesh\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-marrakesh\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
@@ -566,6 +846,14 @@
 							"1_content/houston"
 						],
 						"blobFolders": ["blobs/houston/tropicalsuit"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-tropicalsuit\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-tropicalsuit\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-tropicalsuit\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-tropicalsuit\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
@@ -577,6 +865,14 @@
 							"1_content/houston"
 						],
 						"blobFolders": ["blobs/houston/smartcasual"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-smartcasual\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-smartcasual\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-smartcasual\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-smartcasual\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
@@ -588,10 +884,18 @@
 							"1_content/houston"
 						],
 						"blobFolders": ["blobs/houston/raver"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-raver\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-raver\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-raver\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-raver\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
-					"id": "houston-ducky",
+					"id": "houston-luckyducky",
 					"name": "Lucky Ducky",
 					"data": {
 						"contentFolders": [
@@ -599,6 +903,14 @@
 							"1_content/houston"
 						],
 						"blobFolders": ["blobs/houston/luckyducky"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-luckyducky\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-luckyducky\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-luckyducky\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-luckyducky\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				}
 			]
@@ -650,7 +962,7 @@
 					}
 				},
 				{
-					"id": "hoxton-casual",
+					"id": "hoxton-bangkok",
 					"name": "Casual Suit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -658,10 +970,18 @@
 							"1_content/hoxton"
 						],
 						"blobFolders": ["blobs/hoxton/bangkok"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-bangkok\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-bangkok\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-bangkok\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-bangkok\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
-					"id": "hoxton-italian",
+					"id": "hoxton-sapienza",
 					"name": "Italian Suit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -669,10 +989,18 @@
 							"1_content/hoxton"
 						],
 						"blobFolders": ["blobs/hoxton/sapienza"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-sapienza\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-sapienza\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-sapienza\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-sapienza\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
-					"id": "hoxton-floridafit",
+					"id": "hoxton-miami",
 					"name": "Florida Fit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -680,10 +1008,18 @@
 							"1_content/hoxton"
 						],
 						"blobFolders": ["blobs/hoxton/miami"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-miami\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-miami\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-miami\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-miami\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
-					"id": "hoxton-casualtourist",
+					"id": "hoxton-sanfortuna",
 					"name": "Casual Tourist with Gloves",
 					"data": {
 						"contentFolders": [
@@ -691,6 +1027,14 @@
 							"1_content/hoxton"
 						],
 						"blobFolders": ["blobs/hoxton/sanfortuna"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-sanfortuna\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-sanfortuna\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-sanfortuna\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-sanfortuna\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
@@ -702,6 +1046,14 @@
 							"1_content/hoxton"
 						],
 						"blobFolders": ["blobs/hoxton/summersuave"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-summersuave\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-summersuave\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-summersuave\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-summersuave\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
@@ -713,10 +1065,18 @@
 							"1_content/hoxton"
 						],
 						"blobFolders": ["blobs/hoxton/summersightseeing"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-summersightseeing\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-summersightseeing\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-summersightseeing\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-summersightseeing\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
-					"id": "hoxton-undercover",
+					"id": "hoxton-casualundercover",
 					"name": "Casual Undercover",
 					"data": {
 						"contentFolders": [
@@ -724,6 +1084,14 @@
 							"1_content/hoxton"
 						],
 						"blobFolders": ["blobs/hoxton/casualundercover"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-casualundercover\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-casualundercover\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-casualundercover\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-casualundercover\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
@@ -735,10 +1103,18 @@
 							"1_content/hoxton"
 						],
 						"blobFolders": ["blobs/hoxton/midnightblack"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-midnightblack\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-midnightblack\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-midnightblack\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-midnightblack\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
-					"id": "hoxton-summersuit",
+					"id": "hoxton-marrakesh",
 					"name": "Summer Suit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -746,6 +1122,14 @@
 							"1_content/hoxton"
 						],
 						"blobFolders": ["blobs/hoxton/marrakesh"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-marrakesh\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-marrakesh\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-marrakesh\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-marrakesh\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
@@ -757,6 +1141,14 @@
 							"1_content/hoxton"
 						],
 						"blobFolders": ["blobs/hoxton/tropicalsuit"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-tropicalsuit\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-tropicalsuit\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-tropicalsuit\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-tropicalsuit\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
@@ -768,6 +1160,14 @@
 							"1_content/hoxton"
 						],
 						"blobFolders": ["blobs/hoxton/smartcasual"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-smartcasual\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-smartcasual\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-smartcasual\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-smartcasual\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
@@ -779,10 +1179,18 @@
 							"1_content/hoxton"
 						],
 						"blobFolders": ["blobs/hoxton/raver"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-raver\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-raver\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-raver\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-raver\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
-					"id": "hoxton-ducky",
+					"id": "hoxton-luckyducky",
 					"name": "Lucky Ducky",
 					"data": {
 						"contentFolders": [
@@ -790,6 +1198,14 @@
 							"1_content/hoxton"
 						],
 						"blobFolders": ["blobs/hoxton/luckyducky"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-luckyducky\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-luckyducky\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-luckyducky\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"wolf\") != Some(\"wolf-luckyducky\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				}
 			]
@@ -841,7 +1257,7 @@
 					}
 				},
 				{
-					"id": "wolf-casual",
+					"id": "wolf-bangkok",
 					"name": "Casual Suit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -849,10 +1265,18 @@
 							"1_content/wolf"
 						],
 						"blobFolders": ["blobs/wolf/bangkok"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-bangkok\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-bangkok\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-bangkok\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-bangkok\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
-					"id": "wolf-italian",
+					"id": "wolf-sapienza",
 					"name": "Italian Suit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -860,10 +1284,18 @@
 							"1_content/wolf"
 						],
 						"blobFolders": ["blobs/wolf/sapienza"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-sapienza\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-sapienza\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-sapienza\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-sapienza\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
-					"id": "wolf-floridafit",
+					"id": "wolf-miami",
 					"name": "Florida Fit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -871,10 +1303,18 @@
 							"1_content/wolf"
 						],
 						"blobFolders": ["blobs/wolf/miami"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-miami\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-miami\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-miami\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-miami\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
-					"id": "wolf-casualtourist",
+					"id": "wolf-sanfortuna",
 					"name": "Casual Tourist with Gloves",
 					"data": {
 						"contentFolders": [
@@ -882,6 +1322,14 @@
 							"1_content/wolf"
 						],
 						"blobFolders": ["blobs/wolf/sanfortuna"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-sanfortuna\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-sanfortuna\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-sanfortuna\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-sanfortuna\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
@@ -893,6 +1341,14 @@
 							"1_content/wolf"
 						],
 						"blobFolders": ["blobs/wolf/summersuave"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-summersuave\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-summersuave\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-summersuave\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-summersuave\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
@@ -904,6 +1360,14 @@
 							"1_content/wolf"
 						],
 						"blobFolders": ["blobs/wolf/summersightseeing"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-summersightseeing\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-summersightseeing\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-summersightseeing\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-summersightseeing\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
@@ -915,6 +1379,14 @@
 							"1_content/wolf"
 						],
 						"blobFolders": ["blobs/wolf/casualundercover"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-casualundercover\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-casualundercover\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-casualundercover\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-casualundercover\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
@@ -926,10 +1398,18 @@
 							"1_content/wolf"
 						],
 						"blobFolders": ["blobs/wolf/midnightblack"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-midnightblack\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-midnightblack\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-midnightblack\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-midnightblack\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
-					"id": "wolf-summersuit",
+					"id": "wolf-marrakesh",
 					"name": "Summer Suit with Gloves",
 					"data": {
 						"contentFolders": [
@@ -937,6 +1417,14 @@
 							"1_content/wolf"
 						],
 						"blobFolders": ["blobs/wolf/marrakesh"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-marrakesh\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-marrakesh\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-marrakesh\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-marrakesh\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
@@ -948,6 +1436,14 @@
 							"1_content/wolf"
 						],
 						"blobFolders": ["blobs/wolf/tropicalsuit"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-tropicalsuit\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-tropicalsuit\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-tropicalsuit\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-tropicalsuit\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
@@ -959,6 +1455,14 @@
 							"1_content/wolf"
 						],
 						"blobFolders": ["blobs/wolf/smartcasual"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-smartcasual\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-smartcasual\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-smartcasual\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-smartcasual\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
@@ -970,10 +1474,18 @@
 							"1_content/wolf"
 						],
 						"blobFolders": ["blobs/wolf/raver"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-raver\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-raver\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-raver\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-raver\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				},
 				{
-					"id": "wolf-ducky",
+					"id": "wolf-luckyducky",
 					"name": "Lucky Ducky",
 					"data": {
 						"contentFolders": [
@@ -981,6 +1493,14 @@
 							"1_content/wolf"
 						],
 						"blobFolders": ["blobs/wolf/luckyducky"]
+					},
+					"conditions": {
+						"incompatibleConditions": [
+							{
+								"condition": "mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"chains\") != Some(\"chains-luckyducky\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"dallas\") != Some(\"dallas-luckyducky\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"houston\") != Some(\"houston-luckyducky\") && mod_option(\"Jojje.ThePaydayPack@1.2.0\", \"hoxton\") != Some(\"hoxton-luckyducky\")",
+								"explanation": "This suit replacement is already selected in another option."
+							}
+						]
 					}
 				}
 			]
