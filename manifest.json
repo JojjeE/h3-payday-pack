@@ -45,7 +45,7 @@
 				{
 					"id": "chains-peacock",
 					"name": "Peacock Addon",
-					"description": "Install Chains to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+					"description": "Install Chains to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock, or offline.",
 					"data": {
 						"contentFolders": [
 							"2_patches/replace/chains/addon",
@@ -340,7 +340,7 @@
 				{
 					"id": "dallas-peacock",
 					"name": "Peacock Addon",
-					"description": "Install Dallas to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+					"description": "Install Dallas to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock, or offline.",
 					"data": {
 						"contentFolders": [
 							"2_patches/replace/dallas/addon",
@@ -635,7 +635,7 @@
 				{
 					"id": "houston-peacock",
 					"name": "Peacock Addon",
-					"description": "Install Houston to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+					"description": "Install Houston to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock, or offline.",
 					"data": {
 						"contentFolders": [
 							"2_patches/replace/houston/addon",
@@ -930,7 +930,7 @@
 				{
 					"id": "hoxton-peacock",
 					"name": "Peacock Addon",
-					"description": "Install Hoxton to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+					"description": "Install Hoxton to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock, or offline.",
 					"data": {
 						"contentFolders": [
 							"2_patches/replace/hoxton/addon",
@@ -1225,7 +1225,7 @@
 				{
 					"id": "wolf-peacock",
 					"name": "Peacock Addon",
-					"description": "Install Wolf to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock.",
+					"description": "Install Wolf to your game as an addon without replacing existing suits. This will only work if you're playing with Peacock, or offline.",
 					"data": {
 						"contentFolders": [
 							"2_patches/replace/wolf/addon",
