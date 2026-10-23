@@ -5,7 +5,7 @@
 	"description": "Cosplay with your choice of the \"Main Five\" suits and masks from Payday 2. Install them for Peacock or replace a casual suit of your choice.",
 	"authors": ["Jojje"],
 	"version": "1.2.0",
-	"frameworkVersion": "3.0.0-beta.5",
+	"frameworkVersion": "3.0.0-rc.6",
 	"url": "https://github.com/JojjeE/h3-payday-pack",
 	"conditions": { "supportedGames": ["h3"] },
 	"data": {
